@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 45cc1a6e9aa75c64caa286ab4cca7acf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 140984108387120756
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_0
+  - first:
+      213: 1506932958062524881
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_1
+  - first:
+      213: -2725259001850241558
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_2
+  - first:
+      213: 6164088792860514596
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_3
+  - first:
+      213: -263434286530434195
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_4
+  - first:
+      213: 1314745000290134672
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_5
+  - first:
+      213: 8881481403182705923
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_6
+  - first:
+      213: -1437714781077250028
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_7
+  - first:
+      213: 5682100895371895740
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_8
+  - first:
+      213: 4199845574311743948
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_9
+  - first:
+      213: -1488479077499384361
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_10
+  - first:
+      213: 2389186878085017624
+    second: objek_ ruang_makan_bak_cuci_01_piring_kotor_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 468
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476b363bc40e4f100800000000000000
+      internalID: 140984108387120756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_1
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 467
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d935a19a83b9e410800000000000000
+      internalID: 1506932958062524881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_2
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 8
+        width: 467
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedd7c9706fed2ad0800000000000000
+      internalID: -2725259001850241558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_3
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 8
+        width: 468
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429da6e291e3b8550800000000000000
+      internalID: 6164088792860514596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_4
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 8
+        width: 467
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6be1b189e7185cf0800000000000000
+      internalID: -263434286530434195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_5
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 7
+        width: 467
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09aa388ac99ee3210800000000000000
+      internalID: 1314745000290134672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_6
+      rect:
+        serializedVersion: 2
+        x: 3768
+        y: 13
+        width: 467
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d61f3b74c514b70800000000000000
+      internalID: 8881481403182705923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_7
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 8
+        width: 468
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410ef8126063c0ce0800000000000000
+      internalID: -1437714781077250028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_8
+      rect:
+        serializedVersion: 2
+        x: 5017
+        y: 13
+        width: 468
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb32296c8a0eade40800000000000000
+      internalID: 5682100895371895740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_9
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 16
+        width: 468
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc119505c49d84a30800000000000000
+      internalID: 4199845574311743948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_10
+      rect:
+        serializedVersion: 2
+        x: 6324
+        y: 16
+        width: 467
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd4c025a2cd75be0800000000000000
+      internalID: -1488479077499384361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ ruang_makan_bak_cuci_01_piring_kotor_11
+      rect:
+        serializedVersion: 2
+        x: 6970
+        y: 21
+        width: 466
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8103842aec8182120800000000000000
+      internalID: 2389186878085017624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_0: 140984108387120756
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_1: 1506932958062524881
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_10: -1488479077499384361
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_11: 2389186878085017624
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_2: -2725259001850241558
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_3: 6164088792860514596
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_4: -263434286530434195
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_5: 1314745000290134672
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_6: 8881481403182705923
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_7: -1437714781077250028
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_8: 5682100895371895740
+      objek_ ruang_makan_bak_cuci_01_piring_kotor_9: 4199845574311743948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

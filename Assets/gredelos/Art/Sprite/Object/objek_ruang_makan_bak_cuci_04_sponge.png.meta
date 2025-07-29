@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 39f45e20d095e9d499bd5d2e0b153a41
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4744456316158512675
+    second: objek_ruang_makan_bak_cuci_04_sponge_0
+  - first:
+      213: -1354067060742256202
+    second: objek_ruang_makan_bak_cuci_04_sponge_1
+  - first:
+      213: 5712539807911337368
+    second: objek_ruang_makan_bak_cuci_04_sponge_2
+  - first:
+      213: -3258910823331266653
+    second: objek_ruang_makan_bak_cuci_04_sponge_3
+  - first:
+      213: -7834748555106284669
+    second: objek_ruang_makan_bak_cuci_04_sponge_4
+  - first:
+      213: -5074932292233582047
+    second: objek_ruang_makan_bak_cuci_04_sponge_5
+  - first:
+      213: 6434507169006667450
+    second: objek_ruang_makan_bak_cuci_04_sponge_6
+  - first:
+      213: -5783837581205843818
+    second: objek_ruang_makan_bak_cuci_04_sponge_7
+  - first:
+      213: 1476337009696281598
+    second: objek_ruang_makan_bak_cuci_04_sponge_8
+  - first:
+      213: 4818076777282578790
+    second: objek_ruang_makan_bak_cuci_04_sponge_9
+  - first:
+      213: -5368553788547174430
+    second: objek_ruang_makan_bak_cuci_04_sponge_10
+  - first:
+      213: 7753125129131332571
+    second: objek_ruang_makan_bak_cuci_04_sponge_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 950
+        width: 536
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1730f1e1e482eb0800000000000000
+      internalID: -4744456316158512675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_1
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 958
+        width: 536
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b98662be23653de0800000000000000
+      internalID: -1354067060742256202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_2
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 941
+        width: 536
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d55df50b4074f40800000000000000
+      internalID: 5712539807911337368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_3
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 950
+        width: 535
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aff9a46fd506c2d0800000000000000
+      internalID: -3258910823331266653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 535
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b826c03b1654390800000000000000
+      internalID: -7834748555106284669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_5
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 476
+        width: 536
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a2246e7f73299b0800000000000000
+      internalID: -5074932292233582047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_6
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 482
+        width: 536
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6c851cd26fb4950800000000000000
+      internalID: 6434507169006667450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_7
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 489
+        width: 544
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690dbad2d5eabbfa0800000000000000
+      internalID: -5783837581205843818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 536
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef395b730b00d7410800000000000000
+      internalID: 1476337009696281598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_9
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 536
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669ac7a3d4f3dd240800000000000000
+      internalID: 4818076777282578790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_10
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 537
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef611ce5c01f75b0800000000000000
+      internalID: -5368553788547174430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objek_ruang_makan_bak_cuci_04_sponge_11
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 0
+        width: 536
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd317052a32a89b60800000000000000
+      internalID: 7753125129131332571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      objek_ruang_makan_bak_cuci_04_sponge_0: -4744456316158512675
+      objek_ruang_makan_bak_cuci_04_sponge_1: -1354067060742256202
+      objek_ruang_makan_bak_cuci_04_sponge_10: -5368553788547174430
+      objek_ruang_makan_bak_cuci_04_sponge_11: 7753125129131332571
+      objek_ruang_makan_bak_cuci_04_sponge_2: 5712539807911337368
+      objek_ruang_makan_bak_cuci_04_sponge_3: -3258910823331266653
+      objek_ruang_makan_bak_cuci_04_sponge_4: -7834748555106284669
+      objek_ruang_makan_bak_cuci_04_sponge_5: -5074932292233582047
+      objek_ruang_makan_bak_cuci_04_sponge_6: 6434507169006667450
+      objek_ruang_makan_bak_cuci_04_sponge_7: -5783837581205843818
+      objek_ruang_makan_bak_cuci_04_sponge_8: 1476337009696281598
+      objek_ruang_makan_bak_cuci_04_sponge_9: 4818076777282578790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
