@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 98c7cf8b2e2db9441bba8d82c94a399b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4626558452362317892
+    second: animasi_memakai_baju_02_0
+  - first:
+      213: 3009793836557358966
+    second: animasi_memakai_baju_02_1
+  - first:
+      213: -6246740331629941533
+    second: animasi_memakai_baju_02_2
+  - first:
+      213: 1798816856344803760
+    second: animasi_memakai_baju_02_3
+  - first:
+      213: -7756283106820000789
+    second: animasi_memakai_baju_02_4
+  - first:
+      213: -5570872115830242296
+    second: animasi_memakai_baju_02_5
+  - first:
+      213: 2854235113166376391
+    second: animasi_memakai_baju_02_6
+  - first:
+      213: -2350048020067579306
+    second: animasi_memakai_baju_02_7
+  - first:
+      213: 2511134828869568363
+    second: animasi_memakai_baju_02_8
+  - first:
+      213: 273311552812109793
+    second: animasi_memakai_baju_02_9
+  - first:
+      213: -7112150306158075863
+    second: animasi_memakai_baju_02_10
+  - first:
+      213: 813439567100027694
+    second: animasi_memakai_baju_02_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 414
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44013ad5666d43040800000000000000
+      internalID: 4626558452362317892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_1
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 609
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677592b3c8fe4c920800000000000000
+      internalID: 3009793836557358966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_2
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 0
+        width: 626
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec6719d3ce1f49a0800000000000000
+      internalID: -6246740331629941533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_3
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 0
+        width: 413
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9ba6a766ea6f810800000000000000
+      internalID: 1798816856344803760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_4
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 0
+        width: 412
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be371a0eb952c5490800000000000000
+      internalID: -7756283106820000789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_5
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 0
+        width: 413
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8044fce835940b2b0800000000000000
+      internalID: -5570872115830242296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_6
+      rect:
+        serializedVersion: 2
+        x: 3788
+        y: 0
+        width: 412
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd8ab986b74c9720800000000000000
+      internalID: 2854235113166376391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_7
+      rect:
+        serializedVersion: 2
+        x: 4335
+        y: 0
+        width: 413
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a03ced6c3f26fd0800000000000000
+      internalID: -2350048020067579306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_8
+      rect:
+        serializedVersion: 2
+        x: 5069
+        y: 0
+        width: 454
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67c1e182d759d220800000000000000
+      internalID: 2511134828869568363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_9
+      rect:
+        serializedVersion: 2
+        x: 5607
+        y: 0
+        width: 454
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef4062c86ffac300800000000000000
+      internalID: 273311552812109793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_10
+      rect:
+        serializedVersion: 2
+        x: 6110
+        y: 0
+        width: 484
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92023447af09c4d90800000000000000
+      internalID: -7112150306158075863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_memakai_baju_02_11
+      rect:
+        serializedVersion: 2
+        x: 6735
+        y: 0
+        width: 587
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23ae3bf9fae94b00800000000000000
+      internalID: 813439567100027694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animasi_memakai_baju_02_0: 4626558452362317892
+      animasi_memakai_baju_02_1: 3009793836557358966
+      animasi_memakai_baju_02_10: -7112150306158075863
+      animasi_memakai_baju_02_11: 813439567100027694
+      animasi_memakai_baju_02_2: -6246740331629941533
+      animasi_memakai_baju_02_3: 1798816856344803760
+      animasi_memakai_baju_02_4: -7756283106820000789
+      animasi_memakai_baju_02_5: -5570872115830242296
+      animasi_memakai_baju_02_6: 2854235113166376391
+      animasi_memakai_baju_02_7: -2350048020067579306
+      animasi_memakai_baju_02_8: 2511134828869568363
+      animasi_memakai_baju_02_9: 273311552812109793
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 22ad87df1dbe02449a8f223d23f3a81c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3553586650755551163
+    second: animasi_mandi_sabun_0
+  - first:
+      213: -7752255803440129534
+    second: animasi_mandi_sabun_1
+  - first:
+      213: -3760171989477035396
+    second: animasi_mandi_sabun_2
+  - first:
+      213: 7087396229364594968
+    second: animasi_mandi_sabun_3
+  - first:
+      213: -3763942208663279562
+    second: animasi_mandi_sabun_4
+  - first:
+      213: 4923093099338375552
+    second: animasi_mandi_sabun_5
+  - first:
+      213: -1505774757926001137
+    second: animasi_mandi_sabun_6
+  - first:
+      213: 4395499091922090982
+    second: animasi_mandi_sabun_7
+  - first:
+      213: -713914746334015600
+    second: animasi_mandi_sabun_8
+  - first:
+      213: -3953320703151130696
+    second: animasi_mandi_sabun_9
+  - first:
+      213: 115554584876579010
+    second: animasi_mandi_sabun_10
+  - first:
+      213: 8851412518510843329
+    second: animasi_mandi_sabun_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 441
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfcadc2b30e05130800000000000000
+      internalID: 3553586650755551163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_1
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 414
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a9df38b647a6490800000000000000
+      internalID: -7752255803440129534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_2
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 0
+        width: 414
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72f8d07f7f21dbc0800000000000000
+      internalID: -3760171989477035396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_3
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 0
+        width: 413
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81938b9e15d7b5260800000000000000
+      internalID: 7087396229364594968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_4
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 0
+        width: 427
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638a681e08ac3cbc0800000000000000
+      internalID: -3763942208663279562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_5
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 0
+        width: 660
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081ad361717525440800000000000000
+      internalID: 4923093099338375552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_6
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 0
+        width: 684
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06221ae5d96a1be0800000000000000
+      internalID: -1505774757926001137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_7
+      rect:
+        serializedVersion: 2
+        x: 4232
+        y: 0
+        width: 576
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb7190c223fffc30800000000000000
+      internalID: 4395499091922090982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_8
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 0
+        width: 561
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f09d8125aa716f0800000000000000
+      internalID: -713914746334015600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_9
+      rect:
+        serializedVersion: 2
+        x: 5677
+        y: 0
+        width: 480
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7ba7d14cbf229c0800000000000000
+      internalID: -3953320703151130696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_10
+      rect:
+        serializedVersion: 2
+        x: 6265
+        y: 0
+        width: 491
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c87cbf58488a9100800000000000000
+      internalID: 115554584876579010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_sabun_11
+      rect:
+        serializedVersion: 2
+        x: 6815
+        y: 0
+        width: 426
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5d84ee9c886da70800000000000000
+      internalID: 8851412518510843329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animasi_mandi_sabun_0: 3553586650755551163
+      animasi_mandi_sabun_1: -7752255803440129534
+      animasi_mandi_sabun_10: 115554584876579010
+      animasi_mandi_sabun_11: 8851412518510843329
+      animasi_mandi_sabun_2: -3760171989477035396
+      animasi_mandi_sabun_3: 7087396229364594968
+      animasi_mandi_sabun_4: -3763942208663279562
+      animasi_mandi_sabun_5: 4923093099338375552
+      animasi_mandi_sabun_6: -1505774757926001137
+      animasi_mandi_sabun_7: 4395499091922090982
+      animasi_mandi_sabun_8: -713914746334015600
+      animasi_mandi_sabun_9: -3953320703151130696
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

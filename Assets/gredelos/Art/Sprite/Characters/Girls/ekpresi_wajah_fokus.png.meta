@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: d84b9a7b9be220643a21012cdf790c08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5822555809847957874
+    second: ekpresi_wajah_fokus_0
+  - first:
+      213: -3389508262992547084
+    second: ekpresi_wajah_fokus_1
+  - first:
+      213: 4786739903336900192
+    second: ekpresi_wajah_fokus_2
+  - first:
+      213: 5807057192013526959
+    second: ekpresi_wajah_fokus_3
+  - first:
+      213: 7932197994494458332
+    second: ekpresi_wajah_fokus_4
+  - first:
+      213: 1277099243409809401
+    second: ekpresi_wajah_fokus_5
+  - first:
+      213: -5793509532833569196
+    second: ekpresi_wajah_fokus_6
+  - first:
+      213: 1155146287974183412
+    second: ekpresi_wajah_fokus_7
+  - first:
+      213: 2294593349000632378
+    second: ekpresi_wajah_fokus_8
+  - first:
+      213: 5066606532746025444
+    second: ekpresi_wajah_fokus_9
+  - first:
+      213: 7682859484779923403
+    second: ekpresi_wajah_fokus_10
+  - first:
+      213: 5407457645036415780
+    second: ekpresi_wajah_fokus_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 375
+        height: 1018
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8620251750223fa0800000000000000
+      internalID: -5822555809847957874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_1
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 387
+        height: 1018
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2f315713c06f0d0800000000000000
+      internalID: -3389508262992547084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_2
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 0
+        width: 367
+        height: 1018
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0666592b49aed6240800000000000000
+      internalID: 4786739903336900192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_3
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 0
+        width: 380
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7f750cfbfc69050800000000000000
+      internalID: 5807057192013526959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_4
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 0
+        width: 387
+        height: 1018
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd978e5ac04d41e60800000000000000
+      internalID: 7932197994494458332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_5
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 14
+        width: 356
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff9c5adefa29b110800000000000000
+      internalID: 1277099243409809401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_6
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 14
+        width: 356
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456ad9476c1599fa0800000000000000
+      internalID: -5793509532833569196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_7
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 0
+        width: 386
+        height: 1019
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1ff4ebd67e70010800000000000000
+      internalID: 1155146287974183412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_8
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 15
+        width: 399
+        height: 1030
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38182f5e7808df10800000000000000
+      internalID: 2294593349000632378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_9
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 0
+        width: 395
+        height: 1019
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e910092cc3305640800000000000000
+      internalID: 5066606532746025444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_10
+      rect:
+        serializedVersion: 2
+        x: 4753
+        y: 0
+        width: 367
+        height: 1018
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc74c81fefffe9a60800000000000000
+      internalID: 7682859484779923403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_fokus_11
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 0
+        width: 385
+        height: 1018
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bad5604162b0b40800000000000000
+      internalID: 5407457645036415780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ekpresi_wajah_fokus_0: -5822555809847957874
+      ekpresi_wajah_fokus_1: -3389508262992547084
+      ekpresi_wajah_fokus_10: 7682859484779923403
+      ekpresi_wajah_fokus_11: 5407457645036415780
+      ekpresi_wajah_fokus_2: 4786739903336900192
+      ekpresi_wajah_fokus_3: 5807057192013526959
+      ekpresi_wajah_fokus_4: 7932197994494458332
+      ekpresi_wajah_fokus_5: 1277099243409809401
+      ekpresi_wajah_fokus_6: -5793509532833569196
+      ekpresi_wajah_fokus_7: 1155146287974183412
+      ekpresi_wajah_fokus_8: 2294593349000632378
+      ekpresi_wajah_fokus_9: 5066606532746025444
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

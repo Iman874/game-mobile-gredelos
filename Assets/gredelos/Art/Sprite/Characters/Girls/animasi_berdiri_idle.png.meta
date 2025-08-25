@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 3c71866958517a1429764284d9bd6f70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4968476526657809705
+    second: animasi_berdiri_idle_0
+  - first:
+      213: -7856466042164590862
+    second: animasi_berdiri_idle_1
+  - first:
+      213: -4731026392475525467
+    second: animasi_berdiri_idle_2
+  - first:
+      213: 9083333090463132211
+    second: animasi_berdiri_idle_3
+  - first:
+      213: 9215967171404911944
+    second: animasi_berdiri_idle_4
+  - first:
+      213: 6882882450986180478
+    second: animasi_berdiri_idle_5
+  - first:
+      213: 6322133071482538881
+    second: animasi_berdiri_idle_6
+  - first:
+      213: 2658269465149533445
+    second: animasi_berdiri_idle_7
+  - first:
+      213: -5093871581125736696
+    second: animasi_berdiri_idle_8
+  - first:
+      213: -6913234819208513729
+    second: animasi_berdiri_idle_9
+  - first:
+      213: 4966600069769787050
+    second: animasi_berdiri_idle_10
+  - first:
+      213: -195413968767457086
+    second: animasi_berdiri_idle_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 370
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2d1b15cec6c0bb0800000000000000
+      internalID: -4968476526657809705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 370
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f64cde82c938f290800000000000000
+      internalID: -7856466042164590862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_2
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 370
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae9f75ef84085eb0800000000000000
+      internalID: -4731026392475525467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_3
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 0
+        width: 370
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a2b99f15b7e0e70800000000000000
+      internalID: 9083333090463132211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 0
+        width: 370
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84550496051b5ef70800000000000000
+      internalID: 9215967171404911944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_5
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 0
+        width: 370
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f1dc14f19e48f50800000000000000
+      internalID: 6882882450986180478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_6
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 0
+        width: 539
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b477c488abcb750800000000000000
+      internalID: 6322133071482538881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_7
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 0
+        width: 370
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d61839ef114e420800000000000000
+      internalID: 2658269465149533445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_8
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 14
+        width: 351
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8070b8319ceee49b0800000000000000
+      internalID: -5093871581125736696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_9
+      rect:
+        serializedVersion: 2
+        x: 4373
+        y: 14
+        width: 351
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37f6305f814f00a0800000000000000
+      internalID: -6913234819208513729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_10
+      rect:
+        serializedVersion: 2
+        x: 4808
+        y: 35
+        width: 371
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6fe040378ece440800000000000000
+      internalID: 4966600069769787050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_berdiri_idle_11
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 35
+        width: 370
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8677fd700c94df0800000000000000
+      internalID: -195413968767457086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animasi_berdiri_idle_0: -4968476526657809705
+      animasi_berdiri_idle_1: -7856466042164590862
+      animasi_berdiri_idle_10: 4966600069769787050
+      animasi_berdiri_idle_11: -195413968767457086
+      animasi_berdiri_idle_2: -4731026392475525467
+      animasi_berdiri_idle_3: 9083333090463132211
+      animasi_berdiri_idle_4: 9215967171404911944
+      animasi_berdiri_idle_5: 6882882450986180478
+      animasi_berdiri_idle_6: 6322133071482538881
+      animasi_berdiri_idle_7: 2658269465149533445
+      animasi_berdiri_idle_8: -5093871581125736696
+      animasi_berdiri_idle_9: -6913234819208513729
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

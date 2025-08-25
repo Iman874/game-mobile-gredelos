@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: ee8d07e8d38f0b74192fc1a44d1edc81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6298406599450426152
+    second: animasi_mandi_terkena_air_0
+  - first:
+      213: -4872114467599735291
+    second: animasi_mandi_terkena_air_1
+  - first:
+      213: -9171632930196719769
+    second: animasi_mandi_terkena_air_2
+  - first:
+      213: -6234044006337952497
+    second: animasi_mandi_terkena_air_3
+  - first:
+      213: 7649257833875311986
+    second: animasi_mandi_terkena_air_4
+  - first:
+      213: -5128791333051159167
+    second: animasi_mandi_terkena_air_5
+  - first:
+      213: 6333372837137938264
+    second: animasi_mandi_terkena_air_6
+  - first:
+      213: -1114481503352249049
+    second: animasi_mandi_terkena_air_7
+  - first:
+      213: 1085706319697761000
+    second: animasi_mandi_terkena_air_8
+  - first:
+      213: -895240309472273498
+    second: animasi_mandi_terkena_air_9
+  - first:
+      213: -6769215099011122150
+    second: animasi_mandi_terkena_air_10
+  - first:
+      213: 3733424157917670560
+    second: animasi_mandi_terkena_air_11
+  - first:
+      213: 2223363450630427119
+    second: animasi_mandi_terkena_air_12
+  - first:
+      213: 8542148359059852377
+    second: animasi_mandi_terkena_air_13
+  - first:
+      213: 6209873156097475745
+    second: animasi_mandi_terkena_air_14
+  - first:
+      213: -6833099765273301163
+    second: animasi_mandi_terkena_air_15
+  - first:
+      213: 931612204444264845
+    second: animasi_mandi_terkena_air_16
+  - first:
+      213: 5238569217118478009
+    second: animasi_mandi_terkena_air_17
+  - first:
+      213: -6412336380456308112
+    second: animasi_mandi_terkena_air_18
+  - first:
+      213: 4487643139858962551
+    second: animasi_mandi_terkena_air_19
+  - first:
+      213: 7913419824643183952
+    second: animasi_mandi_terkena_air_20
+  - first:
+      213: 6652839112745243679
+    second: animasi_mandi_terkena_air_21
+  - first:
+      213: -3593688746773209154
+    second: animasi_mandi_terkena_air_22
+  - first:
+      213: -3376954725227693572
+    second: animasi_mandi_terkena_air_23
+  - first:
+      213: -5483267245873054082
+    second: animasi_mandi_terkena_air_24
+  - first:
+      213: 6146987736443373053
+    second: animasi_mandi_terkena_air_25
+  - first:
+      213: 3392979658098534168
+    second: animasi_mandi_terkena_air_26
+  - first:
+      213: -7888600502902773808
+    second: animasi_mandi_terkena_air_27
+  - first:
+      213: 8935891272295113474
+    second: animasi_mandi_terkena_air_28
+  - first:
+      213: 2782377235066963804
+    second: animasi_mandi_terkena_air_29
+  - first:
+      213: -3988659775278918415
+    second: animasi_mandi_terkena_air_30
+  - first:
+      213: -3818477140284391606
+    second: animasi_mandi_terkena_air_31
+  - first:
+      213: -8513339020607965594
+    second: animasi_mandi_terkena_air_32
+  - first:
+      213: 865987310857620748
+    second: animasi_mandi_terkena_air_33
+  - first:
+      213: -2118801125119973102
+    second: animasi_mandi_terkena_air_34
+  - first:
+      213: 1794717934205264927
+    second: animasi_mandi_terkena_air_35
+  - first:
+      213: -8570863397631603931
+    second: animasi_mandi_terkena_air_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 414
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bf73b8e6f686750800000000000000
+      internalID: 6298406599450426152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_1
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 17
+        width: 720
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5062dad84b5c26cb0800000000000000
+      internalID: -4872114467599735291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_2
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 17
+        width: 590
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76779518170d7b080800000000000000
+      internalID: -9171632930196719769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_3
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 17
+        width: 535
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05c210710a3c79a0800000000000000
+      internalID: -6234044006337952497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_4
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 17
+        width: 736
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d038fe87f972a60800000000000000
+      internalID: 7649257833875311986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_5
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 17
+        width: 590
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d2262c47fd2d8b0800000000000000
+      internalID: -5128791333051159167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_6
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 558
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857f6bb2a09a4e750800000000000000
+      internalID: 6333372837137938264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_7
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 545
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72522fb3af09880f0800000000000000
+      internalID: -1114481503352249049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_8
+      rect:
+        serializedVersion: 2
+        x: 4034
+        y: 560
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e25bfb3524311f00800000000000000
+      internalID: 1085706319697761000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_9
+      rect:
+        serializedVersion: 2
+        x: 4039
+        y: 17
+        width: 552
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab5b458ea77393f0800000000000000
+      internalID: -895240309472273498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_10
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 9
+        width: 728
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c3b377bbaee02a0800000000000000
+      internalID: -6769215099011122150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_11
+      rect:
+        serializedVersion: 2
+        x: 5652
+        y: 15
+        width: 548
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac6b88bd79cfc330800000000000000
+      internalID: 3733424157917670560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_12
+      rect:
+        serializedVersion: 2
+        x: 6273
+        y: 17
+        width: 749
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1d9694749fade10800000000000000
+      internalID: 2223363450630427119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_13
+      rect:
+        serializedVersion: 2
+        x: 7065
+        y: 17
+        width: 547
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cc270acaecb8670800000000000000
+      internalID: 8542148359059852377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_14
+      rect:
+        serializedVersion: 2
+        x: 7775
+        y: 9
+        width: 748
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a48c61fbb6ed2650800000000000000
+      internalID: 6209873156097475745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_15
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 539
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f641087f3fb21a0800000000000000
+      internalID: -6833099765273301163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_16
+      rect:
+        serializedVersion: 2
+        x: 3988
+        y: 541
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89a1523d50cdec00800000000000000
+      internalID: 931612204444264845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_17
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 533
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be94a5a2f223b840800000000000000
+      internalID: 5238569217118478009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_18
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 529
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0727696390ec207a0800000000000000
+      internalID: -6412336380456308112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_19
+      rect:
+        serializedVersion: 2
+        x: 3993
+        y: 510
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778130eb8af474e30800000000000000
+      internalID: 4487643139858962551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_20
+      rect:
+        serializedVersion: 2
+        x: 4011
+        y: 512
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0551466476d12dd60800000000000000
+      internalID: 7913419824643183952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_21
+      rect:
+        serializedVersion: 2
+        x: 4023
+        y: 481
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14510fbce1a35c50800000000000000
+      internalID: 6652839112745243679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_22
+      rect:
+        serializedVersion: 2
+        x: 3998
+        y: 489
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf934fff17a02ec0800000000000000
+      internalID: -3593688746773209154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_23
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 436
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9f93cb195a221d0800000000000000
+      internalID: -3376954725227693572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_24
+      rect:
+        serializedVersion: 2
+        x: 4028
+        y: 402
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7eb331dd7587e3b0800000000000000
+      internalID: -5483267245873054082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_25
+      rect:
+        serializedVersion: 2
+        x: 3985
+        y: 349
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5c36537cc7e4550800000000000000
+      internalID: 6146987736443373053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_26
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 368
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817e613b509461f20800000000000000
+      internalID: 3392979658098534168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_27
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 351
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7238163af068290800000000000000
+      internalID: -7888600502902773808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_28
+      rect:
+        serializedVersion: 2
+        x: 4016
+        y: 343
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203e9ac84c9a20c70800000000000000
+      internalID: 8935891272295113474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_29
+      rect:
+        serializedVersion: 2
+        x: 4038
+        y: 339
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57cc478a5dfc9620800000000000000
+      internalID: 2782377235066963804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_30
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 320
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f45c94311f65a8c0800000000000000
+      internalID: -3988659775278918415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_31
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 322
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f3666a54b020bc0800000000000000
+      internalID: -3818477140284391606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_32
+      rect:
+        serializedVersion: 2
+        x: 4014
+        y: 299
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666b030344b8ad980800000000000000
+      internalID: -8513339020607965594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_33
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 9
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d0aabfeda940c00800000000000000
+      internalID: 865987310857620748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_34
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219a6834a918892e0800000000000000
+      internalID: -2118801125119973102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_35
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 0
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14e35cc37e18e810800000000000000
+      internalID: 1794717934205264927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_mandi_terkena_air_36
+      rect:
+        serializedVersion: 2
+        x: 5949
+        y: 6
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b45c5762d2e0980800000000000000
+      internalID: -8570863397631603931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animasi_mandi_terkena_air_0: 6298406599450426152
+      animasi_mandi_terkena_air_1: -4872114467599735291
+      animasi_mandi_terkena_air_10: -6769215099011122150
+      animasi_mandi_terkena_air_11: 3733424157917670560
+      animasi_mandi_terkena_air_12: 2223363450630427119
+      animasi_mandi_terkena_air_13: 8542148359059852377
+      animasi_mandi_terkena_air_14: 6209873156097475745
+      animasi_mandi_terkena_air_15: -6833099765273301163
+      animasi_mandi_terkena_air_16: 931612204444264845
+      animasi_mandi_terkena_air_17: 5238569217118478009
+      animasi_mandi_terkena_air_18: -6412336380456308112
+      animasi_mandi_terkena_air_19: 4487643139858962551
+      animasi_mandi_terkena_air_2: -9171632930196719769
+      animasi_mandi_terkena_air_20: 7913419824643183952
+      animasi_mandi_terkena_air_21: 6652839112745243679
+      animasi_mandi_terkena_air_22: -3593688746773209154
+      animasi_mandi_terkena_air_23: -3376954725227693572
+      animasi_mandi_terkena_air_24: -5483267245873054082
+      animasi_mandi_terkena_air_25: 6146987736443373053
+      animasi_mandi_terkena_air_26: 3392979658098534168
+      animasi_mandi_terkena_air_27: -7888600502902773808
+      animasi_mandi_terkena_air_28: 8935891272295113474
+      animasi_mandi_terkena_air_29: 2782377235066963804
+      animasi_mandi_terkena_air_3: -6234044006337952497
+      animasi_mandi_terkena_air_30: -3988659775278918415
+      animasi_mandi_terkena_air_31: -3818477140284391606
+      animasi_mandi_terkena_air_32: -8513339020607965594
+      animasi_mandi_terkena_air_33: 865987310857620748
+      animasi_mandi_terkena_air_34: -2118801125119973102
+      animasi_mandi_terkena_air_35: 1794717934205264927
+      animasi_mandi_terkena_air_36: -8570863397631603931
+      animasi_mandi_terkena_air_4: 7649257833875311986
+      animasi_mandi_terkena_air_5: -5128791333051159167
+      animasi_mandi_terkena_air_6: 6333372837137938264
+      animasi_mandi_terkena_air_7: -1114481503352249049
+      animasi_mandi_terkena_air_8: 1085706319697761000
+      animasi_mandi_terkena_air_9: -895240309472273498
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

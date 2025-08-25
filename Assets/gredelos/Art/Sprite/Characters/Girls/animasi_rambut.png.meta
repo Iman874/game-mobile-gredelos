@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: e21123134992e584aafc33c4205c619d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3889905338707484885
+    second: animasi_rambut_0
+  - first:
+      213: 6505431934162010598
+    second: animasi_rambut_1
+  - first:
+      213: 66582053652614539
+    second: animasi_rambut_2
+  - first:
+      213: 8972531617173104428
+    second: animasi_rambut_3
+  - first:
+      213: 1645484987481551620
+    second: animasi_rambut_4
+  - first:
+      213: -3740539317054427938
+    second: animasi_rambut_5
+  - first:
+      213: -7860653936697584612
+    second: animasi_rambut_6
+  - first:
+      213: 7277123431331417636
+    second: animasi_rambut_7
+  - first:
+      213: -7463724675212700304
+    second: animasi_rambut_8
+  - first:
+      213: 8485069389310037046
+    second: animasi_rambut_9
+  - first:
+      213: 3811287356246755851
+    second: animasi_rambut_10
+  - first:
+      213: 6226282331999704742
+    second: animasi_rambut_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animasi_rambut_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 342
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fd17c34b7440ac0800000000000000
+      internalID: -3889905338707484885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_1
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2
+        width: 431
+        height: 1044
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1853a70efe74a50800000000000000
+      internalID: 6505431934162010598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_2
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 4
+        width: 379
+        height: 1042
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d4168660c8ce000800000000000000
+      internalID: 66582053652614539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_3
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 1
+        width: 404
+        height: 1045
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c276091a7f5d48c70800000000000000
+      internalID: 8972531617173104428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_4
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 0
+        width: 431
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4037312c0efe5d610800000000000000
+      internalID: 1645484987481551620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_5
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1
+        width: 421
+        height: 1045
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edca6923f4fe61cc0800000000000000
+      internalID: -3740539317054427938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_6
+      rect:
+        serializedVersion: 2
+        x: 4982
+        y: 1
+        width: 370
+        height: 976
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c145dd064e859e290800000000000000
+      internalID: -7860653936697584612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_7
+      rect:
+        serializedVersion: 2
+        x: 5626
+        y: 1
+        width: 369
+        height: 976
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e4e2774398df460800000000000000
+      internalID: 7277123431331417636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_8
+      rect:
+        serializedVersion: 2
+        x: 6265
+        y: 1
+        width: 369
+        height: 976
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07511a0d3f58b6890800000000000000
+      internalID: -7463724675212700304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_9
+      rect:
+        serializedVersion: 2
+        x: 6959
+        y: 2
+        width: 406
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c8d5c57a501c570800000000000000
+      internalID: 8485069389310037046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_10
+      rect:
+        serializedVersion: 2
+        x: 7745
+        y: 0
+        width: 399
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a860e48a964e430800000000000000
+      internalID: 3811287356246755851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_rambut_11
+      rect:
+        serializedVersion: 2
+        x: 8529
+        y: 1
+        width: 429
+        height: 974
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6122eeac2386650800000000000000
+      internalID: 6226282331999704742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animasi_rambut_0: -3889905338707484885
+      animasi_rambut_1: 6505431934162010598
+      animasi_rambut_10: 3811287356246755851
+      animasi_rambut_11: 6226282331999704742
+      animasi_rambut_2: 66582053652614539
+      animasi_rambut_3: 8972531617173104428
+      animasi_rambut_4: 1645484987481551620
+      animasi_rambut_5: -3740539317054427938
+      animasi_rambut_6: -7860653936697584612
+      animasi_rambut_7: 7277123431331417636
+      animasi_rambut_8: -7463724675212700304
+      animasi_rambut_9: 8485069389310037046
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

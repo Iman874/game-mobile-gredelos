@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/gredelos/Scenes/SplashScreen.unity
+    guid: a17daa64c0795c24daed6efae8fecbf4
+  - enabled: 1
+    path: Assets/gredelos/Scenes/MainMenu.unity
+    guid: 94d932075b9481a45a8ba32156f2bd14
+  - enabled: 1
+    path: Assets/gredelos/Scenes/PilihKarakter.unity
+    guid: 1e5da78f39172b24b944def979f46c73
+  - enabled: 1
+    path: Assets/gredelos/Scenes/MenuLevel.unity
+    guid: d476600e682f43b4d8ea352cc83bfe87
+  - enabled: 1
+    path: Assets/gredelos/Scenes/Level/Level 1 - Kamar Tidur.unity
+    guid: 139b5540f4adb1c42850b9acc1f0fc4d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

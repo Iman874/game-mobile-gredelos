@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 3504d088bd30e2a4a9d68222fd772900
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1188755140200576420
+    second: animasi_makan_minum_0
+  - first:
+      213: -2132635420199553443
+    second: animasi_makan_minum_1
+  - first:
+      213: 7372476151712906633
+    second: animasi_makan_minum_2
+  - first:
+      213: -2953587021938221395
+    second: animasi_makan_minum_3
+  - first:
+      213: -4871487911425153236
+    second: animasi_makan_minum_4
+  - first:
+      213: 6330163946503762582
+    second: animasi_makan_minum_5
+  - first:
+      213: 3209721968022741708
+    second: animasi_makan_minum_6
+  - first:
+      213: 2292427606589742819
+    second: animasi_makan_minum_7
+  - first:
+      213: -2575513316127763947
+    second: animasi_makan_minum_8
+  - first:
+      213: 6753972940507879753
+    second: animasi_makan_minum_9
+  - first:
+      213: -8868569918630618858
+    second: animasi_makan_minum_10
+  - first:
+      213: 8581553713988560080
+    second: animasi_makan_minum_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animasi_makan_minum_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 731
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a53390708e4f7010800000000000000
+      internalID: 1188755140200576420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_1
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 0
+        width: 733
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56f69f626b5762e0800000000000000
+      internalID: -2132635420199553443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_2
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 0
+        width: 732
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98df2e9bffb405660800000000000000
+      internalID: 7372476151712906633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_3
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 0
+        width: 733
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae1b289040c207d0800000000000000
+      internalID: -2953587021938221395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_4
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 0
+        width: 733
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27e4e70e8ff46cb0800000000000000
+      internalID: -4871487911425153236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_5
+      rect:
+        serializedVersion: 2
+        x: 4304
+        y: 0
+        width: 732
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6927759129249d750800000000000000
+      internalID: 6330163946503762582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_6
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 0
+        width: 732
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc263c3cf193b8c20800000000000000
+      internalID: 3209721968022741708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_7
+      rect:
+        serializedVersion: 2
+        x: 6076
+        y: 0
+        width: 733
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee941c23c650df10800000000000000
+      internalID: 2292427606589742819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_8
+      rect:
+        serializedVersion: 2
+        x: 6955
+        y: 0
+        width: 732
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5129aedd840f14cd0800000000000000
+      internalID: -2575513316127763947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_9
+      rect:
+        serializedVersion: 2
+        x: 7771
+        y: 0
+        width: 732
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9499295fa9eeabd50800000000000000
+      internalID: 6753972940507879753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_10
+      rect:
+        serializedVersion: 2
+        x: 8577
+        y: 0
+        width: 733
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6199e4e85a28ce480800000000000000
+      internalID: -8868569918630618858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animasi_makan_minum_11
+      rect:
+        serializedVersion: 2
+        x: 9416
+        y: 0
+        width: 731
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4e837c2adc71770800000000000000
+      internalID: 8581553713988560080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animasi_makan_minum_0: 1188755140200576420
+      animasi_makan_minum_1: -2132635420199553443
+      animasi_makan_minum_10: -8868569918630618858
+      animasi_makan_minum_11: 8581553713988560080
+      animasi_makan_minum_2: 7372476151712906633
+      animasi_makan_minum_3: -2953587021938221395
+      animasi_makan_minum_4: -4871487911425153236
+      animasi_makan_minum_5: 6330163946503762582
+      animasi_makan_minum_6: 3209721968022741708
+      animasi_makan_minum_7: 2292427606589742819
+      animasi_makan_minum_8: -2575513316127763947
+      animasi_makan_minum_9: 6753972940507879753
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

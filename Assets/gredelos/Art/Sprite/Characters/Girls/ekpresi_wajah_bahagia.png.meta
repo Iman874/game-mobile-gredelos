@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: eae994f5adfb3de4e9c1658d18576f58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1618006332864989764
+    second: ekpresi_wajah_bahagia_0
+  - first:
+      213: 8359954680858578519
+    second: ekpresi_wajah_bahagia_1
+  - first:
+      213: -1529178033290929523
+    second: ekpresi_wajah_bahagia_2
+  - first:
+      213: -492240546255788120
+    second: ekpresi_wajah_bahagia_3
+  - first:
+      213: -3009288310204864644
+    second: ekpresi_wajah_bahagia_4
+  - first:
+      213: 6686832120995954794
+    second: ekpresi_wajah_bahagia_5
+  - first:
+      213: -7444954685637499806
+    second: ekpresi_wajah_bahagia_6
+  - first:
+      213: 5202941538624801083
+    second: ekpresi_wajah_bahagia_7
+  - first:
+      213: 562953207713752952
+    second: ekpresi_wajah_bahagia_8
+  - first:
+      213: 3775248741532157278
+    second: ekpresi_wajah_bahagia_9
+  - first:
+      213: -1678241915713833061
+    second: ekpresi_wajah_bahagia_10
+  - first:
+      213: -7774949237664525204
+    second: ekpresi_wajah_bahagia_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 341
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5ff3510dfab89e0800000000000000
+      internalID: -1618006332864989764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_1
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 342
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e80f24d76840470800000000000000
+      internalID: 8359954680858578519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_2
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 0
+        width: 490
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a1d5f3ea447cae0800000000000000
+      internalID: -1529178033290929523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_3
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 414
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a72168c4d53b29f0800000000000000
+      internalID: -492240546255788120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_4
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 0
+        width: 371
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77e08bc93cdc36d0800000000000000
+      internalID: -3009288310204864644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_5
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 0
+        width: 414
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60c2acb2666ccc50800000000000000
+      internalID: 6686832120995954794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_6
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 0
+        width: 414
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26462b198253ea890800000000000000
+      internalID: -7444954685637499806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_7
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 0
+        width: 491
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b390bd453cf843840800000000000000
+      internalID: 5202941538624801083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_8
+      rect:
+        serializedVersion: 2
+        x: 3857
+        y: 0
+        width: 342
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877e1f2b5f200d700800000000000000
+      internalID: 562953207713752952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_9
+      rect:
+        serializedVersion: 2
+        x: 4337
+        y: 0
+        width: 342
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55c3c17ab0646430800000000000000
+      internalID: 3775248741532157278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_10
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 0
+        width: 312
+        height: 917
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97b4be8edfa5b8e0800000000000000
+      internalID: -1678241915713833061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ekpresi_wajah_bahagia_11
+      rect:
+        serializedVersion: 2
+        x: 5093
+        y: 0
+        width: 312
+        height: 917
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64df4e9cd4d91490800000000000000
+      internalID: -7774949237664525204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ekpresi_wajah_bahagia_0: -1618006332864989764
+      ekpresi_wajah_bahagia_1: 8359954680858578519
+      ekpresi_wajah_bahagia_10: -1678241915713833061
+      ekpresi_wajah_bahagia_11: -7774949237664525204
+      ekpresi_wajah_bahagia_2: -1529178033290929523
+      ekpresi_wajah_bahagia_3: -492240546255788120
+      ekpresi_wajah_bahagia_4: -3009288310204864644
+      ekpresi_wajah_bahagia_5: 6686832120995954794
+      ekpresi_wajah_bahagia_6: -7444954685637499806
+      ekpresi_wajah_bahagia_7: 5202941538624801083
+      ekpresi_wajah_bahagia_8: 562953207713752952
+      ekpresi_wajah_bahagia_9: 3775248741532157278
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
