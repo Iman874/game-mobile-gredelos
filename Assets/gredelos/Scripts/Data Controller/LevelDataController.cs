@@ -88,6 +88,7 @@ public class LevelDataController : MonoBehaviour
         LoadDataProgress();
       
     }
+    
     public void LoadDataProgress()
     {
         // Pastikan ada data progress
