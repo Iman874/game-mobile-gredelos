@@ -82,7 +82,7 @@ public class ClickSwipeRight : MonoBehaviour
             {
                 Debug.Log("Jendela terbuka penuh (selesai).");
                 // Panggil fungsi pada game controller
-                var gameController = FindFirstObjectByType<ControllerPlayObjekClick>();
+                var gameController = FindFirstObjectByType<ControllerPlayObjekLevel1>();
                 if (gameController != null)
                 {
                     gameController.OnSelesaiGameplay(nomorGameplay); // nomor gameplay 1

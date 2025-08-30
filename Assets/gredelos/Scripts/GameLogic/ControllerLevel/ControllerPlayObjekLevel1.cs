@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using TMPro;
 
-public class ControllerPlayObjekClick : MonoBehaviour
+public class ControllerPlayObjekLevel1 : MonoBehaviour
 {
     [Header("Scane Menu Pilihan Level")]
     public string ScanePilihanLevel = "PilihanLevel";
@@ -67,7 +67,7 @@ public class ControllerPlayObjekClick : MonoBehaviour
     void Start()
     {
         // Mulai animasi tangan pada ManagerGameplay
-        ManagerGameplay.GetComponent<LevelHandController>().StartWithJeda(5); // jeda 5 detik
+        ManagerGameplay.GetComponent<LevelHandController>().StartWithJeda(1); // jeda 5 detik
 
         // Update koin player di UI
         if (AmountKoinPlayer != null)
@@ -120,40 +120,40 @@ public class ControllerPlayObjekClick : MonoBehaviour
 
     // Selalu Update state is main pada progeress
     public void UpdateUI()
+    {
+        if (ProgressLevel.Count > 0)
         {
-            if (ProgressLevel.Count > 0)
+            int indexAktif = ProgressLevel.FindIndex(p => p.Get_is_main());
+            if (indexAktif == -1)
             {
-                int indexAktif = ProgressLevel.FindIndex(p => p.Get_is_main());
-                if (indexAktif == -1)
-                {
-                    Debug.LogWarning("Tidak ada progress dengan is_main = true di level " + Level);
-                }
+                Debug.LogWarning("Tidak ada progress dengan is_main = true di level " + Level);
+            }
 
-                // Nonaktifkan objek pada list objek gameplay indeks yang telah lewat
-                if (indexAktif == 0)
+            // Nonaktifkan objek pada list objek gameplay indeks yang telah lewat
+            if (indexAktif == 0)
+            {
+                Debug.Log("Progress utama adalah progress 1");
+            }
+            else if (indexAktif == 1)
+            {
+                Debug.Log("Progress utama adalah progress 2");
+                // Nonaktifkan objek pada list objek gameplay pada indeks 0
+                if (ListGrupObjekGameplay.Count > 0 && ListGrupObjekGameplay[0] != null)
                 {
-                    Debug.Log("Progress utama adalah progress 1");
-                }
-                else if (indexAktif == 1)
-                {
-                    Debug.Log("Progress utama adalah progress 2");
-                    // Nonaktifkan objek pada list objek gameplay pada indeks 0
-                    if (ListGrupObjekGameplay.Count > 0 && ListGrupObjekGameplay[0] != null)
+                    ListGrupObjekGameplay[0].SetActive(false);
+                    // Aktifkan objek pada list objek after gameplay pada indeks 0
+                    if (ListObjekAfterGameplay.Count > 0 && ListObjekAfterGameplay[0] != null)
                     {
-                        ListGrupObjekGameplay[0].SetActive(false);
-                        // Aktifkan objek pada list objek after gameplay pada indeks 0
-                        if (ListObjekAfterGameplay.Count > 0 && ListObjekAfterGameplay[0] != null)
-                        {
-                            ListObjekAfterGameplay[0].SetActive(true);
-                        }
+                        ListObjekAfterGameplay[0].SetActive(true);
                     }
                 }
             }
-            else
-            {
-                Debug.LogWarning("ProgressLevel kosong di level " + Level);
-            }
         }
+        else
+        {
+            Debug.LogWarning("ProgressLevel kosong di level " + Level);
+        }
+    }
 
     public void OnClickObjek(int nomorGameplay)
     {
@@ -289,10 +289,10 @@ public class ControllerPlayObjekClick : MonoBehaviour
 
                 // Cek hadiah koin dari progress 1
                 int hadiahKoin = levelData.GetHadiahKoinProgress(ProgressLevel[0].id_progress);
-                if (levelData.GetStatusPenyelesaianProgressMain(ProgressLevel[0].id_progress) == 1)
-                {
-                    hadiahKoin = 10; // jik sudah pernah diselesaikan, hadiah dikurangi
-                }
+                //if (levelData.GetStatusPenyelesaianProgressMain(ProgressLevel[0].id_progress) == 1)
+                //{
+                //    hadiahKoin = 10; // jik sudah pernah diselesaikan, hadiah dikurangi
+                //}
 
                 // Update koin player
                 UpdateKoinPlayer(hadiahKoin);
@@ -336,10 +336,6 @@ public class ControllerPlayObjekClick : MonoBehaviour
 
                 // Cek hadiah koin dari progress 2
                 int hadiahKoin = levelData.GetHadiahKoinProgress(ProgressLevel[1].id_progress);
-                if (levelData.GetStatusPenyelesaianProgressMain(ProgressLevel[1].id_progress) == 1)
-                {
-                    hadiahKoin = 10; // jik sudah pernah diselesaikan, hadiah dikurangi
-                }
 
                 // Update koin player
                 UpdateKoinPlayer(hadiahKoin);
@@ -383,10 +379,6 @@ public class ControllerPlayObjekClick : MonoBehaviour
 
                 // Cek hadiah koin dari progress 3
                 int hadiahKoin = levelData.GetHadiahKoinProgress(ProgressLevel[2].id_progress);
-                if (levelData.GetStatusPenyelesaianProgressMain(ProgressLevel[2].id_progress) == 1)
-                {
-                    hadiahKoin = 10; // jik sudah pernah diselesaikan, hadiah dikurangi
-                }
 
                 // Update koin player
                 UpdateKoinPlayer(hadiahKoin);
@@ -600,7 +592,7 @@ public class ControllerPlayObjekClick : MonoBehaviour
     {
         // kembalikan ke scane pilihan level
         UnityEngine.SceneManagement.SceneManager.LoadScene(ScanePilihanLevel);
-        
+
     }
 
 

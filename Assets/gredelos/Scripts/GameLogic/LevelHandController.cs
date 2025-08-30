@@ -154,7 +154,7 @@ public class LevelHandController : MonoBehaviour
 
 
     // Fungsi helper untuk menghilangkan hand saat jeda
-        // Fungsi untuk langsung menyembunyikan semua hand
+    // Fungsi untuk langsung menyembunyikan semua hand
     public void HideHand()
     {
         // Stop semua coroutine animasi yang lagi jalan

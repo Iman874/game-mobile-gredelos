@@ -39,7 +39,29 @@ public class OnClickObjek : MonoBehaviour, IPointerDownHandler, IPointerEnterHan
         if (progress)
         {
             levelData.StartLevel_OnClick(nomorLevel, namaProgress);
-            ControllerPlayObjek.GetComponent<ControllerPlayObjekClick>().OnClickObjek(nomorGameplay);
+            if (nomorLevel == 1)
+            {
+                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel1>().OnClickObjek(nomorGameplay);
+            }
+            /*else if (nomorLevel == 2)
+           {
+                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel2>().OnClickObjek(nomorGameplay);
+            }
+            */
+            else if (nomorLevel == 3)
+            {
+                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel3>().OnClickObjek(nomorGameplay);
+            }
+            /*
+            else if (nomorLevel == 4)
+            {
+                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel4>().OnClickObjek(nomorGameplay);
+            }
+            else if (nomorLevel == 5)
+            {
+                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel5>().OnClickObjek(nomorGameplay);
+            */
+
             // Nonaktifkan semua animation tangan di level
             if (ManagerGameplay.GetComponent<LevelHandController>() != null)
                 ManagerGameplay.GetComponent<LevelHandController>().StopAllCoroutines();
@@ -49,7 +71,7 @@ public class OnClickObjek : MonoBehaviour, IPointerDownHandler, IPointerEnterHan
             Debug.LogWarning($"Progress '{namaProgress}' pada level {nomorLevel} tidak dapat dimulai karena is_main == false.");
             return;
         }
-       
+
     }
 
     public void OnPointerEnter(PointerEventData eventData)

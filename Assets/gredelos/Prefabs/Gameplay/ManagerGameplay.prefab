@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4791413872878433679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4071308806397998917}
+  - component: {fileID: 6818798381958699798}
+  - component: {fileID: 4432011305510422891}
+  m_Layer: 0
+  m_Name: ManagerGameplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4071308806397998917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4791413872878433679}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6818798381958699798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4791413872878433679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fef9dd1f724b14cb5770b93c0b3f9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DurasiAnimasi: 4
+  JedaAnimasi: 6
+  Level: 1
+  HandObjek:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ProgressLevel:
+  - id_progress: progress_p_2025_23_06_58_36_00000
+    fk_id_level: level_1_player_2025_23_06_58_36_250
+    nama_progress: level_1_01_membuka_gorden
+    jumlah_hadiah_koin: 30
+    is_main: 0
+  - id_progress: progress_p_2025_23_06_58_36_00001
+    fk_id_level: level_1_player_2025_23_06_58_36_250
+    nama_progress: level_1_02_merapikan_bantal
+    jumlah_hadiah_koin: 30
+    is_main: 0
+  - id_progress: progress_p_2025_23_06_58_36_00002
+    fk_id_level: level_1_player_2025_23_06_58_36_250
+    nama_progress: level_1_03_merapikan_selimut
+    jumlah_hadiah_koin: 40
+    is_main: 0
+--- !u!114 &4432011305510422891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4791413872878433679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be6c67d2a9ad9d4e8e6f1fe6552d103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: game_data.json
+  LevelIndex: 1
+  CoinAmount: {fileID: 0}
+  ParentKarakter: {fileID: 0}
+  KarakterLakiLaki: {fileID: 0}
+  KarakterPerempuan: {fileID: 0}

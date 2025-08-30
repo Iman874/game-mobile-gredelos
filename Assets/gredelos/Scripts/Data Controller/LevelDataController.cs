@@ -86,9 +86,82 @@ public class LevelDataController : MonoBehaviour
 
         // Load data progress
         LoadDataProgress();
-      
+
+        // Update database sesuai versi
+        UpdateDatabase("1.2"); // versi db saat ini 1.2 sesuai dengan versi aplikasi
     }
-    
+
+    void UpdateDatabase(string versiDb)
+    {
+        // versi db saat ini 1.2
+        if (versiDb == "1.2")
+        {
+            UpdateTable("level", "1.2");
+            UpdateTable("progress", "1.2");
+        }
+    }
+
+    // fungsi update db level dan progress
+    void UpdateTable(string namaTable, string versiTable)
+    {
+        if (namaTable == "level" && versiTable == "1.2")
+        {
+            // level 2 → 1000
+            var level2 = db.level.Find(x => x.nama_level == "level_2");
+            if (level2 != null) level2.total_koin = 1000;
+
+            // level 3 → 1500
+            var level3 = db.level.Find(x => x.nama_level == "level_3");
+            if (level3 != null) level3.total_koin = 1500;
+
+            // level 4 → 2000
+            var level4 = db.level.Find(x => x.nama_level == "level_4");
+            if (level4 != null) level4.total_koin = 2000;
+
+            // level 5 → 2500
+            var level5 = db.level.Find(x => x.nama_level == "level_5");
+            if (level5 != null) level5.total_koin = 2500;
+
+            Debug.Log("Update table level ke versi 1.2 selesai.");
+        }
+
+        // Update table progress ke versi 1.2
+        if (namaTable == "progress" && versiTable == "1.2")
+        {
+            // mapping manual nama_progress → jumlah_hadiah_koin
+            var updateKoin = new Dictionary<string, int>
+            {
+                { "level_1_01_membuka_gorden", 10 },
+                { "level_1_02_merapikan_bantal", 10 },
+                { "level_1_03_merapikan_selimut", 10 },
+                { "level_2_01_sikat_gigi", 20 },
+                { "level_2_02_mandi", 20 },
+                { "level_2_03_mengeringkan_rambut", 15 },
+                { "level_3_01_memakai_pakaian", 35 },
+                { "level_3_02_menyisir_rambut", 35 },
+                { "level_4_01_merapikan_mainan", 40 },
+                { "level_4_02_membersihkan_ruangan", 45 },
+                { "level_5_01_makan_dan_minum", 50 },
+                { "level_5_02_mencuci_piring", 55 },
+            };
+
+            foreach (var kv in updateKoin)
+            {
+                var progres = db.progress.FirstOrDefault(x => x.nama_progress == kv.Key);
+                if (progres != null)
+                {
+                    progres.jumlah_hadiah_koin = kv.Value;
+                    Debug.Log($"Update {progres.nama_progress} → {kv.Value} koin");
+                }
+                else
+                {
+                    Debug.LogWarning($"Progress '{kv.Key}' tidak ditemukan di db");
+                }
+            }
+        }
+
+    }
+
     public void LoadDataProgress()
     {
         // Pastikan ada data progress
@@ -150,7 +223,7 @@ public class LevelDataController : MonoBehaviour
                 }
             }
 
-            
+
         }
     }
     public bool HasLevelData()
@@ -454,7 +527,7 @@ public class LevelDataController : MonoBehaviour
                     db.progress[currentIndex + 1].is_main = true;
                 }
             }
-            
+
             Save();
         }
     }
@@ -481,7 +554,7 @@ public class LevelDataController : MonoBehaviour
         {
             return progress.is_main;
         }
-        
+
         // Jika tidak ditemukan, bisa return false atau throw exception sesuai kebutuhan
         return false;
     }

@@ -17,6 +17,7 @@ public class PilihKarakterController : MonoBehaviour
         PlayerPrefs.SetInt("Gender", 0); // 0 = laki-laki
         // set juga untuk database
         LevelDataController.I.db.player[0].jenis_kelamin = "laki-laki";
+        LevelDataController.I.Save();
         SceneManager.LoadScene(sceneName);
 
         if (!string.IsNullOrEmpty(sceneName))

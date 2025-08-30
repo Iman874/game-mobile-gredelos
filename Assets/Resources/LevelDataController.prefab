@@ -60,145 +60,112 @@ MonoBehaviour:
   - level_5_02_mencuci_piring
   db:
     player:
-    - id_player: p_2025_24_10_59_08
-      nama_player: player_2025_24_10_59_08_382
+    - id_player: p_2025_30_08_53_34
+      nama_player: player_2025_30_08_53_34_297
       fk_id_level: 
       jenis_kelamin: perempuan
-      jumlah_koin: 120
+      jumlah_koin: 1000
     login:
-    - id_login: login_p_2025_24_10_59_08_00000
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-10.59.21
-    - id_login: login_p_2025_24_10_59_08_00001
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-12.28.18
-    - id_login: login_p_2025_24_10_59_08_00002
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-12.50.58
-    - id_login: login_p_2025_24_10_59_08_00003
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-13.36.00
-    - id_login: login_p_2025_24_10_59_08_00004
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-13.36.04
-    - id_login: login_p_2025_24_10_59_08_00005
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-13.43.19
-    - id_login: login_p_2025_24_10_59_08_00006
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-13.43.23
-    - id_login: login_p_2025_24_10_59_08_00007
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-13.43.26
-    - id_login: login_p_2025_24_10_59_08_00008
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-13.43.29
-    - id_login: login_p_2025_24_10_59_08_00009
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-13.43.31
-    - id_login: login_p_2025_24_10_59_08_00010
-      fk_nama_player: p_2025_24_10_59_08
-      tanggal_login: 2025-08-24-13.43.34
+    - id_login: login_p_2025_30_08_53_34_00000
+      fk_nama_player: p_2025_30_08_53_34
+      tanggal_login: 2025-08-30-08:53:55
+    - id_login: login_p_2025_30_08_53_34_00001
+      fk_nama_player: p_2025_30_08_53_34
+      tanggal_login: 2025-08-30-09:23:49
+    - id_login: login_p_2025_30_08_53_34_00002
+      fk_nama_player: p_2025_30_08_53_34
+      tanggal_login: 2025-08-30-09:53:38
     level:
-    - id_level: level_1_player_2025_24_10_59_08_382
+    - id_level: level_1_player_2025_30_08_53_34_297
       nama_level: level_1
       total_koin: 100
       status_level: 1
-    - id_level: level_2_player_2025_24_10_59_08_382
+    - id_level: level_2_player_2025_30_08_53_34_297
       nama_level: level_2
       total_koin: 100
-      status_level: 1
-    - id_level: level_3_player_2025_24_10_59_08_382
+      status_level: 0
+    - id_level: level_3_player_2025_30_08_53_34_297
       nama_level: level_3
       total_koin: 100
       status_level: 0
-    - id_level: level_4_player_2025_24_10_59_08_382
+    - id_level: level_4_player_2025_30_08_53_34_297
       nama_level: level_4
       total_koin: 100
       status_level: 0
-    - id_level: level_5_player_2025_24_10_59_08_382
+    - id_level: level_5_player_2025_30_08_53_34_297
       nama_level: level_5
       total_koin: 100
       status_level: 0
     waktu_bermain:
-    - id_main: main_p_2025_24_10_59_08_00000
-      waktu_mulai: 2025-08-24-11.38.14
-      waktu_berakhir: 
-    - id_main: main_p_2025_24_10_59_08_00001
-      waktu_mulai: 2025-08-24-11.38.20
-      waktu_berakhir: 
-    - id_main: main_p_2025_24_10_59_08_00002
-      waktu_mulai: 2025-08-24-11.38.24
-      waktu_berakhir: 
-    - id_main: main_p_2025_24_10_59_08_00003
-      waktu_mulai: 2025-08-24-14.06.21
-      waktu_berakhir: 
-    - id_main: main_p_2025_24_10_59_08_00004
-      waktu_mulai: 2025-08-24-14.06.46
-      waktu_berakhir: 
-    - id_main: main_p_2025_24_10_59_08_00005
-      waktu_mulai: 2025-08-24-14.06.54
-      waktu_berakhir: 
+    - id_main: main_p_2025_30_08_53_34_00000
+      waktu_mulai: 2025-08-30-09:23:54
+      waktu_berakhir: 2025-08-30-09:23:56
+    - id_main: main_p_2025_30_08_53_34_00001
+      waktu_mulai: 2025-08-30-09:23:58
+      waktu_berakhir: 2025-08-30-09:24:00
+    - id_main: main_p_2025_30_08_53_34_00002
+      waktu_mulai: 2025-08-30-09:24:00
+      waktu_berakhir: 2025-08-30-09:24:02
     pause: []
     kesalahan_play: []
     progress:
-    - id_progress: progress_p_2025_24_10_59_08_00000
-      fk_id_level: level_1_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00000
+      fk_id_level: level_1_player_2025_30_08_53_34_297
       nama_progress: level_1_01_membuka_gorden
       jumlah_hadiah_koin: 30
       is_main: 1
-    - id_progress: progress_p_2025_24_10_59_08_00001
-      fk_id_level: level_1_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00001
+      fk_id_level: level_1_player_2025_30_08_53_34_297
       nama_progress: level_1_02_merapikan_bantal
       jumlah_hadiah_koin: 30
-      is_main: 1
-    - id_progress: progress_p_2025_24_10_59_08_00002
-      fk_id_level: level_1_player_2025_24_10_59_08_382
+      is_main: 0
+    - id_progress: progress_p_2025_30_08_53_34_00002
+      fk_id_level: level_1_player_2025_30_08_53_34_297
       nama_progress: level_1_03_merapikan_selimut
       jumlah_hadiah_koin: 40
       is_main: 0
-    - id_progress: progress_p_2025_24_10_59_08_00003
-      fk_id_level: level_2_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00003
+      fk_id_level: level_2_player_2025_30_08_53_34_297
       nama_progress: level_2_01_sikat_gigi
       jumlah_hadiah_koin: 30
       is_main: 1
-    - id_progress: progress_p_2025_24_10_59_08_00004
-      fk_id_level: level_2_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00004
+      fk_id_level: level_2_player_2025_30_08_53_34_297
       nama_progress: level_2_02_mandi
       jumlah_hadiah_koin: 30
       is_main: 0
-    - id_progress: progress_p_2025_24_10_59_08_00005
-      fk_id_level: level_2_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00005
+      fk_id_level: level_2_player_2025_30_08_53_34_297
       nama_progress: level_2_03_mengeringkan_rambut
       jumlah_hadiah_koin: 40
       is_main: 0
-    - id_progress: progress_p_2025_24_10_59_08_00006
-      fk_id_level: level_3_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00006
+      fk_id_level: level_3_player_2025_30_08_53_34_297
       nama_progress: level_3_01_memakai_pakaian
       jumlah_hadiah_koin: 50
       is_main: 1
-    - id_progress: progress_p_2025_24_10_59_08_00007
-      fk_id_level: level_3_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00007
+      fk_id_level: level_3_player_2025_30_08_53_34_297
       nama_progress: level_3_02_menyisir_rambut
       jumlah_hadiah_koin: 50
       is_main: 0
-    - id_progress: progress_p_2025_24_10_59_08_00008
-      fk_id_level: level_4_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00008
+      fk_id_level: level_4_player_2025_30_08_53_34_297
       nama_progress: level_4_01_merapikan_mainan
       jumlah_hadiah_koin: 50
       is_main: 1
-    - id_progress: progress_p_2025_24_10_59_08_00009
-      fk_id_level: level_4_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00009
+      fk_id_level: level_4_player_2025_30_08_53_34_297
       nama_progress: level_4_02_membersihkan_ruangan
       jumlah_hadiah_koin: 50
       is_main: 0
-    - id_progress: progress_p_2025_24_10_59_08_00010
-      fk_id_level: level_5_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00010
+      fk_id_level: level_5_player_2025_30_08_53_34_297
       nama_progress: level_5_01_makan_dan_minum
       jumlah_hadiah_koin: 50
       is_main: 1
-    - id_progress: progress_p_2025_24_10_59_08_00011
-      fk_id_level: level_5_player_2025_24_10_59_08_382
+    - id_progress: progress_p_2025_30_08_53_34_00011
+      fk_id_level: level_5_player_2025_30_08_53_34_297
       nama_progress: level_5_02_mencuci_piring
       jumlah_hadiah_koin: 50
       is_main: 0
@@ -206,33 +173,18 @@ MonoBehaviour:
     player_history: []
     main_pause: []
     progress_main:
-    - id_progress_main: progressmain_p_2025_24_10_59_08_00000
-      fk_id_progress: progress_p_2025_24_10_59_08_00000
-      fk_id_login: login_p_2025_24_10_59_08_00000
-      fk_id_main: main_p_2025_24_10_59_08_00000
+    - id_progress_main: progressmain_p_2025_30_08_53_34_00000
+      fk_id_progress: progress_p_2025_30_08_53_34_00000
+      fk_id_login: login_p_2025_30_08_53_34_00001
+      fk_id_main: main_p_2025_30_08_53_34_00000
       status_penyelesaian: 1
-    - id_progress_main: progressmain_p_2025_24_10_59_08_00001
-      fk_id_progress: progress_p_2025_24_10_59_08_00001
-      fk_id_login: login_p_2025_24_10_59_08_00000
-      fk_id_main: main_p_2025_24_10_59_08_00001
+    - id_progress_main: progressmain_p_2025_30_08_53_34_00001
+      fk_id_progress: progress_p_2025_30_08_53_34_00001
+      fk_id_login: login_p_2025_30_08_53_34_00001
+      fk_id_main: main_p_2025_30_08_53_34_00001
       status_penyelesaian: 1
-    - id_progress_main: progressmain_p_2025_24_10_59_08_00002
-      fk_id_progress: progress_p_2025_24_10_59_08_00002
-      fk_id_login: login_p_2025_24_10_59_08_00000
-      fk_id_main: main_p_2025_24_10_59_08_00002
+    - id_progress_main: progressmain_p_2025_30_08_53_34_00002
+      fk_id_progress: progress_p_2025_30_08_53_34_00002
+      fk_id_login: login_p_2025_30_08_53_34_00001
+      fk_id_main: main_p_2025_30_08_53_34_00002
       status_penyelesaian: 1
-    - id_progress_main: progressmain_p_2025_24_10_59_08_00003
-      fk_id_progress: progress_p_2025_24_10_59_08_00002
-      fk_id_login: login_p_2025_24_10_59_08_00010
-      fk_id_main: main_p_2025_24_10_59_08_00003
-      status_penyelesaian: 0
-    - id_progress_main: progressmain_p_2025_24_10_59_08_00004
-      fk_id_progress: progress_p_2025_24_10_59_08_00001
-      fk_id_login: login_p_2025_24_10_59_08_00010
-      fk_id_main: main_p_2025_24_10_59_08_00004
-      status_penyelesaian: 0
-    - id_progress_main: progressmain_p_2025_24_10_59_08_00005
-      fk_id_progress: progress_p_2025_24_10_59_08_00002
-      fk_id_login: login_p_2025_24_10_59_08_00010
-      fk_id_main: main_p_2025_24_10_59_08_00005
-      status_penyelesaian: 0

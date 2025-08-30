@@ -34,13 +34,12 @@ public class ButtonAudio : MonoBehaviour
     }
 
     // Cek static instance ManagerAudio
-    public void CekScaneAktif()
+    public void CekScaneAktif(int nomorLevel)
     {
         ManagerAudio instanceAudio = ManagerAudio.GetInstance();
         if (instanceAudio != null)
         {
-            instanceAudio.CekScaneAktif();
-            Debug.Log("Instance ManagerAudio ada: " + instanceAudio);
+            instanceAudio.CekScaneAktif(nomorLevel);
         }
         else
         {

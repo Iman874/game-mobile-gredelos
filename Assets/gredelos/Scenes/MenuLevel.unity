@@ -617,9 +617,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ManagerAudio, Assembly-CSharp
-        m_MethodName: PlaySFXButtonClick
+      - m_Target: {fileID: 1575104028}
+        m_TargetAssemblyTypeName: ButtonAudio, Assembly-CSharp
+        m_MethodName: PlayButtonClickSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: 930
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cfa7f4af6c847fc4b81b1711b5e3021a, type: 2}
   m_sharedMaterial: {fileID: -3794167224599234229, guid: cfa7f4af6c847fc4b81b1711b5e3021a, type: 2}
@@ -2574,6 +2574,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2094108318}
     m_Modifications:
     - target: {fileID: 738235122425109918, guid: 80c00723b72064244ada48ed8045072a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 738235122425109918, guid: 80c00723b72064244ada48ed8045072a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1575104028}
@@ -2581,6 +2585,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1575104028}
+    - target: {fileID: 738235122425109918, guid: 80c00723b72064244ada48ed8045072a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: CekScaneAktif
+      objectReference: {fileID: 0}
+    - target: {fileID: 738235122425109918, guid: 80c00723b72064244ada48ed8045072a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6834570000337303777, guid: 80c00723b72064244ada48ed8045072a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2886,9 +2898,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ManagerAudio, Assembly-CSharp
-        m_MethodName: PlaySFXButtonClick
+      - m_Target: {fileID: 1575104028}
+        m_TargetAssemblyTypeName: ButtonAudio, Assembly-CSharp
+        m_MethodName: PlayButtonClickSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2992,26 +3004,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1575104028}
-    - target: {fileID: 738235122425109918, guid: 4e48ffea9614863498b092d679401910, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayButtonClickSFX
-      objectReference: {fileID: 0}
-    - target: {fileID: 738235122425109918, guid: 4e48ffea9614863498b092d679401910, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ButtonAudio, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 2830036909490354077, guid: 4e48ffea9614863498b092d679401910, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1575104028}
-    - target: {fileID: 2830036909490354077, guid: 4e48ffea9614863498b092d679401910, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayButtonClickSFX
-      objectReference: {fileID: 0}
-    - target: {fileID: 2830036909490354077, guid: 4e48ffea9614863498b092d679401910, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: ButtonAudio, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 6834570000337303777, guid: 4e48ffea9614863498b092d679401910, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3396,6 +3392,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 1575104028}
+        m_TargetAssemblyTypeName: ButtonAudio, Assembly-CSharp
+        m_MethodName: PlayButtonClickSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1716892538
 GameObject:
   m_ObjectHideFlags: 0

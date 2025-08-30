@@ -82,7 +82,7 @@ public class ClickSwipeAll : MonoBehaviour
             {
                 Debug.Log("Jendela terbuka penuh (selesai).");
                 // Panggil fungsi pada game controller
-                var gameController = FindFirstObjectByType<ControllerPlayObjekClick>();
+                var gameController = FindFirstObjectByType<ControllerPlayObjekLevel1>();
                 if (gameController != null)
                 {
                     gameController.OnSelesaiGameplay(nomorGameplay); // nomor gameplay 1
@@ -109,7 +109,7 @@ public class ClickSwipeAll : MonoBehaviour
         if (currentSwipe == totalSwipes)
         {
             Debug.Log("Jendela terbuka penuh (selesai).");
-            var gameController = FindFirstObjectByType<ControllerPlayObjekClick>();
+            var gameController = FindFirstObjectByType<ControllerPlayObjekLevel1>();
             if (gameController != null)
             {
                 gameController.OnSelesaiGameplay(nomorGameplay);

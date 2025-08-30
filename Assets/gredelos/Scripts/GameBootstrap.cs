@@ -18,5 +18,19 @@ public static class GameBootstrap
                 Debug.LogError("Prefab LevelDataController tidak ditemukan di Resources!");
             }
         }
+
+        if (ManagerAudio.instance == null)
+        {
+            var prefab = Resources.Load<ManagerAudio>("ManagerAudio");
+            if (prefab != null)
+            {
+                Object.Instantiate(prefab);
+                Debug.Log("ManagerAudio dibuat otomatis dari Resources.");
+            }
+            else
+            {
+                Debug.LogError("Prefab ManagerAudio tidak ditemukan di Resources!");
+            }
+        }
     }
 }
