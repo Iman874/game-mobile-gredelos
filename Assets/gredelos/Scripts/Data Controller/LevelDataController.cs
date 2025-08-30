@@ -78,7 +78,7 @@ public class LevelDataController : MonoBehaviour
                 {
                     id_level = $"level_{i}_{namaPlayer}",
                     nama_level = $"level_{i}",
-                    total_koin = 100, // Harga total koin di level
+                    total_koin = 1000 * i, // setiap level butuh 1000 koin kelipatan level
                     status_level = (i == 1) ? 1 : 0 // level 1 terbuka
                 });
             }
@@ -89,6 +89,16 @@ public class LevelDataController : MonoBehaviour
 
         // Update database sesuai versi
         UpdateDatabase("1.2"); // versi db saat ini 1.2 sesuai dengan versi aplikasi
+    }
+
+    public int GetLevelCoinCost(int nomorLevel)
+    {
+        var level = db.level.Find(x => x.nama_level == $"level_{nomorLevel}");
+        if (level != null)
+        {
+            return level.total_koin;
+        }
+        return 1000; // default 1000
     }
 
     void UpdateDatabase(string versiDb)
@@ -159,7 +169,6 @@ public class LevelDataController : MonoBehaviour
                 }
             }
         }
-
     }
 
     public void LoadDataProgress()
@@ -193,39 +202,27 @@ public class LevelDataController : MonoBehaviour
                 string fkLevel = $"{levelKey}_{db.player[0].nama_player}";
                 var progressNames = group.ToList();
 
-                int totalCoin = 100;
                 int jumlahProgress = progressNames.Count;
-
-                // Bagi rata dengan kelipatan 10
-                int baseCoin = (totalCoin / jumlahProgress / 10) * 10; // dibulatkan ke bawah kelipatan 10
-                int sisa = totalCoin - (baseCoin * jumlahProgress);
 
                 for (int i = 0; i < jumlahProgress; i++)
                 {
-                    int coin = baseCoin;
-
-                    // Bagikan sisa (kelipatan 10) ke progress terakhir
-                    if (i == jumlahProgress - 1)
-                    {
-                        coin += sisa;
-                    }
-
                     string playerId = db.player[0].id_player; // selalu ambil player pertama
                     var prog = new Progress
                     {
                         id_progress = db.NextId("progress", playerId),
                         fk_id_level = fkLevel,
                         nama_progress = progressNames[i],
-                        jumlah_hadiah_koin = coin,
+                        jumlah_hadiah_koin = 10, // setiap progress beri hadiah 10 koin
                         is_main = (i == 0) // progress pertama di setiap level selalu bernilai true
                     };
                     db.progress.Add(prog);
                 }
             }
 
-
+            Save(); // Simpan data progress
         }
     }
+
     public bool HasLevelData()
     {
         return db.level.Count > 0;
@@ -239,9 +236,87 @@ public class LevelDataController : MonoBehaviour
     {
         var json = JsonUtility.ToJson(db, true);
         File.WriteAllText(FilePath, json);
-#if UNITY_EDITOR
-                        Debug.Log($"[LevelDataController] Saved -> {FilePath}");
-#endif
+        #if UNITY_EDITOR
+            Debug.Log($"[LevelDataController] Saved -> {FilePath}");
+        #endif
+    }
+
+    public void SetLastLevel(int nomorLevel)
+    {
+        var player = db.player.Count > 0 ? db.player[0] : null;
+        if (player == null)
+        {
+            Debug.LogError("Tidak ada player terdaftar!");
+            return;
+        }
+
+        var level = GetLevelData(nomorLevel);
+        if (level == null)
+        {
+            Debug.LogWarning($"Level {nomorLevel} tidak ditemukan.");
+            return;
+        }
+
+        player.fk_id_level = level.id_level;
+
+        // buat Player History juga
+        CreatePlayerHistory(player.id_player, level.id_level);
+
+        Save();
+    }
+
+    public void CreatePlayerHistory(string playerId, string levelId)
+    {
+        var phId = db.NextId("history", playerId);
+        var ph = new PlayerHistory
+        {
+            id_history = phId,
+            fk_nama_player = playerId,
+            fk_id_level = levelId,
+        };
+        db.player_history.Add(ph);
+        Save();
+    }
+
+
+    // Kurangi koin player
+    public void KurangiKoin(int jumlah)
+    {
+        // Jika koin 0 atau mines, tidak perlu dikurangi
+        var player = db.player.Count > 0 ? db.player[0] : null;
+
+        if (player != null && player.jumlah_koin > 0)
+        {
+            player.jumlah_koin = Mathf.Max(0, player.jumlah_koin - jumlah);
+            Save();
+        }
+    }
+
+    // Add Error pada database
+    public void AddErrorToDatabase(string id_progress, string tipe, int amount = 1)
+    {
+        var player = db.player.Count > 0 ? db.player[0] : null;
+        if (player == null)
+        {
+            Debug.LogWarning("Tidak ada player terdaftar, tidak bisa menambahkan error.");
+            return;
+        }
+
+        AddError(id_progress, tipe, player.id_player, amount);
+    }
+
+    // Get id_progress yang is_main = true pada level tertentu
+    public string GetIdProgressIsMainByLevel(int nomorLevel)
+    {
+        string fkLevel = GetLevelIDByNomor(nomorLevel);
+        var progress = db.progress
+                        .FirstOrDefault(x => x.fk_id_level == fkLevel && x.is_main);
+
+        if (progress != null)
+        {
+            return progress.id_progress;
+        }
+        return null;
     }
 
     // ---------- HELPER WAKTU ----------
@@ -359,6 +434,33 @@ public class LevelDataController : MonoBehaviour
         Save();
     }
 
+    // Fungsi untuk mendapatkan id player
+    public string GetPlayerID()
+    {
+        return db.player.Count > 0 ? db.player[0].id_player : null;
+    }
+
+    // Fungsi untuk set Complete Level
+    public bool IsLevelCompleted(string playerId, int nomorGameplay)
+    {
+        if (nomorGameplay == 3)
+        {
+            // Jika nomorGameplay 1, maka level 1 progress 1
+            var level1 = db.level.Find(x => x.nama_level == "level_1");
+            if (level1 == null) return false;
+
+            // Ambil id_login terbaru
+            var login = GetLatestLoginData(playerId);
+
+            // Tambahkan complete play
+            CompleteLevel(level1.id_level, login.id_login, playerId);
+            return true;
+        }
+
+        return false;
+    }
+
+    // Fungsi untuk menandai level telah selesai
     public void CompleteLevel(string id_level, string id_login, string playerId)
     {
         var pr = db.progress.Find(x => x.fk_id_level == id_level);
@@ -369,12 +471,15 @@ public class LevelDataController : MonoBehaviour
             id_complete_level = completeId,
             fk_id_level = id_level,
             fk_nama_player = playerId,
+            fk_id_login = id_login,
             waktu_penyelesaian = UtcToWib(NowIso())
         };
         db.complete_play.Add(cp);
 
         Save();
     }
+
+
 
     // Kesalahan (per progress, per tipe)
     public KesalahanPlay GetOrCreateKesalahan(string id_progress, string tipe, string playerId)

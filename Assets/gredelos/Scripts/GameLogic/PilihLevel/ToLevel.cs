@@ -27,6 +27,9 @@ public class ToLevel : MonoBehaviour
                 levelData.SetIsMainLevel(level);
             }
 
+            // Buat History untuk player
+            levelData.SetLastLevel(level);
+
             SceneManager.LoadScene(levelSceneName);
         }
         else

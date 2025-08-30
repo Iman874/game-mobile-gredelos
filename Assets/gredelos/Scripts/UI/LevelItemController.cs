@@ -44,7 +44,16 @@ public class LevelItemController : MonoBehaviour
     public void UpdateLevelView()
     {
         levelNameText.text = levelName;
-        coinAmountText.text = coinCost.ToString();
+        if (coinAmountText != null && levelData != null)
+        {
+            coinAmountText.text = levelData.GetLevelCoinCost(levelNumber).ToString();    
+        }
+        else
+        {
+            coinAmountText.text = coinCost.ToString();
+        }
+        
+        
         if (isUnlocked)
         {
             coinAmountText.text = "";

@@ -43,23 +43,23 @@ public class ManagerPlayLevel : MonoBehaviour
     // Tetap perbarui UI dan animasi karakter walau di editor
     void Update()
     {
-#if UNITY_EDITOR
-        if (!Application.isPlaying)
-        {
-            // Pastikan database ter-load
-            if (File.Exists(FilePath))
+    #if UNITY_EDITOR
+            if (!Application.isPlaying)
             {
-                dbRead = JsonUtility.FromJson<DbRoot>(File.ReadAllText(FilePath));
-                SetKarakter(dbRead);
-                SetCoinUI(dbRead);
+                // Pastikan database ter-load
+                if (File.Exists(FilePath))
+                {
+                    dbRead = JsonUtility.FromJson<DbRoot>(File.ReadAllText(FilePath));
+                    SetKarakter(dbRead);
+                    SetCoinUI(dbRead);
+                }
+                else
+                {
+                    Debug.LogWarning("File database tidak ditemukan di: " + FilePath);
+                    return;
+                }
             }
-            else
-            {
-                Debug.LogWarning("File database tidak ditemukan di: " + FilePath);
-                return;
-            }
-        }
-#endif
+    #endif
     }
 
     void OnValidate()
@@ -68,7 +68,7 @@ public class ManagerPlayLevel : MonoBehaviour
         if (File.Exists(FilePath))
         {
             dbRead = JsonUtility.FromJson<DbRoot>(File.ReadAllText(FilePath));
-            SetKarakter(dbRead);
+            // SetKarakter(dbRead); Hanya jalankan ketika play mode
             SetCoinUI(dbRead);
         }
         else
@@ -82,6 +82,10 @@ public class ManagerPlayLevel : MonoBehaviour
         // set karakter sesuai pilihan di database
         if (dbRead != null)
         {
+
+            // Jangan jalankan saat OnValidate (edit mode)
+            if (!Application.isPlaying) return;
+            
             if (dbRead.player[0].jenis_kelamin == "laki-laki")
             {
                 // Karakter laki-laki

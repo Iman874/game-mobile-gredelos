@@ -21,6 +21,9 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
     [Header("List Objek After Gameplay")]
     public List<GameObject> ListObjekAfterGameplay; // list objek after gameplay
 
+    [Header("OnClickError Object")]
+    public GameObject OnClickErrorObjek; // objek OnClickError
+
     [Header("Window")]
     public GameObject WindowObjekParent; // objek window
     public GameObject ShadowBackground; // objek shadow background
@@ -69,6 +72,14 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
         // Mulai animasi tangan pada ManagerGameplay
         ManagerGameplay.GetComponent<LevelHandController>().StartWithJeda(1); // jeda 5 detik
 
+        // Jika tidak ada is_main pada progress
+        if (ProgressLevel.All(p => !p.Get_is_main()))
+        {
+            Debug.LogWarning("Tidak ada progress dengan is_main = true di level " + Level);
+            Debug.LogWarning("Membuat progress 1 menjadi is_main (default)");
+            levelData.SetIsMainLevel(Level);
+        }
+
         // Update koin player di UI
         if (AmountKoinPlayer != null)
         {
@@ -97,7 +108,7 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
             {
                 Debug.Log("Progress utama adalah progress " + (indexAktif + 1));
                 // Putar VA sesuai progress utama
-                ManagerAudio.instance.PlayVALevel1Progress1();
+                ManagerAudio.instance.PlayVALevel1Progress1(); 
             }
             else if (indexAktif == 1)
             {
@@ -148,6 +159,24 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
                     }
                 }
             }
+            else if (indexAktif == 2)
+            {
+                Debug.Log("Progress utama adalah progress 3");
+                // Nonaktifkan objek pada list objek gameplay pada indeks 0 dan 1
+                if (ListGrupObjekGameplay.Count > 1 && ListGrupObjekGameplay[1] != null && 
+                   ListGrupObjekGameplay[0] != null)
+                {
+                    ListGrupObjekGameplay[0].SetActive(false);
+                    ListGrupObjekGameplay[1].SetActive(false);
+                    // Aktifkan objek pada list objek after gameplay pada indeks 1
+                    if (ListObjekAfterGameplay.Count > 1 && ListObjekAfterGameplay[1] != null
+                    && ListObjekAfterGameplay[0] != null)
+                    {
+                        ListObjekAfterGameplay[0].SetActive(true);
+                        ListObjekAfterGameplay[1].SetActive(true);
+                    }
+                }
+            }
         }
         else
         {
@@ -159,411 +188,240 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
     {
         if (nomorGameplay == 1)
         {
-            // Logika untuk objek
-            ParentObjekGameplay.SetActive(false);
-            GameplayObjek1.SetActive(true);
-
-            // Ubah background jika ada
-            if (ChangeBackground && BackgroundOpsional != null)
-            {
-                BackgroundCanvas.SetActive(false);
-                BackgroundOpsional.SetActive(true);
-            }
-
-            // Nonaktifkan karakter
-            if (ParentKarakter != null)
-            {
-                ParentKarakter.SetActive(false);
-            }
-
-            // Panggil VA
-            CekIsMainProgress();
-
-            // Stop semua coroutine lama biar gak dobel
-            StopAllCoroutines();
-            StartCoroutine(PlayHandAnimationLoop(4, 4, 1));
-
-            Debug.Log("Objek Gameplay 1 aktif dan animasi tangan dimulai.");
+            HandleGameplayClick(GameplayObjek1, BackgroundOpsional, null, 1, nomorGameplay);
         }
         else if (nomorGameplay == 2)
         {
-            // Ganti background jika ada
-            if (ChangeBackground && BackgroundOpsional2 != null)
-            {
-                BackgroundCanvas.SetActive(false);
-                BackgroundOpsional2.SetActive(true);
-            }
-
-            // Nonaktifkan karakter
-            if (ParentKarakter != null)
-            {
-                ParentKarakter.SetActive(false);
-            }
-
-            // Nonaktifkan parent objek gameplay
-            if (ParentObjekGameplay != null)
-            {
-                ParentObjekGameplay.SetActive(false);
-            }
-
-            // Nonaktifkan objek after gameplay pada indeks 0
-            if (ListObjekAfterGameplay.Count > 0 && ListObjekAfterGameplay[0] != null)
-            {
-                ListObjekAfterGameplay[0].SetActive(false);
-            }
-
-            // Panggil VA
-            CekIsMainProgress();
-
-            GameplayObjek2.SetActive(true);
-
-            // Stop semua coroutine lama biar gak dobel
-            StopAllCoroutines();
-            StartCoroutine(PlayHandAnimationLoop(7, 4, 2));
-
-            // Logika untuk objek kedua
-            Debug.Log("Objek kedua diklik: " + gameObject.name);
+            HandleGameplayClick(GameplayObjek2, BackgroundOpsional2,
+                new List<GameObject>{
+                    ListObjekAfterGameplay.Count > 0 ? ListObjekAfterGameplay[0] : null
+                }, 2, nomorGameplay);
         }
         else if (nomorGameplay == 3)
         {
-            // Logika untuk objek ketiga
-            Debug.Log("Objek ketiga diklik: " + gameObject.name);
-
-            // Nonaktfikan parent objek gameplay
-            if (ParentObjekGameplay != null)
-            {
-                ParentObjekGameplay.SetActive(false);
-            }
-
-            // Aktifkan objek after gameplay pada indeks 0 dan indeks 1
-            if (ListObjekAfterGameplay.Count > 0 && ListObjekAfterGameplay[0] != null)
-            {
-                ListObjekAfterGameplay[0].SetActive(true);
-            }
-            if (ListObjekAfterGameplay.Count > 1 && ListObjekAfterGameplay[1] != null)
-            {
-                ListObjekAfterGameplay[1].SetActive(true);
-            }
-
-            // Panggil VA
-            CekIsMainProgress();
-
-            // Aktifkan objek gameplay 3
-            GameplayObjek3.SetActive(true);
-
-            // Stop semua coroutine lama biar gak dobel
-            StopAllCoroutines();
-            StartCoroutine(PlayHandAnimationLoop(4, 4, 3));
-            Debug.Log("Objek Gameplay 3 aktif dan animasi tangan dimulai.");
+            HandleGameplayClick(GameplayObjek3, null,
+                new List<GameObject> {
+                    ListObjekAfterGameplay.Count > 0 ? ListObjekAfterGameplay[0] : null,
+                    ListObjekAfterGameplay.Count > 1 ? ListObjekAfterGameplay[1] : null
+                }, 3, nomorGameplay);
         }
     }
+
+    // Helper
+    private void HandleGameplayClick(
+        GameObject gameplayObjek,
+        GameObject backgroundOpsional,
+        List<GameObject> objekAfterGameplay,
+        int handAnimIndex, int nomorGameplay)
+    {
+        // Nonaktifkan karakter
+        if (ParentKarakter != null && nomorGameplay != 3)
+            ParentKarakter.SetActive(false);
+
+        // Nonaktifkan parent objek gameplay
+        if (ParentObjekGameplay != null)
+            ParentObjekGameplay.SetActive(false);
+
+        // Ubah background kalau ada
+        if (ChangeBackground && backgroundOpsional != null)
+        {
+            BackgroundCanvas.SetActive(false);
+            backgroundOpsional.SetActive(true);
+        }
+
+        // Nonaktifkan objek after gameplay kalau ada
+        if (objekAfterGameplay != null)
+        {
+            foreach (var obj in objekAfterGameplay)
+            {
+                if (obj != null && nomorGameplay == 2)
+                {
+                    obj.SetActive(false);
+                }
+                else if (obj != null)
+                {
+                  obj.SetActive(true);  
+                } 
+            }
+        }
+
+        // Panggil VA
+        CekIsMainProgress();
+
+        // Aktifkan objek gameplay
+        if (gameplayObjek != null)
+            gameplayObjek.SetActive(true);
+
+        // Stop semua coroutine lama biar gak dobel
+        StopAllCoroutines();
+        StartCoroutine(PlayHandAnimationLoop(4, 2, handAnimIndex));
+
+        // Log
+        Debug.Log($"Gameplay {handAnimIndex} aktif dan animasi tangan dimulai.");
+
+        // Matikan error objek
+        SetOnClickErrorObjek(false);
+    }
+
 
     // Fungsi Setelah Progress Gameplay Selesai
     public void OnSelesaiGameplay(int nomorGameplay)
     {
-        if (nomorGameplay == 1)
-        {
-            // Hentikan animasi tangan
-            StopAllCoroutines();
+        int index = nomorGameplay - 1; // biar gampang akses list (0-based)
 
-            // Aktifkan window
-            if (WindowObjekParent != null)
-            {
-                WindowObjekParent.SetActive(true);
+        if (index < 0 || index >= ProgressLevel.Count) return;
 
-                // Aktifkan shadow background
-                if (ShadowBackground != null)
-                {
-                    ShadowBackground.SetActive(true);
-                }
+        // Stop animasi tangan
+        StopAllCoroutines();
 
-                // Aktifkan window winner
-                if (WindowWinner != null)
-                {
-                    WindowWinner.SetActive(true);
-                    WindowWinner.GetComponent<AnimatorScale>().PlayShow();
-                }
+        // Tampilkan window winner
+        ShowWindowWinner();
 
-                ManagerAudio.instance.PlaySFXWinProgress(); // play SFX win progress
-                ManagerAudio.instance.PlayVAAfirmasiPositif(); // play VA afirmasi positif
+        // Play audio
+        ManagerAudio.instance.PlaySFXWinProgress();
+        ManagerAudio.instance.PlayVAAfirmasiPositif();
 
-                // Cek hadiah koin dari progress 1
-                int hadiahKoin = levelData.GetHadiahKoinProgress(ProgressLevel[0].id_progress);
-                //if (levelData.GetStatusPenyelesaianProgressMain(ProgressLevel[0].id_progress) == 1)
-                //{
-                //    hadiahKoin = 10; // jik sudah pernah diselesaikan, hadiah dikurangi
-                //}
+        // Hadiah koin untuk progress ini
+        int hadiahKoin = levelData.GetHadiahKoinProgress(ProgressLevel[index].id_progress);
+        UpdateKoinPlayer(hadiahKoin);
 
-                // Update koin player
-                UpdateKoinPlayer(hadiahKoin);
+        // Update status progress main → selesai
+        levelData.UpdateStatusPenyelesaianProgressMain(ProgressLevel[index].id_progress, 1);
+        AmountKoinText.GetComponent<TextMeshProUGUI>().text = hadiahKoin.ToString();
 
-                // Cek dan update status penyelesaian progress main sudah 1 (sudah diselesaikan)
-                levelData.UpdateStatusPenyelesaianProgressMain(ProgressLevel[0].id_progress, 1);
-                AmountKoinText.GetComponent<TextMeshProUGUI>().text = hadiahKoin.ToString();
+        // Update waktu selesai progress
+        levelData.UpdateWaktuSelesaiProgressMain(ProgressLevel[index].id_progress);
 
-                // Update waktu selesai progress
-                levelData.UpdateWaktuSelesaiProgressMain(ProgressLevel[0].id_progress);
-            }
-            Debug.Log("Gampelay Objek 1 selesai, lanjut ke Objek 2 dan animasi tangan dimulai.");
-        }
-
-        // Tambahkan logika untuk nomorGameplay 2
-        if (nomorGameplay == 2)
-        {
-            // Hentikan animasi tangan
-            StopAllCoroutines();
-
-            // Aktifkan window
-            if (WindowObjekParent != null)
-            {
-                WindowObjekParent.SetActive(true);
-
-                // Aktifkan shadow background
-                if (ShadowBackground != null)
-                {
-                    ShadowBackground.SetActive(true);
-                }
-
-                // Aktifkan window winner
-                if (WindowWinner != null)
-                {
-                    WindowWinner.SetActive(true);
-                    WindowWinner.GetComponent<AnimatorScale>().PlayShow();
-                }
-
-                ManagerAudio.instance.PlaySFXWinProgress(); // play SFX win progress
-                ManagerAudio.instance.PlayVAAfirmasiPositif(); // play VA afirmasi positif
-
-                // Cek hadiah koin dari progress 2
-                int hadiahKoin = levelData.GetHadiahKoinProgress(ProgressLevel[1].id_progress);
-
-                // Update koin player
-                UpdateKoinPlayer(hadiahKoin);
-
-                // Cek dan update status penyelesaian progress main sudah 1 (sudah diselesaikan)
-                levelData.UpdateStatusPenyelesaianProgressMain(ProgressLevel[1].id_progress, 1);
-                AmountKoinText.GetComponent<TextMeshProUGUI>().text = hadiahKoin.ToString();
-
-                // Update waktu selesai progress
-                levelData.UpdateWaktuSelesaiProgressMain(ProgressLevel[1].id_progress);
-            }
-            Debug.Log("Gampelay Objek 2 selesai, lanjut ke Objek 3 dan animasi tangan dimulai.");
-        }
-
-        // Tambahkan logika untuk nomorGameplay 3
+        // Khusus progress terakhir (misalnya progress ke-3)
         if (nomorGameplay == 3)
         {
-            // Hentikan animasi tangan
-            StopAllCoroutines();
+            string playerId = levelData.GetPlayerID();
+            bool levelComplate = levelData.IsLevelCompleted(playerId, nomorGameplay);
 
-            // Aktifkan window
-            if (WindowObjekParent != null)
-            {
-                WindowObjekParent.SetActive(true);
-
-                // Aktifkan shadow background
-                if (ShadowBackground != null)
-                {
-                    ShadowBackground.SetActive(true);
-                }
-
-                // Aktifkan window winner
-                if (WindowWinner != null)
-                {
-                    WindowWinner.SetActive(true);
-                    WindowWinner.GetComponent<AnimatorScale>().PlayShow();
-                }
-
-                ManagerAudio.instance.PlaySFXWinProgress(); // play SFX win progress
-                ManagerAudio.instance.PlayVAAfirmasiPositif(); // play VA afirmasi positif
-
-                // Cek hadiah koin dari progress 3
-                int hadiahKoin = levelData.GetHadiahKoinProgress(ProgressLevel[2].id_progress);
-
-                // Update koin player
-                UpdateKoinPlayer(hadiahKoin);
-
-                // Cek dan update status penyelesaian progress main sudah 1 (sudah diselesaikan)
-                levelData.UpdateStatusPenyelesaianProgressMain(ProgressLevel[2].id_progress, 1);
-                AmountKoinText.GetComponent<TextMeshProUGUI>().text = hadiahKoin.ToString();
-
-                // Update waktu selesai progress
-                levelData.UpdateWaktuSelesaiProgressMain(ProgressLevel[2].id_progress);
-            }
-            Debug.Log("Gampelay Objek 3 selesai, lanjut ke Next Progress.");
+            if (levelComplate)
+                Debug.Log("Catatan penyelesaian level telah dibuat untuk player ID: " + playerId);
+            else
+                Debug.Log("Player ID: " + playerId + " data penyelesaian tidak tercatat, eror.");
         }
 
+        Debug.Log($"Gameplay Objek {nomorGameplay} selesai, lanjut ke {(nomorGameplay == 3 ? "Next Progress" : $"Objek {nomorGameplay + 1}")}.");
     }
 
-    // Fungsi untuk tombol lanjut di window
+    /// ---------------- Helper ----------------
+    private void ShowWindowWinner()
+    {
+        if (ShadowBackground != null) ShadowBackground.SetActive(true);
+        if (WindowWinner != null)
+        {
+            WindowWinner.SetActive(true);
+            WindowWinner.GetComponent<AnimatorScale>().PlayShow();
+        }
+    }
+
+
     public void NextProgress()
     {
-        // Cek progress level mana yang aktif (is_main == true)
         int indexAktif = ProgressLevel.FindIndex(p => p.Get_is_main());
+        if (indexAktif < 0) return; // kalau gak ada progress aktif
 
-        if (indexAktif == 0) // indeks 0 adalah nomor progress 1
+        // Matikan objek gameplay sesuai index
+        MatikanGameplayObjek(indexAktif);
+
+        // Update is_main ke false
+        levelData.SetProgressMainIsMain(ProgressLevel[indexAktif].id_progress, false);
+
+        // Nonaktifkan window winner + shadow + window
+        HideWindowWinner();
+
+        // Progress 1 dan 2 → lanjut ke progress berikutnya
+        if (indexAktif == 0 || indexAktif == 1)
         {
-            // Lanjut ke progress 2
-            if (GameplayObjek1 != null) GameplayObjek1.SetActive(false);
-            // Buat agar progress 1 is_main = false, dan progress 2 is_main = true
-            levelData.SetProgressMainIsMain(ProgressLevel[0].id_progress, false);
+            ManagerGameplay.GetComponent<LevelHandController>().StartWithJeda(5);
+            CekIsMainProgress();
 
-            // Nonaktifkan window winner dengan animasi
-            if (WindowWinner != null)
-            {
-                WindowWinner.GetComponent<AnimatorScale>().PlayHide();
-            }
+            // Ganti background opsional sesuai progress
+            GantiBackgroundOpsional(indexAktif);
 
-            // Nonaktifkan shadow background
-            if (ShadowBackground != null)
-            {
-                ShadowBackground.SetActive(false);
-            }
+            // Aktifkan karakter & objek gameplay
+            if (ParentKarakter != null) ParentKarakter.SetActive(true);
+            if (ParentObjekGameplay != null) ParentObjekGameplay.SetActive(true);
 
-            // Nonaktifkan window
-            if (WindowObjekParent != null)
-            {
-                WindowObjekParent.SetActive(false);
-            }
+            // Nonaktifkan objek gameplay pada index
+            if (ListGrupObjekGameplay.Count > indexAktif && ListGrupObjekGameplay[indexAktif] != null)
+                ListGrupObjekGameplay[indexAktif].SetActive(false);
 
-            // Jalankan animasi tangan untuk progress 2
-            ManagerGameplay.GetComponent<LevelHandController>().StartWithJeda(5); // jeda 5 detik
-            CekIsMainProgress(); // cek progress mana yang is_main = true
-
-            // Nonkatifkan background opsional, kembalikan background canvas
-            if (ChangeBackground && BackgroundOpsional != null)
-            {
-                BackgroundCanvas.SetActive(true);
-                BackgroundOpsional.SetActive(false);
-            }
-
-            // Aktifkan parent karakter
-            if (ParentKarakter != null)
-            {
-                ParentKarakter.SetActive(true);
-            }
-
-            // Aktifkan parent objek gameplay
-            if (ParentObjekGameplay != null)
-            {
-                ParentObjekGameplay.SetActive(true);
-            }
-
-            // Nonaktifkan objek pada list objek gameplay pada indeks 0
-            if (ListGrupObjekGameplay.Count > 0 && ListGrupObjekGameplay[0] != null)
-            {
-                ListGrupObjekGameplay[0].SetActive(false);
-            }
-
-            // Aktifkan objek pada list objek after gameplay pada indeks 0
+            // Aktifkan objek after gameplay pada index 0
             if (ListObjekAfterGameplay.Count > 0 && ListObjekAfterGameplay[0] != null)
+                ListObjekAfterGameplay[0].SetActive(true);
+
+            // Khusus progress ke-2: aktifkan juga after gameplay 1
+            if (indexAktif == 1 && ListObjekAfterGameplay.Count > 1 && ListObjekAfterGameplay[0] != null
+                && ListObjekAfterGameplay[1] != null)
             {
                 ListObjekAfterGameplay[0].SetActive(true);
-            }
-        }
-
-        else if (indexAktif == 1) // indeks 1 adalah nomor progress 2
-        {
-            // Lanjut ke progress 3
-            if (GameplayObjek2 != null) GameplayObjek2.SetActive(false);
-            // Buat agar progress 2 is_main = false, dan progress 3 is_main = true
-            levelData.SetProgressMainIsMain(ProgressLevel[1].id_progress, false);
-
-            // Nonaktifkan window winner dengan animasi
-            if (WindowWinner != null)
-            {
-                WindowWinner.GetComponent<AnimatorScale>().PlayHide();
-            }
-
-            // Nonaktifkan shadow background
-            if (ShadowBackground != null)
-            {
-                ShadowBackground.SetActive(false);
-            }
-
-            // Nonaktifkan window
-            if (WindowObjekParent != null)
-            {
-                WindowObjekParent.SetActive(false);
-            }
-
-            // Jalankan animasi tangan untuk progress 3
-            ManagerGameplay.GetComponent<LevelHandController>().StartWithJeda(5); // jeda 5 detik
-            CekIsMainProgress(); // cek progress mana yang is_main = true
-
-            // Nonkatifkan background opsional2, kembalikan background canvas
-            if (ChangeBackground && BackgroundOpsional2 != null)
-            {
-                BackgroundCanvas.SetActive(true);
-                BackgroundOpsional2.SetActive(false);
-            }
-
-            // Aktifkan parent karakter
-            if (ParentKarakter != null)
-            {
-                ParentKarakter.SetActive(true);
-            }
-
-            // Aktifkan parent objek gameplay
-            if (ParentObjekGameplay != null)
-            {
-                ParentObjekGameplay.SetActive(true);
-            }
-
-            // Nonaktifkan objek pada list objek gameplay pada indeks 1
-            if (ListGrupObjekGameplay.Count > 1 && ListGrupObjekGameplay[1] != null)
-            {
-                ListGrupObjekGameplay[1].SetActive(false);
-            }
-
-            // Aktifkan objek pada list objek after gameplay pada indeks 1
-            if (ListObjekAfterGameplay.Count > 1 && ListObjekAfterGameplay[1] != null)
-            {
                 ListObjekAfterGameplay[1].SetActive(true);
             }
 
-            // Aktifkan juga after gameplay 1
-            if (ListObjekAfterGameplay.Count > 0 && ListObjekAfterGameplay[0] != null)
-            {
-                ListObjekAfterGameplay[0].SetActive(true);
-            }
+            SetOnClickErrorObjek(true);
         }
-        else if (indexAktif == 2) // indeks 2 adalah nomor progress 3
+        else if (indexAktif == 2) // Progress terakhir
         {
-            // Selesai semua progress di level ini
-            if (GameplayObjek3 != null) GameplayObjek3.SetActive(false);
-            // Buat agar progress 3 is_main = false
-            levelData.SetProgressMainIsMain(ProgressLevel[2].id_progress, false);
-
-            // Nonaktifkan window winner dengan animasi
-            if (WindowWinner != null)
-            {
-                WindowWinner.GetComponent<AnimatorScale>().PlayHide();
-            }
-
-            // Aktifkan window complate level
+            // Selesai semua progress
             if (WindowComplateLevel != null)
             {
-                WindowComplateLevel.SetActive(true);
-                WindowComplateLevel.GetComponent<AnimatorScale>().PlayShow();
+                ShowWindowComplete();
             }
 
-            ManagerAudio.instance.PlaySFXWinLevel(); // play SFX win level
-            ManagerAudio.instance.PlayVAAfirmasiPositif_LevelComplete(); // play VA level complete
+            ManagerAudio.instance.PlaySFXWinLevel();
+            ManagerAudio.instance.PlayVAAfirmasiPositif_LevelComplete();
 
-            // Nonaktifkan objek pada list objek gameplay pada indeks 3
             if (ListGrupObjekGameplay.Count > 2 && ListGrupObjekGameplay[2] != null)
-            {
                 ListGrupObjekGameplay[2].SetActive(false);
-            }
 
-            // Aktifkan objek pada list objek after gameplay pada indeks 3
             if (ListObjekAfterGameplay.Count > 2 && ListObjekAfterGameplay[2] != null)
-            {
                 ListObjekAfterGameplay[2].SetActive(true);
-            }
 
             Debug.Log("Semua progress di level ini telah diselesaikan.");
+        }
+    }
+
+    /// ---------- Helper ----------
+    private void ShowWindowComplete()
+    {
+        if (WindowComplateLevel != null) WindowComplateLevel.SetActive(true);
+        WindowWinner.GetComponent<AnimatorScale>().PlayHide();
+        if (ShadowBackground != null) ShadowBackground.SetActive(true);
+        if (WindowComplateLevel.GetComponent<AnimatorScale>() != null
+           && WindowComplateLevel.activeSelf)
+            WindowComplateLevel.GetComponent<AnimatorScale>().PlayShow();
+    }
+
+    private void MatikanGameplayObjek(int index)
+    {
+        if (index == 0 && GameplayObjek1 != null) GameplayObjek1.SetActive(false);
+        if (index == 1 && GameplayObjek2 != null) GameplayObjek2.SetActive(false);
+        if (index == 2 && GameplayObjek3 != null) GameplayObjek3.SetActive(false);
+    }
+
+    private void HideWindowWinner()
+    {
+        if (WindowWinner != null) WindowWinner.GetComponent<AnimatorScale>().PlayHide();
+        if (ShadowBackground != null) ShadowBackground.SetActive(false);
+    }
+
+    private void GantiBackgroundOpsional(int index)
+    {
+        if (!ChangeBackground) return;
+
+        if (index == 0 && BackgroundOpsional != null)
+        {
+            BackgroundCanvas.SetActive(true);
+            BackgroundOpsional.SetActive(false);
+        }
+        else if (index == 1 && BackgroundOpsional2 != null)
+        {
+            BackgroundCanvas.SetActive(true);
+            BackgroundOpsional2.SetActive(false);
         }
     }
 
@@ -595,110 +453,47 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
 
     }
 
-
     // Fungsi Helper
     private IEnumerator PlayHandAnimationLoop(int jedaAnimasi, int jedaFirst, int nomorHand)
     {
-        if (nomorHand == 1)
+        GameObject targetHand = null;
+
+        if (nomorHand == 1) targetHand = hand1;
+        else if (nomorHand == 2) targetHand = hand2;
+        else if (nomorHand == 3) targetHand = hand3;
+
+        if (targetHand == null) yield break; // kalau gak ada hand, langsung stop
+
+        // pastikan tidak terlihat sebelum animasi dimulai
+        var sr = targetHand.GetComponent<SpriteRenderer>();
+        if (sr != null)
         {
-            // pastikan hand1 tidak terlihat sebelum animasi dimulai
-            var sr = hand1.GetComponent<SpriteRenderer>();
-            if (sr != null)
-            {
-                // invisible dulu
-                sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 0f);
-            }
-            // jeda pertama kali (sekali aja)
-            if (jedaFirst > 0)
-            {
-                yield return new WaitForSeconds(jedaFirst);
-            }
-
-            // loop animasi terus
-            while (true)
-            {
-                if (hand1 != null)
-                {
-                    HandHelp anim = hand1.GetComponent<HandHelp>();
-                    if (anim != null)
-                    {
-                        // Aktifkan hand1
-                        anim.PlayAnimation(); // panggil method di script HandHelp
-                        Debug.Log("Animasi tangan diputar");
-                    }
-                }
-
-                yield return new WaitForSeconds(jedaAnimasi);
-            }
+            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 0f);
         }
 
-        else if (nomorHand == 2)
+        // jeda pertama kali (sekali aja)
+        if (jedaFirst > 0)
         {
-            // pastikan hand2 tidak terlihat sebelum animasi dimulai
-            var sr = hand2.GetComponent<SpriteRenderer>();
-            if (sr != null)
-            {
-                // invisible dulu
-                sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 0f);
-            }
-            // jeda pertama kali (sekali aja)
-            if (jedaFirst > 0)
-            {
-                yield return new WaitForSeconds(jedaFirst);
-            }
-
-            // loop animasi terus
-            while (true)
-            {
-                if (hand2 != null)
-                {
-                    HandHelp anim = hand2.GetComponent<HandHelp>();
-                    if (anim != null)
-                    {
-                        // Aktifkan hand2
-                        anim.PlayAnimation(); // panggil method di script HandHelp
-                        Debug.Log("Animasi tangan diputar");
-                    }
-                }
-
-                yield return new WaitForSeconds(jedaAnimasi);
-            }
+            yield return new WaitForSeconds(jedaFirst);
         }
 
-        else if (nomorHand == 3)
+        // loop animasi terus
+        while (true)
         {
-            // pastikan hand3 tidak terlihat sebelum animasi dimulai
-            var sr = hand3.GetComponent<SpriteRenderer>();
-            if (sr != null)
+            if (targetHand != null)
             {
-                // invisible dulu
-                sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 0f);
-            }
-            // jeda pertama kali (sekali aja)
-            if (jedaFirst > 0)
-            {
-                yield return new WaitForSeconds(jedaFirst);
-            }
-
-            // loop animasi terus
-            while (true)
-            {
-                if (hand3 != null)
+                HandHelp anim = targetHand.GetComponent<HandHelp>();
+                if (anim != null)
                 {
-                    HandHelp anim = hand3.GetComponent<HandHelp>();
-                    if (anim != null)
-                    {
-                        // Aktifkan hand3
-                        anim.PlayAnimation(); // panggil method di script HandHelp
-                        Debug.Log("Animasi tangan diputar");
-                    }
+                    anim.PlayAnimation(); // panggil method di script HandHelp
+                    Debug.Log($"Animasi tangan {nomorHand} diputar");
                 }
-
-                yield return new WaitForSeconds(jedaAnimasi);
             }
-        }
 
+            yield return new WaitForSeconds(jedaAnimasi);
+        }
     }
+
 
     // Fungsi helper untuk update koin player
     public void UpdateKoinPlayer(int jumlahKoin)
@@ -715,6 +510,19 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
         else
         {
             Debug.LogWarning("AmountKoinPlayer belum di-assign di inspector.");
+        }
+    }
+
+    // Fungsi untuk setOnClickErrorObjek aktif atau tidak
+    public void SetOnClickErrorObjek(bool isActive)
+    {
+        if (OnClickErrorObjek != null)
+        {
+            OnClickErrorObjek.SetActive(isActive);
+        }
+        else
+        {
+            Debug.LogWarning("OnClickErrorObjek belum di-assign di inspector.");
         }
     }
 

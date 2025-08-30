@@ -85,14 +85,52 @@ public class ManagerAudio : MonoBehaviour
 
     void Start()
     {
-        // Mainkan audio BGMOpening otomatis
-        PlayAudio(BGMOpening, true);
-
-        // Mainkan VAOpening otomatis
-        PlayAudio(VAOpening, false);
+        // Mainkan BGM sesuai dengan nama scane
+        string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        switch (sceneName)
+        {
+            case "MainMenu":
+                StopAllBGM();
+                PlayAudio(BGMOpening, true);
+                PlayAudio(VAOpening, false);
+                break;
+            case "Level 1 - Kamar Tidur":
+                StopAllBGM();
+                PlayAudio(BGMLevel1, true);
+                break;
+            case "Level 2 - Kamar Mandi":
+                StopAllBGM();
+                PlayAudio(BGMLevel2, true);
+                break;
+            case "Level 3 - Ruang Ganti":
+                StopAllBGM();
+                PlayAudio(BGMLevel3, true);
+                break;
+            case "Level 4 - Ruang Bermain":
+                StopAllBGM();
+                PlayAudio(BGMLevel4, true);
+                break;
+            case "Level 5 - Ruang Makan":
+                StopAllBGM();
+                PlayAudio(BGMLevel5, true);
+                break;
+            default:
+                Debug.LogWarning("Scene tidak dikenali: " + sceneName);
+                break;
+        }
 
         // Debug
         Debug.Log("ManagerAudio siap! Instance: " + instance);
+    }
+
+    private void StopAllBGM()
+    {
+        StopAudio(BGMOpening);
+        StopAudio(BGMLevel1);
+        StopAudio(BGMLevel2);
+        StopAudio(BGMLevel3);
+        StopAudio(BGMLevel4);
+        StopAudio(BGMLevel5);
     }
 
     public void CekScaneAktif(int nomorLevel)
@@ -100,11 +138,7 @@ public class ManagerAudio : MonoBehaviour
         if (nomorLevel == 0)
         {
             // Nonaktifkan semua audio BGM level
-            StopAudio(BGMLevel1);
-            StopAudio(BGMLevel2);
-            StopAudio(BGMLevel3);
-            StopAudio(BGMLevel4);
-            StopAudio(BGMLevel5);
+            StopAllBGM();
 
             // Mainkan BGMOpening
             PlayAudio(BGMOpening, true);
@@ -114,11 +148,7 @@ public class ManagerAudio : MonoBehaviour
         if (nomorLevel == 1)
         {
             // Nonaktifkan semua audio BGM level
-            StopAudio(BGMOpening);
-            StopAudio(BGMLevel2);
-            StopAudio(BGMLevel3);
-            StopAudio(BGMLevel4);
-            StopAudio(BGMLevel5);
+            StopAllBGM();
 
             // Mainkan BGMLevel1
             PlayAudio(BGMLevel1, true);
@@ -150,10 +180,8 @@ public class ManagerAudio : MonoBehaviour
     }
 
     // Fungsi stop semua audio kecuali SFX
-    public void StopAllAudio()
+    public void StopAllVA()
     {
-
-
         StopAudio(VAOpening);
         StopAudio(VAMenuLevel);
         StopAudio(VAEnding);
@@ -203,7 +231,7 @@ public class ManagerAudio : MonoBehaviour
     public void PlayVAOpening()
     {
         // pastikan hanya satu VA yang sedang diputar
-        StopAllAudio();
+        StopAllVA();
         PlayAudio(VAOpening, false);
     }
 
@@ -211,7 +239,7 @@ public class ManagerAudio : MonoBehaviour
     public void PlayVAMenuLevel()
     {
         // pastikan hanya satu VA yang sedang diputar
-        StopAllAudio();
+        StopAllVA();
 
         // Mainkan VA Menu Level
         PlayAudio(VAMenuLevel, false);
@@ -221,7 +249,7 @@ public class ManagerAudio : MonoBehaviour
     public void PlayVALevel1Progress1()
     {
         // Pastikan hanya satu VA yang sedang diputar
-        StopAllAudio();
+        StopAllVA();
 
         PlayAudio(VALevel1Progress1, false);
     }
@@ -230,7 +258,7 @@ public class ManagerAudio : MonoBehaviour
     public void PlayVALevel1Progress2()
     {
         // Stop VA Level 1 Progress 1 jika masih diputar
-        StopAllAudio();
+        StopAllVA();
         PlayAudio(VALevel1Progress2, false);
     }
 
@@ -238,7 +266,7 @@ public class ManagerAudio : MonoBehaviour
     public void PlayVALevel1Progress3()
     {
         // Stop VA Level 1 Progress 2 jika masih diputar
-        StopAllAudio();
+        StopAllVA();
         PlayAudio(VALevel1Progress3, false);
     }
 
@@ -258,7 +286,7 @@ public class ManagerAudio : MonoBehaviour
     public void PlayVAAfirmasiPositif()
     {
         // Pastikan hanya satu VA yang sedang diputar
-        StopAllAudio();
+        StopAllVA();
 
         int rand = Random.Range(1, 6); // 1 sampai 5
         switch (rand)
@@ -287,9 +315,28 @@ public class ManagerAudio : MonoBehaviour
     public void PlayVAAfirmasiPositif_LevelComplete()
     {
         // Pastikan hanya satu VA yang sedang diputar
-        StopAllAudio();
+        StopAllVA();
 
         // Mainkan VAAfirmasiPositif3
         PlayAudio(VAAfirmasiPositif3, false);
+    }
+
+    // Fungsi VA Afirmasi Negatif ()
+     // Putar VA Error
+    public void PlayVAError()
+    {
+        // Pastikan hanya satu VA yang sedang diputar
+        // Stop semua VA lainnya
+        StopAllVA();
+        PlayAudio(VAAfirmasiNegatif1, false);
+    }
+
+    // Putar VA Error 2
+    public void PlayVAError2()
+    {
+        // Pastikan hanya satu VA yang sedang diputar
+        // Stop semua VA lainnya
+        StopAllVA();
+        PlayAudio(VAAfirmasiNegatif2, false);
     }
 }
