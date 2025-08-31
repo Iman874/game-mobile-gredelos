@@ -19,6 +19,9 @@ public class OnClickObjek : MonoBehaviour, IPointerDownHandler, IPointerEnterHan
     public int nomorLevel = 1;
     public string namaProgress = "lvl_X_0X_nama_progress";
 
+    [Header("Jenis Kelamin Opsional")]
+    public string jenisKelamin = ""; // default jenis kelamin
+
     void Awake()
     {
         levelData = LevelDataController.I;
@@ -50,7 +53,7 @@ public class OnClickObjek : MonoBehaviour, IPointerDownHandler, IPointerEnterHan
             */
             else if (nomorLevel == 3)
             {
-                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel3>().OnClickObjek(nomorGameplay);
+                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel3>().OnClickObjek(nomorGameplay, jenisKelamin);
             }
             /*
             else if (nomorLevel == 4)

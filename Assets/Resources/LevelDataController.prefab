@@ -59,14 +59,828 @@ MonoBehaviour:
   - level_5_01_makan_dan_minum
   - level_5_02_mencuci_piring
   db:
-    player: []
-    login: []
-    level: []
-    waktu_bermain: []
+    player:
+    - id_player: p_2025_31_01_28_15
+      nama_player: player_2025_31_01_28_15_019
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      jenis_kelamin: perempuan
+      jumlah_koin: 678
+    login:
+    - id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      tanggal_login: 2025-08-31-01.28.20
+    level:
+    - id_level: level_1_player_2025_31_01_28_15_019
+      nama_level: level_1
+      total_koin: 1000
+      status_level: 1
+    - id_level: level_2_player_2025_31_01_28_15_019
+      nama_level: level_2
+      total_koin: 1000
+      status_level: 0
+    - id_level: level_3_player_2025_31_01_28_15_019
+      nama_level: level_3
+      total_koin: 1500
+      status_level: 0
+    - id_level: level_4_player_2025_31_01_28_15_019
+      nama_level: level_4
+      total_koin: 2000
+      status_level: 0
+    - id_level: level_5_player_2025_31_01_28_15_019
+      nama_level: level_5
+      total_koin: 2500
+      status_level: 0
+    waktu_bermain:
+    - id_main: main_p_2025_31_01_28_15_00000
+      waktu_mulai: 2025-08-31-02.32.54
+      waktu_berakhir: 
+    - id_main: main_p_2025_31_01_28_15_00001
+      waktu_mulai: 2025-08-31-02.34.37
+      waktu_berakhir: 
+    - id_main: main_p_2025_31_01_28_15_00002
+      waktu_mulai: 2025-08-31-02.37.14
+      waktu_berakhir: 2025-08-31-02.37.20
+    - id_main: main_p_2025_31_01_28_15_00003
+      waktu_mulai: 2025-08-31-02.37.36
+      waktu_berakhir: 2025-08-31-02.37.39
+    - id_main: main_p_2025_31_01_28_15_00004
+      waktu_mulai: 2025-08-31-02.37.46
+      waktu_berakhir: 2025-08-31-02.37.48
+    - id_main: main_p_2025_31_01_28_15_00005
+      waktu_mulai: 2025-08-31-02.37.55
+      waktu_berakhir: 2025-08-31-02.38.00
+    - id_main: main_p_2025_31_01_28_15_00006
+      waktu_mulai: 2025-08-31-02.38.04
+      waktu_berakhir: 2025-08-31-02.38.06
+    - id_main: main_p_2025_31_01_28_15_00007
+      waktu_mulai: 2025-08-31-02.38.08
+      waktu_berakhir: 2025-08-31-02.38.12
+    - id_main: main_p_2025_31_01_28_15_00008
+      waktu_mulai: 2025-08-31-02.58.53
+      waktu_berakhir: 2025-08-31-02.58.56
+    - id_main: main_p_2025_31_01_28_15_00009
+      waktu_mulai: 2025-08-31-02.59.13
+      waktu_berakhir: 2025-08-31-02.59.16
+    - id_main: main_p_2025_31_01_28_15_00010
+      waktu_mulai: 2025-08-31-02.59.20
+      waktu_berakhir: 2025-08-31-02.59.22
+    - id_main: main_p_2025_31_01_28_15_00011
+      waktu_mulai: 2025-08-31-02.59.25
+      waktu_berakhir: 2025-08-31-02.59.27
+    - id_main: main_p_2025_31_01_28_15_00012
+      waktu_mulai: 2025-08-31-02.59.29
+      waktu_berakhir: 2025-08-31-03.00.13
+    - id_main: main_p_2025_31_01_28_15_00013
+      waktu_mulai: 2025-08-31-03.26.57
+      waktu_berakhir: 2025-08-31-03.26.59
+    - id_main: main_p_2025_31_01_28_15_00014
+      waktu_mulai: 2025-08-31-03.45.36
+      waktu_berakhir: 
+    - id_main: main_p_2025_31_01_28_15_00015
+      waktu_mulai: 2025-08-31-03.46.55
+      waktu_berakhir: 2025-08-31-03.47.05
+    - id_main: main_p_2025_31_01_28_15_00016
+      waktu_mulai: 2025-08-31-03.47.10
+      waktu_berakhir: 2025-08-31-03.47.20
+    - id_main: main_p_2025_31_01_28_15_00017
+      waktu_mulai: 2025-08-31-03.47.23
+      waktu_berakhir: 2025-08-31-03.47.29
+    - id_main: main_p_2025_31_01_28_15_00018
+      waktu_mulai: 2025-08-31-03.59.15
+      waktu_berakhir: 2025-08-31-03.59.18
+    - id_main: main_p_2025_31_01_28_15_00019
+      waktu_mulai: 2025-08-31-03.59.20
+      waktu_berakhir: 2025-08-31-03.59.25
+    - id_main: main_p_2025_31_01_28_15_00020
+      waktu_mulai: 2025-08-31-03.59.27
+      waktu_berakhir: 2025-08-31-03.59.30
+    - id_main: main_p_2025_31_01_28_15_00021
+      waktu_mulai: 2025-08-31-04.01.50
+      waktu_berakhir: 2025-08-31-04.01.52
+    - id_main: main_p_2025_31_01_28_15_00022
+      waktu_mulai: 2025-08-31-04.01.55
+      waktu_berakhir: 2025-08-31-04.01.57
+    - id_main: main_p_2025_31_01_28_15_00023
+      waktu_mulai: 2025-08-31-04.01.59
+      waktu_berakhir: 2025-08-31-04.02.02
+    - id_main: main_p_2025_31_01_28_15_00024
+      waktu_mulai: 2025-08-31-04.02.52
+      waktu_berakhir: 2025-08-31-04.02.54
+    - id_main: main_p_2025_31_01_28_15_00025
+      waktu_mulai: 2025-08-31-04.02.59
+      waktu_berakhir: 2025-08-31-04.03.02
+    - id_main: main_p_2025_31_01_28_15_00026
+      waktu_mulai: 2025-08-31-04.03.04
+      waktu_berakhir: 2025-08-31-04.03.08
+    - id_main: main_p_2025_31_01_28_15_00027
+      waktu_mulai: 2025-08-31-04.12.17
+      waktu_berakhir: 2025-08-31-04.12.24
+    - id_main: main_p_2025_31_01_28_15_00028
+      waktu_mulai: 2025-08-31-04.12.25
+      waktu_berakhir: 2025-08-31-04.12.33
+    - id_main: main_p_2025_31_01_28_15_00029
+      waktu_mulai: 2025-08-31-04.12.43
+      waktu_berakhir: 2025-08-31-04.12.52
+    - id_main: main_p_2025_31_01_28_15_00030
+      waktu_mulai: 2025-08-31-04.13.17
+      waktu_berakhir: 2025-08-31-04.13.22
+    - id_main: main_p_2025_31_01_28_15_00031
+      waktu_mulai: 2025-08-31-04.13.23
+      waktu_berakhir: 2025-08-31-04.13.25
+    - id_main: main_p_2025_31_01_28_15_00032
+      waktu_mulai: 2025-08-31-04.13.27
+      waktu_berakhir: 2025-08-31-04.13.29
+    - id_main: main_p_2025_31_01_28_15_00033
+      waktu_mulai: 2025-08-31-04.16.12
+      waktu_berakhir: 2025-08-31-04.16.14
+    - id_main: main_p_2025_31_01_28_15_00034
+      waktu_mulai: 2025-08-31-04.16.15
+      waktu_berakhir: 2025-08-31-04.16.17
+    - id_main: main_p_2025_31_01_28_15_00035
+      waktu_mulai: 2025-08-31-04.16.18
+      waktu_berakhir: 2025-08-31-04.16.20
+    - id_main: main_p_2025_31_01_28_15_00036
+      waktu_mulai: 2025-08-31-04.18.45
+      waktu_berakhir: 2025-08-31-04.18.48
+    - id_main: main_p_2025_31_01_28_15_00037
+      waktu_mulai: 2025-08-31-04.18.49
+      waktu_berakhir: 2025-08-31-04.18.51
+    - id_main: main_p_2025_31_01_28_15_00038
+      waktu_mulai: 2025-08-31-04.18.54
+      waktu_berakhir: 2025-08-31-04.18.56
+    - id_main: main_p_2025_31_01_28_15_00039
+      waktu_mulai: 2025-08-31-04.21.38
+      waktu_berakhir: 2025-08-31-04.21.40
+    - id_main: main_p_2025_31_01_28_15_00040
+      waktu_mulai: 2025-08-31-04.21.43
+      waktu_berakhir: 2025-08-31-04.21.47
+    - id_main: main_p_2025_31_01_28_15_00041
+      waktu_mulai: 2025-08-31-04.21.49
+      waktu_berakhir: 2025-08-31-04.21.51
+    - id_main: main_p_2025_31_01_28_15_00042
+      waktu_mulai: 2025-08-31-04.21.58
+      waktu_berakhir: 2025-08-31-04.22.00
+    - id_main: main_p_2025_31_01_28_15_00043
+      waktu_mulai: 2025-08-31-04.22.01
+      waktu_berakhir: 2025-08-31-04.22.04
+    - id_main: main_p_2025_31_01_28_15_00044
+      waktu_mulai: 2025-08-31-04.22.06
+      waktu_berakhir: 2025-08-31-04.22.09
+    - id_main: main_p_2025_31_01_28_15_00045
+      waktu_mulai: 2025-08-31-04.24.50
+      waktu_berakhir: 2025-08-31-04.24.54
+    - id_main: main_p_2025_31_01_28_15_00046
+      waktu_mulai: 2025-08-31-04.25.59
+      waktu_berakhir: 
+    - id_main: main_p_2025_31_01_28_15_00047
+      waktu_mulai: 2025-08-31-04.28.35
+      waktu_berakhir: 2025-08-31-04.28.38
+    - id_main: main_p_2025_31_01_28_15_00048
+      waktu_mulai: 2025-08-31-04.31.47
+      waktu_berakhir: 
+    - id_main: main_p_2025_31_01_28_15_00049
+      waktu_mulai: 2025-08-31-04.33.39
+      waktu_berakhir: 2025-08-31-04.33.42
+    - id_main: main_p_2025_31_01_28_15_00050
+      waktu_mulai: 2025-08-31-04.33.48
+      waktu_berakhir: 2025-08-31-04.33.50
+    - id_main: main_p_2025_31_01_28_15_00051
+      waktu_mulai: 2025-08-31-04.38.50
+      waktu_berakhir: 2025-08-31-04.39.18
+    - id_main: main_p_2025_31_01_28_15_00052
+      waktu_mulai: 2025-08-31-04.39.33
+      waktu_berakhir: 2025-08-31-04.39.36
+    - id_main: main_p_2025_31_01_28_15_00053
+      waktu_mulai: 2025-08-31-04.40.59
+      waktu_berakhir: 2025-08-31-04.41.01
+    - id_main: main_p_2025_31_01_28_15_00054
+      waktu_mulai: 2025-08-31-04.41.03
+      waktu_berakhir: 2025-08-31-04.41.10
+    - id_main: main_p_2025_31_01_28_15_00055
+      waktu_mulai: 2025-08-31-04.47.19
+      waktu_berakhir: 2025-08-31-04.47.21
+    - id_main: main_p_2025_31_01_28_15_00056
+      waktu_mulai: 2025-08-31-04.47.24
+      waktu_berakhir: 2025-08-31-04.47.26
+    - id_main: main_p_2025_31_01_28_15_00057
+      waktu_mulai: 2025-08-31-04.49.00
+      waktu_berakhir: 2025-08-31-04.49.02
+    - id_main: main_p_2025_31_01_28_15_00058
+      waktu_mulai: 2025-08-31-04.49.04
+      waktu_berakhir: 2025-08-31-04.49.08
+    - id_main: main_p_2025_31_01_28_15_00059
+      waktu_mulai: 2025-08-31-04.49.10
+      waktu_berakhir: 2025-08-31-04.49.11
+    - id_main: main_p_2025_31_01_28_15_00060
+      waktu_mulai: 2025-08-31-04.49.13
+      waktu_berakhir: 2025-08-31-04.49.16
+    - id_main: main_p_2025_31_01_28_15_00061
+      waktu_mulai: 2025-08-31-04.49.17
+      waktu_berakhir: 2025-08-31-04.49.22
+    - id_main: main_p_2025_31_01_28_15_00062
+      waktu_mulai: 2025-08-31-04.52.24
+      waktu_berakhir: 2025-08-31-04.52.26
+    - id_main: main_p_2025_31_01_28_15_00063
+      waktu_mulai: 2025-08-31-04.52.27
+      waktu_berakhir: 2025-08-31-04.52.31
+    - id_main: main_p_2025_31_01_28_15_00064
+      waktu_mulai: 2025-08-31-04.52.32
+      waktu_berakhir: 2025-08-31-04.52.37
+    - id_main: main_p_2025_31_01_28_15_00065
+      waktu_mulai: 2025-08-31-04.52.46
+      waktu_berakhir: 2025-08-31-04.52.48
+    - id_main: main_p_2025_31_01_28_15_00066
+      waktu_mulai: 2025-08-31-04.52.50
+      waktu_berakhir: 2025-08-31-04.52.53
+    - id_main: main_p_2025_31_01_28_15_00067
+      waktu_mulai: 2025-08-31-04.52.54
+      waktu_berakhir: 2025-08-31-04.52.57
+    - id_main: main_p_2025_31_01_28_15_00068
+      waktu_mulai: 2025-08-31-04.53.02
+      waktu_berakhir: 2025-08-31-04.53.04
+    - id_main: main_p_2025_31_01_28_15_00069
+      waktu_mulai: 2025-08-31-04.53.05
+      waktu_berakhir: 2025-08-31-04.53.07
+    - id_main: main_p_2025_31_01_28_15_00070
+      waktu_mulai: 2025-08-31-04.53.08
+      waktu_berakhir: 2025-08-31-04.53.11
     pause: []
-    kesalahan_play: []
-    progress: []
-    complete_play: []
-    player_history: []
+    kesalahan_play:
+    - id_kesalahan: error_p_2025_31_01_28_15_00000
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      tipe_kesalahan: klik_salah_level_1
+      jumlah_kesalahan: 40
+    - id_kesalahan: error_p_2025_31_01_28_15_00001
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      tipe_kesalahan: salah_urutan_objek_02
+      jumlah_kesalahan: 15
+    - id_kesalahan: error_p_2025_31_01_28_15_00002
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      tipe_kesalahan: salah_urutan_objek_03
+      jumlah_kesalahan: 2
+    - id_kesalahan: error_p_2025_31_01_28_15_00003
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      tipe_kesalahan: klik_salah_level_1
+      jumlah_kesalahan: 11
+    - id_kesalahan: error_p_2025_31_01_28_15_00004
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      tipe_kesalahan: klik_salah_level_1
+      jumlah_kesalahan: 2
+    - id_kesalahan: error_p_2025_31_01_28_15_00005
+      fk_id_progress: 
+      tipe_kesalahan: klik_salah_level_1
+      jumlah_kesalahan: 3
+    - id_kesalahan: error_p_2025_31_01_28_15_00006
+      fk_id_progress: 
+      tipe_kesalahan: klik_salah_level_1
+      jumlah_kesalahan: 1
+    - id_kesalahan: error_p_2025_31_01_28_15_00007
+      fk_id_progress: 
+      tipe_kesalahan: klik_salah_level_1
+      jumlah_kesalahan: 1
+    - id_kesalahan: error_p_2025_31_01_28_15_00008
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      tipe_kesalahan: salah_urutan_objek_02
+      jumlah_kesalahan: 1
+    progress:
+    - id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      nama_progress: level_1_01_membuka_gorden
+      jumlah_hadiah_koin: 10
+      is_main: 0
+    - id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      nama_progress: level_1_02_merapikan_bantal
+      jumlah_hadiah_koin: 10
+      is_main: 0
+    - id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      nama_progress: level_1_03_merapikan_selimut
+      jumlah_hadiah_koin: 10
+      is_main: 0
+    - id_progress: progress_p_2025_31_01_28_15_00003
+      fk_id_level: level_2_player_2025_31_01_28_15_019
+      nama_progress: level_2_01_sikat_gigi
+      jumlah_hadiah_koin: 20
+      is_main: 1
+    - id_progress: progress_p_2025_31_01_28_15_00004
+      fk_id_level: level_2_player_2025_31_01_28_15_019
+      nama_progress: level_2_02_mandi
+      jumlah_hadiah_koin: 20
+      is_main: 0
+    - id_progress: progress_p_2025_31_01_28_15_00005
+      fk_id_level: level_2_player_2025_31_01_28_15_019
+      nama_progress: level_2_03_mengeringkan_rambut
+      jumlah_hadiah_koin: 15
+      is_main: 0
+    - id_progress: progress_p_2025_31_01_28_15_00006
+      fk_id_level: level_3_player_2025_31_01_28_15_019
+      nama_progress: level_3_01_memakai_pakaian
+      jumlah_hadiah_koin: 35
+      is_main: 1
+    - id_progress: progress_p_2025_31_01_28_15_00007
+      fk_id_level: level_3_player_2025_31_01_28_15_019
+      nama_progress: level_3_02_menyisir_rambut
+      jumlah_hadiah_koin: 35
+      is_main: 0
+    - id_progress: progress_p_2025_31_01_28_15_00008
+      fk_id_level: level_4_player_2025_31_01_28_15_019
+      nama_progress: level_4_01_merapikan_mainan
+      jumlah_hadiah_koin: 40
+      is_main: 1
+    - id_progress: progress_p_2025_31_01_28_15_00009
+      fk_id_level: level_4_player_2025_31_01_28_15_019
+      nama_progress: level_4_02_membersihkan_ruangan
+      jumlah_hadiah_koin: 45
+      is_main: 0
+    - id_progress: progress_p_2025_31_01_28_15_00010
+      fk_id_level: level_5_player_2025_31_01_28_15_019
+      nama_progress: level_5_01_makan_dan_minum
+      jumlah_hadiah_koin: 50
+      is_main: 1
+    - id_progress: progress_p_2025_31_01_28_15_00011
+      fk_id_level: level_5_player_2025_31_01_28_15_019
+      nama_progress: level_5_02_mencuci_piring
+      jumlah_hadiah_koin: 55
+      is_main: 0
+    complete_play:
+    - id_complete_level: complete_p_2025_31_01_28_15_00000
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-02.37.48
+    - id_complete_level: complete_p_2025_31_01_28_15_00001
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-02.38.12
+    - id_complete_level: complete_p_2025_31_01_28_15_00002
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-02.59.22
+    - id_complete_level: complete_p_2025_31_01_28_15_00003
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-03.26.59
+    - id_complete_level: complete_p_2025_31_01_28_15_00004
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-03.47.29
+    - id_complete_level: complete_p_2025_31_01_28_15_00005
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-03.59.30
+    - id_complete_level: complete_p_2025_31_01_28_15_00006
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.02.02
+    - id_complete_level: complete_p_2025_31_01_28_15_00007
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.03.08
+    - id_complete_level: complete_p_2025_31_01_28_15_00008
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.12.52
+    - id_complete_level: complete_p_2025_31_01_28_15_00009
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.13.29
+    - id_complete_level: complete_p_2025_31_01_28_15_00010
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.16.20
+    - id_complete_level: complete_p_2025_31_01_28_15_00011
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.18.56
+    - id_complete_level: complete_p_2025_31_01_28_15_00012
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.21.51
+    - id_complete_level: complete_p_2025_31_01_28_15_00013
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.22.09
+    - id_complete_level: complete_p_2025_31_01_28_15_00014
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.33.42
+    - id_complete_level: complete_p_2025_31_01_28_15_00015
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.39.36
+    - id_complete_level: complete_p_2025_31_01_28_15_00016
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.47.21
+    - id_complete_level: complete_p_2025_31_01_28_15_00017
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.49.08
+    - id_complete_level: complete_p_2025_31_01_28_15_00018
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.49.22
+    - id_complete_level: complete_p_2025_31_01_28_15_00019
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.52.37
+    - id_complete_level: complete_p_2025_31_01_28_15_00020
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.52.57
+    - id_complete_level: complete_p_2025_31_01_28_15_00021
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_nama_player: p_2025_31_01_28_15
+      waktu_penyelesaian: 2025-08-31-04.53.11
+    player_history:
+    - id_history: history_p_2025_31_01_28_15_00000
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_nama_player: p_2025_31_01_28_15
+    - id_history: history_p_2025_31_01_28_15_00001
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_nama_player: p_2025_31_01_28_15
+    - id_history: history_p_2025_31_01_28_15_00002
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_nama_player: p_2025_31_01_28_15
+    - id_history: history_p_2025_31_01_28_15_00003
+      fk_id_level: level_1_player_2025_31_01_28_15_019
+      fk_nama_player: p_2025_31_01_28_15
     main_pause: []
-    progress_main: []
+    progress_main:
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00000
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00000
+      status_penyelesaian: 1
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00001
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00001
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00002
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00002
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00003
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00003
+      status_penyelesaian: 1
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00004
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00004
+      status_penyelesaian: 1
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00005
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00005
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00006
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00006
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00007
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00007
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00008
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00008
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00009
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00009
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00010
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00010
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00011
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00011
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00012
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00012
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00013
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00013
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00014
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00014
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00015
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00015
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00016
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00016
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00017
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00017
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00018
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00018
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00019
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00019
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00020
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00020
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00021
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00021
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00022
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00022
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00023
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00023
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00024
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00024
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00025
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00025
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00026
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00026
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00027
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00027
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00028
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00028
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00029
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00029
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00030
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00030
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00031
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00031
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00032
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00032
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00033
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00033
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00034
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00034
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00035
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00035
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00036
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00036
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00037
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00037
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00038
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00038
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00039
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00039
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00040
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00040
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00041
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00041
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00042
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00042
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00043
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00043
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00044
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00044
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00045
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00045
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00046
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00046
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00047
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00047
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00048
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00048
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00049
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00049
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00050
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00050
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00051
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00051
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00052
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00052
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00053
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00053
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00054
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00054
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00055
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00055
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00056
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00056
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00057
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00057
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00058
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00058
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00059
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00059
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00060
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00060
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00061
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00061
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00062
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00062
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00063
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00063
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00064
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00064
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00065
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00065
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00066
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00066
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00067
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00067
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00068
+      fk_id_progress: progress_p_2025_31_01_28_15_00000
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00068
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00069
+      fk_id_progress: progress_p_2025_31_01_28_15_00001
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00069
+      status_penyelesaian: 0
+    - id_progress_main: progressmain_p_2025_31_01_28_15_00070
+      fk_id_progress: progress_p_2025_31_01_28_15_00002
+      fk_id_login: login_p_2025_31_01_28_15_00000
+      fk_id_main: main_p_2025_31_01_28_15_00070
+      status_penyelesaian: 0

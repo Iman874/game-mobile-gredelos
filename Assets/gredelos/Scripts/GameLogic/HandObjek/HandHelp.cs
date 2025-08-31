@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class HandHelp : MonoBehaviour
+public class HandHelp : MonoBehaviour, IHandAnim
 {
     public float baseSpeed = 1f;
     public float acceleration = 2f;
