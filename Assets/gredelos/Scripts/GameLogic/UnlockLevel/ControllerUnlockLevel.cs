@@ -53,7 +53,7 @@ public class ControllerUnlockLevel : MonoBehaviour
             WindowNotEnoughCoin.SetActive(false);
             // Kurangi koin player
             int newKoin = levelData.GetKoinPlayer();
-            newKoin -= 100;
+            newKoin -= levelData.GetHargaUnlockLevel(levelNumber);
 
             levelData.UpdateKoinPlayer(newKoin);
 
@@ -68,6 +68,12 @@ public class ControllerUnlockLevel : MonoBehaviour
 
             levelItemController = FindFirstObjectByType<LevelItemController>();
 
+            // Update Tampilan
+            MenuLevelManager.GetComponent<MenuLevelManager>().ArrangeLevelItems();
+
+            // Sound Unlock level
+            ManagerAudio.instance.PlayUnlockLevelSound();
+            
             // Refresh status level di LevelItemController
             if (levelItemController != null)
             {

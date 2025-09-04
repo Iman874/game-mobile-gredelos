@@ -20,6 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/gredelos/Scenes/Level/Level 1 - Kamar Tidur.unity
     guid: 139b5540f4adb1c42850b9acc1f0fc4d
+  - enabled: 1
+    path: Assets/gredelos/Scenes/Level/Level 2 - Kamar Mandi.unity
+    guid: fe9096b8f5833af41a9ee8851e843c97
+  - enabled: 1
+    path: Assets/gredelos/Scenes/Level/Level 3 - Ruang Ganti.unity
+    guid: 16367af3ca529a942b1742969eb82273
+  - enabled: 1
+    path: Assets/gredelos/Scenes/Level/Level 4 - Ruang Bermain.unity
+    guid: 8330f62cd884a534abffc979347c6337
+  - enabled: 1
+    path: Assets/gredelos/Scenes/Level/Level 5 - Ruang Makan.unity
+    guid: eef5ba70796539046a6a1783a70197c9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

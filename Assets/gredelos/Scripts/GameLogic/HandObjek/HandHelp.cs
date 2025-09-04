@@ -20,6 +20,10 @@ public class HandHelp : MonoBehaviour, IHandAnim
     private SpriteRenderer sr;
     private Coroutine currentAnim;
 
+    private bool isPlaying;
+
+    public bool IsPlaying => isPlaying;
+
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();

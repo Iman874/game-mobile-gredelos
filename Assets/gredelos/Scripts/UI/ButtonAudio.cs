@@ -46,4 +46,17 @@ public class ButtonAudio : MonoBehaviour
             Debug.LogWarning("ManagerAudio tidak ditemukan!");
         }
     }
+
+    public void PlayVAEnding()
+    {
+        ManagerAudio instanceAudio = ManagerAudio.GetInstance();
+        if (instanceAudio != null)
+        {
+            instanceAudio.PlayVAEnding();
+        }
+        else
+        {
+            Debug.LogWarning("ManagerAudio tidak ditemukan!");
+        }
+    }
 }

@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: ed694d1b36153554893ae2acc418d448
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7665391453948103920
+    second: noda_sprite_0
+  - first:
+      213: 8069783841990042082
+    second: noda_sprite_1
+  - first:
+      213: 5449266640697809481
+    second: noda_sprite_2
+  - first:
+      213: 3956874712688671436
+    second: noda_sprite_3
+  - first:
+      213: -3818382806153272604
+    second: noda_sprite_4
+  - first:
+      213: -2607778632459022279
+    second: noda_sprite_5
+  - first:
+      213: -7964867845925303516
+    second: noda_sprite_6
+  - first:
+      213: 9093205676119273692
+    second: noda_sprite_7
+  - first:
+      213: -775587903900363381
+    second: noda_sprite_8
+  - first:
+      213: -3951468519401171738
+    second: noda_sprite_9
+  - first:
+      213: 3854938644691061860
+    second: noda_sprite_10
+  - first:
+      213: 8012239943176486974
+    second: noda_sprite_11
+  - first:
+      213: -6611045871514212241
+    second: noda_sprite_12
+  - first:
+      213: 8060746623781767369
+    second: noda_sprite_13
+  - first:
+      213: -7474136701251656695
+    second: noda_sprite_14
+  - first:
+      213: -4905643373374246119
+    second: noda_sprite_15
+  - first:
+      213: 7255524706727305051
+    second: noda_sprite_16
+  - first:
+      213: 4480778268581638650
+    second: noda_sprite_17
+  - first:
+      213: 1165355504514837422
+    second: noda_sprite_18
+  - first:
+      213: 3568913207721056174
+    second: noda_sprite_19
+  - first:
+      213: -6966411840163266405
+    second: noda_sprite_20
+  - first:
+      213: -7339249218246066571
+    second: noda_sprite_21
+  - first:
+      213: -9042874025360955367
+    second: noda_sprite_22
+  - first:
+      213: 248999183510247973
+    second: noda_sprite_23
+  - first:
+      213: -2757529305501706356
+    second: noda_sprite_24
+  - first:
+      213: -4049338910767933787
+    second: noda_sprite_25
+  - first:
+      213: -3378702197234854048
+    second: noda_sprite_26
+  - first:
+      213: -7608833888743574928
+    second: noda_sprite_27
+  - first:
+      213: 2902575975355683467
+    second: noda_sprite_28
+  - first:
+      213: 5411708373240983550
+    second: noda_sprite_29
+  - first:
+      213: 1043377571229865817
+    second: noda_sprite_30
+  - first:
+      213: 202472802599511650
+    second: noda_sprite_31
+  - first:
+      213: 5976846421056816554
+    second: noda_sprite_32
+  - first:
+      213: -4073257124371756837
+    second: noda_sprite_33
+  - first:
+      213: 6106033574709702872
+    second: noda_sprite_34
+  - first:
+      213: 5274531255314148233
+    second: noda_sprite_35
+  - first:
+      213: -2212291768436477151
+    second: noda_sprite_36
+  - first:
+      213: 1319680484012153151
+    second: noda_sprite_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: noda_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 382
+        width: 167
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc44e41ae0f06a60800000000000000
+      internalID: 7665391453948103920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 436
+        width: 212
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94add25632faf9b40800000000000000
+      internalID: 5449266640697809481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 389
+        width: 159
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccab8863694a9e630800000000000000
+      internalID: 3956874712688671436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 407
+        width: 178
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e266c68111620bc0800000000000000
+      internalID: -3818382806153272604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 185
+        width: 177
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9301d6f762f4fcbd0800000000000000
+      internalID: -2607778632459022279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 239
+        width: 161
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b01b0d4ea177190800000000000000
+      internalID: -7964867845925303516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 188
+        width: 179
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0b7a2726e813e70800000000000000
+      internalID: 9093205676119273692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 174
+        width: 223
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f1d83874dc0b460800000000000000
+      internalID: 7255524706727305051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 55
+        width: 156
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0723c7a34edf76690800000000000000
+      internalID: -7608833888743574928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 25
+        width: 165
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95714cb7f52da7e00800000000000000
+      internalID: 1043377571229865817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 25
+        width: 166
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2662f93f0f35fc200800000000000000
+      internalID: 202472802599511650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noda_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 51
+        width: 228
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5082c372602f250800000000000000
+      internalID: 5976846421056816554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bf417ac0536d8bc4987025c72915be4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      noda_sprite_0: 7665391453948103920
+      noda_sprite_1: 8069783841990042082
+      noda_sprite_10: 3854938644691061860
+      noda_sprite_11: 8012239943176486974
+      noda_sprite_12: -6611045871514212241
+      noda_sprite_13: 8060746623781767369
+      noda_sprite_14: -7474136701251656695
+      noda_sprite_15: -4905643373374246119
+      noda_sprite_16: 7255524706727305051
+      noda_sprite_17: 4480778268581638650
+      noda_sprite_18: 1165355504514837422
+      noda_sprite_19: 3568913207721056174
+      noda_sprite_2: 5449266640697809481
+      noda_sprite_20: -6966411840163266405
+      noda_sprite_21: -7339249218246066571
+      noda_sprite_22: -9042874025360955367
+      noda_sprite_23: 248999183510247973
+      noda_sprite_24: -2757529305501706356
+      noda_sprite_25: -4049338910767933787
+      noda_sprite_26: -3378702197234854048
+      noda_sprite_27: -7608833888743574928
+      noda_sprite_28: 2902575975355683467
+      noda_sprite_29: 5411708373240983550
+      noda_sprite_3: 3956874712688671436
+      noda_sprite_30: 1043377571229865817
+      noda_sprite_31: 202472802599511650
+      noda_sprite_32: 5976846421056816554
+      noda_sprite_33: -4073257124371756837
+      noda_sprite_34: 6106033574709702872
+      noda_sprite_35: 5274531255314148233
+      noda_sprite_36: -2212291768436477151
+      noda_sprite_37: 1319680484012153151
+      noda_sprite_4: -3818382806153272604
+      noda_sprite_5: -2607778632459022279
+      noda_sprite_6: -7964867845925303516
+      noda_sprite_7: 9093205676119273692
+      noda_sprite_8: -775587903900363381
+      noda_sprite_9: -3951468519401171738
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

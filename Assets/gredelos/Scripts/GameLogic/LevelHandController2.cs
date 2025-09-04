@@ -111,8 +111,9 @@ public class LevelHandController2 : MonoBehaviour
         while (true)
         {
             if (!hand.activeInHierarchy) yield break;
-            
-            hand.SetActive(true);
+
+            HideObjectAlpha(hand);
+
             yield return FadeSprite(sr, 0f, 1f, 0.5f);
 
             if (pointer != null)

@@ -9,6 +9,13 @@ public class MenuLevelManager : MonoBehaviour
     [Header("Level Prefabs (Fixed)")]
     public List<GameObject> levelPrefabs; // Prefab level tetap di scene
 
+    private LevelDataController levelData;
+
+    void Awake()
+    {
+        levelData = LevelDataController.I;
+    }
+
     void Start()
     {
         ArrangeLevelItems();
@@ -18,13 +25,34 @@ public class MenuLevelManager : MonoBehaviour
     {
         float currentX = 0f;
 
+        // Cari level terakhir yang unlocked
+        int lastUnlockedLevel = 0;
         for (int i = 0; i < levelPrefabs.Count; i++)
         {
-            GameObject go = levelPrefabs[i];
-            if (go == null) continue;
+            if (levelData.IsLevelUnlocked(i + 1))
+            {
+                lastUnlockedLevel = i + 1;
+            }
+            else
+            {
+                break; // stop di level pertama yang belum terbuka
+            }
+        }
 
-            // Pastikan parent ke contentPanel
-            go.transform.SetParent(contentPanel, false);
+        for (int i = 0; i < levelPrefabs.Count; i++)
+        {
+            GameObject prefab = levelPrefabs[i];
+            if (prefab == null) continue;
+
+            // Hanya tampilkan level terakhir terbuka + 1 level berikutnya
+            if (i + 1 > lastUnlockedLevel + 1)
+            {
+                prefab.SetActive(false);
+                continue;
+            }
+
+            // Instantiate prefab agar bisa diatur di scene
+            GameObject go = Instantiate(prefab, contentPanel);
             go.SetActive(true);
 
             RectTransform rect = go.GetComponent<RectTransform>();
@@ -32,7 +60,7 @@ public class MenuLevelManager : MonoBehaviour
 
             float width = rect.sizeDelta.x > 0 ? rect.sizeDelta.x : 200f;
 
-            // Atur posisi horizontal dengan spacing
+            // Atur posisi horizontal
             rect.anchoredPosition = new Vector2(currentX + width / 2, 0);
             currentX += width + itemSpacing;
         }

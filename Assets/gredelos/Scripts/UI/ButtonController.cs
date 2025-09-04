@@ -2,45 +2,74 @@ using UnityEngine;
 
 public class ButtonController : MonoBehaviour
 {
-    [Header("Controller Play Objek")]
-    public GameObject ControllerPlayObjek; // referensi ke ControllerPlayObjek
+    [Header("Level Info")]
+    public int nomorLevel = 1;
 
-    public GameObject ControllerUnlockLevel; // referensi ke ControllerUnlockLevel
+    [Header("Controller Unlock Level")]
+    public ControllerUnlockLevel ControllerUnlockLevel;
 
-    // Fungsi untuk tombol next
+    private object controller; // bisa level1 atau level3
+
+    void Start()
+    {
+        // cari otomatis controller sesuai level
+        if (nomorLevel == 1)
+            controller = FindFirstObjectByType<ControllerPlayObjekLevel1>();
+        else if (nomorLevel == 3)
+            controller = FindFirstObjectByType<ControllerPlayObjekLevel3>();
+        else if (nomorLevel == 4)
+            controller = FindFirstObjectByType<ControllerPlayObjekLevel4>();
+        else if (nomorLevel == 5)
+            controller = FindFirstObjectByType<ControllerPlayObjekLevel5>();
+
+        if (controller == null)
+            Debug.LogError($"Controller untuk level {nomorLevel} tidak ditemukan di scene!");
+    }
+
     public void OnClickNextProgress()
     {
-        // Panggil fungsi pada ControllerPlayObjekLevel1 untuk melanjutkan ke level progress berikutnya
-        ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel1>().NextProgress();
+        if (controller is ControllerPlayObjekLevel1 c1)
+            c1.NextProgress();
+        else if (controller is ControllerPlayObjekLevel3 c3)
+            c3.NextProgress();
+        else if (controller is ControllerPlayObjekLevel4 c4)
+            c4.NextProgress();
+        else if (controller is ControllerPlayObjekLevel5 c5)
+            c5.NextProgress();
 
-        // Debug
-        Debug.Log("Tombol Next Progress diklik, lanjut ke progress berikutnya.");
+        Debug.Log("Tombol Next Progress diklik.");
     }
 
-    // Fungsi untuk tombol ulangi
     public void OnClickUlangiLevel()
     {
-        // Panggil fungsi pada ControllerPlayObjekLevel1 untuk mengulangi level saat ini
-        ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel1>().UlangiLevel();
+        if (controller is ControllerPlayObjekLevel1 c1)
+            c1.UlangiLevel();
+        else if (controller is ControllerPlayObjekLevel3 c3)
+            c3.UlangiLevel();
+        else if (controller is ControllerPlayObjekLevel4 c4)
+            c4.UlangiLevel();
+        else if (controller is ControllerPlayObjekLevel5 c5)
+            c5.UlangiLevel();
 
-        // Debug
-        Debug.Log("Tombol Ulangi level diklik, ulangi level saat ini.");
+        Debug.Log("Tombol Ulangi Level diklik.");
     }
 
-    // Fungsi untuk ke level selanjutnya
     public void OnClickNextLevel()
     {
-        // Panggil fungsi pada ControllerPlayObjekLevel1 untuk melanjutkan ke level berikutnya
-        ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel1>().NextLevel();
+        if (controller is ControllerPlayObjekLevel1 c1)
+            c1.NextLevel();
+        else if (controller is ControllerPlayObjekLevel3 c3)
+            c3.NextLevel();
+        else if (controller is ControllerPlayObjekLevel4 c4)
+            c4.NextLevel();
+        else if (controller is ControllerPlayObjekLevel5 c5)
+            c5.NextLevel();
 
-        // Debug
-        Debug.Log("Tombol Next Level diklik, lanjut ke level berikutnya.");
+        Debug.Log("Tombol Next Level diklik.");
     }
 
-    // Fungsi pada button Oke
     public void OnClickOke()
     {
-        // Panggill fungsi pada Conttroller Unlock Level
-        ControllerUnlockLevel.GetComponent<ControllerUnlockLevel>().OnClickOke();
+        ControllerUnlockLevel?.OnClickOke();
     }
 }

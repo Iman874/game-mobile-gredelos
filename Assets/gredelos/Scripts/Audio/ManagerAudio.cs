@@ -1,8 +1,12 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class ManagerAudio : MonoBehaviour
 {
     public static ManagerAudio instance;
+
+    [Header("Audio Mixer")]
+    public AudioMixer audioMixer;
 
     [Header("Audio Objects (BGM)")]
     public GameObject BGMOpening; // Masukkan GameObject yang punya AudioSource
@@ -18,6 +22,7 @@ public class ManagerAudio : MonoBehaviour
     public GameObject SFXSwipe;
     public GameObject SFXWinProgress;
     public GameObject SFXWinLevel;
+    public GameObject SFXMakan;
 
     [Header("Audio Objects (Voice Actor)")]
     public GameObject VAOpening;
@@ -48,16 +53,31 @@ public class ManagerAudio : MonoBehaviour
     public GameObject VALevel2Progress3;
 
     [Header("Audio Objects (Voice Actor Level 3 Progress)")]
-    public GameObject VALevel3Progress1;
+    public GameObject VALevel3Progress1_1;
+    public GameObject VALevel3Progress1_2;
+    public GameObject VALevel3Progress1_3;
     public GameObject VALevel3Progress2;
 
     [Header("Audio Objects (Voice Actor Level 4 Progress)")]
-    public GameObject VALevel4Progress1;
-    public GameObject VALevel4Progress2;
+    public GameObject VALevel4Progress1_1;
+    public GameObject VALevel4Progress1_2;
+    public GameObject VALevel4Progress1_3;
+    public GameObject VALevel4Progress2_1;
+    public GameObject VALevel4Progress2_2;
+    public GameObject VALevel4Progress2_3;
+    public GameObject VALevel4Progress2_4;
 
     [Header("Audio Objects (Voice Actor Level 5 Progress)")]
-    public GameObject VALevel5Progress1;
-    public GameObject VALevel5Progress2;
+    public GameObject VALevel5Progress1_1;
+    public GameObject VALevel5Progress1_2;
+    public GameObject VALevel5Progress1_3;
+    public GameObject VALevel5Progress1_4;
+    public GameObject VALevel5Progress2_1;
+    public GameObject VALevel5Progress2_2;
+    public GameObject VALevel5Progress2_3;
+    public GameObject VALevel5Progress2_4;
+    public GameObject VALevel5Progress2_5;
+    public GameObject VALevel5Progress2_6;
 
     void Awake()
     {
@@ -89,7 +109,7 @@ public class ManagerAudio : MonoBehaviour
         string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
         switch (sceneName)
         {
-            case "MainMenu":
+            case "SplashScreen":
                 StopAllBGM();
                 PlayAudio(BGMOpening, true);
                 PlayAudio(VAOpening, false);
@@ -116,6 +136,8 @@ public class ManagerAudio : MonoBehaviour
                 break;
             default:
                 Debug.LogWarning("Scene tidak dikenali: " + sceneName);
+                StopAllBGM();
+                PlayAudio(BGMOpening, true);
                 break;
         }
 
@@ -205,14 +227,29 @@ public class ManagerAudio : MonoBehaviour
         StopAudio(VALevel2Progress2);
         StopAudio(VALevel2Progress3);
 
-        StopAudio(VALevel3Progress1);
+        StopAudio(VALevel3Progress1_1);
+        StopAudio(VALevel3Progress1_2);
+        StopAudio(VALevel3Progress1_3);
         StopAudio(VALevel3Progress2);
 
-        StopAudio(VALevel4Progress1);
-        StopAudio(VALevel4Progress2);
+        StopAudio(VALevel4Progress1_1);
+        StopAudio(VALevel4Progress1_2);
+        StopAudio(VALevel4Progress1_3);
+        StopAudio(VALevel4Progress2_1);
+        StopAudio(VALevel4Progress2_2);
+        StopAudio(VALevel4Progress2_3);
+        StopAudio(VALevel4Progress2_4);
 
-        StopAudio(VALevel5Progress1);
-        StopAudio(VALevel5Progress2);
+        StopAudio(VALevel5Progress1_1);
+        StopAudio(VALevel5Progress1_2);
+        StopAudio(VALevel5Progress1_3);
+        StopAudio(VALevel5Progress1_4);
+        StopAudio(VALevel5Progress2_1);
+        StopAudio(VALevel5Progress2_2);
+        StopAudio(VALevel5Progress2_3);
+        StopAudio(VALevel5Progress2_4);
+        StopAudio(VALevel5Progress2_5);
+        StopAudio(VALevel5Progress2_6);
     }
 
     // Fungsi Button Click SFX
@@ -322,7 +359,7 @@ public class ManagerAudio : MonoBehaviour
     }
 
     // Fungsi VA Afirmasi Negatif ()
-     // Putar VA Error
+    // Putar VA Error
     public void PlayVAError()
     {
         // Pastikan hanya satu VA yang sedang diputar
@@ -338,5 +375,157 @@ public class ManagerAudio : MonoBehaviour
         // Stop semua VA lainnya
         StopAllVA();
         PlayAudio(VAAfirmasiNegatif2, false);
+    }
+
+    // Play VA sesuai level dan progress
+    public void PlayVALevel3(int progressNumber, int nomorUrutan)
+    {
+        // Pastikan hanya satu VA yang sedang diputar
+        StopAllVA();
+
+        if (progressNumber == 1)
+        {
+            if (nomorUrutan == 1)
+            {
+                PlayAudio(VALevel3Progress1_1, false);
+            }
+            else if (nomorUrutan == 2)
+            {
+                PlayAudio(VALevel3Progress1_2, false);
+            }
+            else if (nomorUrutan == 3)
+            {
+                PlayAudio(VALevel3Progress1_3, false);
+            }
+        }
+        else if (progressNumber == 2)
+        {
+            PlayAudio(VALevel3Progress2, false);
+        }
+    }
+
+    public void PlayVALevel4(int progressNumber, int nomorUrutan)
+    {
+        // Pastikan hanya satu VA yang sedang diputar
+        StopAllVA();
+
+        if (progressNumber == 1)
+        {
+            if (nomorUrutan == 1)
+            {
+                PlayAudio(VALevel4Progress1_1, false);
+            }
+            else if (nomorUrutan == 2)
+            {
+                PlayAudio(VALevel4Progress1_2, false);
+            }
+            else if (nomorUrutan == 3)
+            {
+                PlayAudio(VALevel4Progress1_3, false);
+            }
+        }
+        else if (progressNumber == 2)
+        {
+            if (nomorUrutan == 1)
+            {
+                PlayAudio(VALevel4Progress2_1, false);
+            }
+            else if (nomorUrutan == 2)
+            {
+                PlayAudio(VALevel4Progress2_2, false);
+            }
+            else if (nomorUrutan == 3)
+            {
+                PlayAudio(VALevel4Progress2_3, false);
+            }
+            else if (nomorUrutan == 4)
+            {
+                PlayAudio(VALevel4Progress2_4, false);
+            }
+        }
+    }
+
+    // Play VA Level 5
+    public void PlayVALevel5(int progressNumber, int nomorUrutan)
+    {
+        // Pastikan hanya satu VA yang sedang diputar
+        StopAllVA();
+
+        if (progressNumber == 1)
+        {
+            if (nomorUrutan == 1)
+            {
+                PlayAudio(VALevel5Progress1_1, false);
+            }
+            else if (nomorUrutan == 2)
+            {
+                PlayAudio(VALevel5Progress1_2, false);
+            }
+            else if (nomorUrutan == 3)
+            {
+                PlayAudio(VALevel5Progress1_3, false);
+            }
+            else if (nomorUrutan == 4)
+            {
+                PlayAudio(VALevel5Progress1_4, false);
+            }
+        }
+        else if (progressNumber == 2)
+        {
+            if (nomorUrutan == 1)
+            {
+                PlayAudio(VALevel5Progress2_1, false);
+            }
+            else if (nomorUrutan == 2)
+            {
+                PlayAudio(VALevel5Progress2_2, false);
+            }
+            else if (nomorUrutan == 3)
+            {
+                PlayAudio(VALevel5Progress2_3, false);
+            }
+            else if (nomorUrutan == 4)
+            {
+                PlayAudio(VALevel5Progress2_4, false);
+            }
+            else if (nomorUrutan == 5)
+            {
+                PlayAudio(VALevel5Progress2_5, false);
+            }
+            else if (nomorUrutan == 6)
+            {
+                PlayAudio(VALevel5Progress2_6, false);
+            }
+        }
+    }
+
+    // Sound unlock level
+    public void PlayUnlockLevelSound()
+    {
+        StopAudio(SFXWinLevel);
+        PlayAudio(SFXWinLevel, false);
+    }
+
+    // Sound makan
+    public void PlayMakanSound()
+    {
+        StopAudio(SFXMakan);
+        PlayAudio(SFXMakan, false);
+    }
+
+    // Play Sound Ending
+    public void PlayVAEnding()
+    {
+        // Pastikan hanya satu VA yang sedang diputar
+        StopAllVA();
+        PlayAudio(VAEnding, false);
+    }
+
+    // Set Volume
+    public void SetVolume(float volume)
+    {
+        audioMixer.SetFloat("Volume", Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat("MasterVolume", volume);
+        PlayerPrefs.Save();
     }
 }

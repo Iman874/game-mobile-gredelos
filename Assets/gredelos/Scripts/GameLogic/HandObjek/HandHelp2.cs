@@ -17,6 +17,9 @@ public class HandHelp2 : MonoBehaviour, IHandAnim
     private Vector3 leftPos;    // start kiri
     private SpriteRenderer sr;
     private Coroutine currentAnim;
+    private bool isPlaying;
+    public bool IsPlaying => isPlaying;
+
 
     void Awake()
     {

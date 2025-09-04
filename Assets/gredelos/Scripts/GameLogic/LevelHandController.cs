@@ -102,8 +102,10 @@ public class LevelHandController : MonoBehaviour
 
         while (true)
         {
+            if (!hand.activeInHierarchy) yield break;
             // Fade in
-            hand.SetActive(true);
+            HideObjectAlpha(hand);
+
             yield return FadeSprite(sr, 0f, 1f, 0.5f);
 
             // Mainkan animasi pointer tapi tetap bisa fade
@@ -120,7 +122,7 @@ public class LevelHandController : MonoBehaviour
 
             // Fade out
             yield return FadeSprite(sr, 1f, 0f, 0.5f);
-            hand.SetActive(false);
+            HideObjectAlpha(hand);
 
             // Tunggu jeda tapi tetap invisible
             float jedaElapsed = 0f;
@@ -130,6 +132,24 @@ public class LevelHandController : MonoBehaviour
                 yield return null; // hand tetap invisible selama jeda
             }
         }
+    }
+
+     private void HideObjectAlpha(GameObject obj)
+    {
+        if (obj == null) return;
+
+        // jangan pakai obj.SetActive(false);
+
+        var sr = obj.GetComponent<SpriteRenderer>();
+        if (sr != null)
+        {
+            var c = sr.color;
+            c.a = 0f;
+            sr.color = c;
+        }
+
+        var cg = obj.GetComponent<CanvasGroup>();
+        if (cg != null) cg.alpha = 0f;
     }
 
     // Fungsi fade untuk SpriteRenderer

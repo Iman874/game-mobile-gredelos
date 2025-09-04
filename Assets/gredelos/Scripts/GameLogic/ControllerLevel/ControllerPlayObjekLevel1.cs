@@ -65,6 +65,13 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
     {
         levelData = LevelDataController.I;
         ProgressLevel = levelData.GetProgressDataByLevel(Level);
+        MainSession = levelData.GetMainSessionDataByLevel(Level);
+    }
+
+     void Update()
+    {
+        ProgressLevel = levelData.GetProgressDataByLevel(Level);
+        MainSession = levelData.GetMainSessionDataByLevel(Level);
     }
 
     void Start()
@@ -94,6 +101,8 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
         UpdateUI(); // panggil update sekali di start untuk inisialisasi state awal
     }
 
+   
+
     // Fungsi untuk update VA
     public void CekIsMainProgress()
     {
@@ -108,7 +117,7 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
             {
                 Debug.Log("Progress utama adalah progress " + (indexAktif + 1));
                 // Putar VA sesuai progress utama
-                ManagerAudio.instance.PlayVALevel1Progress1(); 
+                ManagerAudio.instance.PlayVALevel1Progress1();
             }
             else if (indexAktif == 1)
             {
@@ -184,11 +193,15 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
         }
     }
 
-    public void OnClickObjek(int nomorGameplay)
+    public void OnClickObjek(int nomorGameplay, string namaProgress)
     {
         if (nomorGameplay == 1)
         {
             HandleGameplayClick(GameplayObjek1, BackgroundOpsional, null, 1, nomorGameplay);
+
+            // Buat database
+            // Start Data Main Session
+            levelData.StartLevel_OnClick(Level, namaProgress);
         }
         else if (nomorGameplay == 2)
         {
@@ -196,6 +209,11 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
                 new List<GameObject>{
                     ListObjekAfterGameplay.Count > 0 ? ListObjekAfterGameplay[0] : null
                 }, 2, nomorGameplay);
+
+            // Buat database
+            // Start Data Main Session
+            levelData.StartLevel_OnClick(Level, namaProgress);
+
         }
         else if (nomorGameplay == 3)
         {
@@ -204,6 +222,10 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
                     ListObjekAfterGameplay.Count > 0 ? ListObjekAfterGameplay[0] : null,
                     ListObjekAfterGameplay.Count > 1 ? ListObjekAfterGameplay[1] : null
                 }, 3, nomorGameplay);
+
+            // Buat database
+            // Start Data Main Session
+            levelData.StartLevel_OnClick(Level, namaProgress);
         }
     }
 
@@ -285,9 +307,16 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
         int hadiahKoin = levelData.GetHadiahKoinProgress(ProgressLevel[index].id_progress);
         UpdateKoinPlayer(hadiahKoin);
 
-        // Update status progress main → selesai
-        levelData.UpdateStatusPenyelesaianProgressMain(ProgressLevel[index].id_progress, 1);
-        AmountKoinText.GetComponent<TextMeshProUGUI>().text = hadiahKoin.ToString();
+        int CountMain = MainSession.Count;
+
+        if (CountMain > 0)
+        {
+            // Update status progress main → selesai
+            levelData.UpdateStatusPenyelesaianProgressMain(ProgressLevel[index].id_progress, MainSession[CountMain - 1].id_main, 1);
+            AmountKoinText.GetComponent<TextMeshProUGUI>().text = hadiahKoin.ToString();
+
+            Debug.Log($"Main Session {CountMain} selesai, hadiah koin: {hadiahKoin}");
+        }
 
         // Update waktu selesai progress
         levelData.UpdateWaktuSelesaiProgressMain(ProgressLevel[index].id_progress);

@@ -6,7 +6,6 @@ public class OnClickObjek : MonoBehaviour, IPointerDownHandler, IPointerEnterHan
 {
     LevelDataController levelData;
     [Header("Logic Gameplay Controller")]
-    public GameObject ControllerPlayObjek; // referensi ke ControllerPlayObjek
     public GameObject ManagerGameplay; // referensi ke ManagerGameplay (LevelHandController)
     private SpriteRenderer sr;
     [Header("Hover Effect")]
@@ -38,43 +37,66 @@ public class OnClickObjek : MonoBehaviour, IPointerDownHandler, IPointerEnterHan
         ManagerAudio.instance.PlaySFXClick();
 
         // Gameplay yang bisa dimulai hanya yang is_main == true
+        // Jika nomorGameplay == 101, maka progress harus true
         bool progress = levelData.GetProgressIsMainByLevelAndProgress(nomorLevel, namaProgress);
-        if (progress)
-        {
-            levelData.StartLevel_OnClick(nomorLevel, namaProgress);
-            if (nomorLevel == 1)
-            {
-                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel1>().OnClickObjek(nomorGameplay);
-            }
-            /*else if (nomorLevel == 2)
-           {
-                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel2>().OnClickObjek(nomorGameplay);
-            }
-            */
-            else if (nomorLevel == 3)
-            {
-                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel3>().OnClickObjek(nomorGameplay, jenisKelamin);
-            }
-            /*
-            else if (nomorLevel == 4)
-            {
-                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel4>().OnClickObjek(nomorGameplay);
-            }
-            else if (nomorLevel == 5)
-            {
-                ControllerPlayObjek.GetComponent<ControllerPlayObjekLevel5>().OnClickObjek(nomorGameplay);
-            */
-
-            // Nonaktifkan semua animation tangan di level
-            if (ManagerGameplay.GetComponent<LevelHandController>() != null)
-                ManagerGameplay.GetComponent<LevelHandController>().StopAllCoroutines();
-        }
-        else
+        if (!progress && nomorGameplay != 101)
         {
             Debug.LogWarning($"Progress '{namaProgress}' pada level {nomorLevel} tidak dapat dimulai karena is_main == false.");
             return;
         }
 
+        // Cari controller yang aktif di scene sesuai level
+        if (nomorLevel == 1)
+        {
+            var controller = FindFirstObjectByType<ControllerPlayObjekLevel1>();
+            if (controller != null)
+                controller.OnClickObjek(nomorGameplay, namaProgress);
+        }
+        else if (nomorLevel == 3)
+        {
+            var controller = FindFirstObjectByType<ControllerPlayObjekLevel3>();
+            if (controller != null)
+            {
+                controller.OnClickObjek(nomorGameplay, jenisKelamin, namaProgress);
+            }
+        }
+        else if (nomorLevel == 4)
+        {
+            var controller = FindFirstObjectByType<ControllerPlayObjekLevel4>();
+            if (controller != null)
+            {
+                controller.OnClickObjek(nomorGameplay,namaProgress);
+            }
+        } 
+        else if (nomorLevel == 4 && nomorGameplay == 101 && namaProgress == "lanjutan")
+        {
+            var controller = FindFirstObjectByType<ControllerPlayObjekLevel4>();
+            if (controller != null)
+            {
+                controller.OnClickObjek(nomorGameplay, namaProgress);
+            }
+        }
+        else if (nomorLevel == 5 && nomorGameplay == 11)
+        {
+            var controller = FindFirstObjectByType<ControllerPlayObjekLevel5>();
+            if (controller != null)
+            {
+                controller.OnClickObjek(nomorGameplay, namaProgress);
+            }
+        }
+        else if (nomorLevel == 5 && nomorGameplay == 12)
+        {
+            var controller = FindFirstObjectByType<ControllerPlayObjekLevel5>();
+            if (controller != null)
+            {
+                controller.OnClickObjek(nomorGameplay, namaProgress);
+            }
+        }
+
+        // Stop semua animation tangan
+        var handController = FindFirstObjectByType<LevelHandController>();
+        if(handController != null)
+            handController.StopAllCoroutines();
     }
 
     public void OnPointerEnter(PointerEventData eventData)

@@ -6,9 +6,9 @@ public class DragObject : MonoBehaviour
     [Header("Game Controller")]
     public int nomorLevel;
     public int nomorGameplay;
-    public GameObject ControllerPlayObject;
 
     [Header("Info Objek")]
+    public string NameDragOpsional;
     public GameObject targetObject; // target game object yang punya collider
     private Vector3 startPosition; // posisi awal dragObject
     private bool isDragging = false;
@@ -75,24 +75,37 @@ public class DragObject : MonoBehaviour
     {
         isDragging = false;
 
-        // cek apakah collider dari targetObject disentuh
         if (targetObject != null)
         {
             Collider2D targetCollider = targetObject.GetComponent<Collider2D>();
             if (targetCollider != null && GetComponent<Collider2D>().IsTouching(targetCollider))
             {
                 Debug.Log("Berhasil!");
-                // Ambil fungsi dari ControllerPlayObject
-                if (ControllerPlayObject != null && nomorLevel == 3)
+
+                // Cari controller di sini, baru panggil OnProgress
+                GameObject controller = null;
+                switch (nomorLevel)
                 {
-                    ControllerPlayObject.GetComponent<ControllerPlayObjekLevel3>().OnProgress(nomorGameplay, nomorLevel);
-                    // Nonaktifkan objek
-                    gameObject.SetActive(false);
+                    case 3:
+                        controller = GameObject.FindAnyObjectByType<ControllerPlayObjekLevel3>()?.gameObject;
+                        controller?.GetComponent<ControllerPlayObjekLevel3>()?.OnProgress(nomorGameplay, nomorLevel);
+                        this.gameObject.SetActive(false); // nonaktifkan objek drag setelah berhasil
+                        break;
+                    case 4:
+                        controller = GameObject.FindAnyObjectByType<ControllerPlayObjekLevel4>()?.gameObject;
+                        controller?.GetComponent<ControllerPlayObjekLevel4>()?.OnProgress(nomorGameplay, nomorLevel, NameDragOpsional);
+                        break;
+                    case 5:
+                        controller = GameObject.FindAnyObjectByType<ControllerPlayObjekLevel5>()?.gameObject;
+                        controller?.GetComponent<ControllerPlayObjekLevel5>()?.OnSelesaiProgress(nomorGameplay, nomorLevel);
+                        break;
+                    // tambah level lain jika perlu
                 }
             }
         }
 
-        // kalau gagal, balik ke posisi awal
+        // gagal, kembali ke posisi awal
         transform.position = startPosition;
     }
+
 }
