@@ -11,7 +11,11 @@ public class LevelDataController : MonoBehaviour
     [Header("Data Game (JSON)")]
     [Note("Note: Perubahan hanya bisa dilakukan di script, bukan pada Inspector")]
 
-    public string fileName = "game_data.json";
+    public int dummy = 0;
+
+    private string fileName = "game_data_mod.json";
+
+    public bool UseMood = false;
 
     string FilePath => Path.Combine(Application.persistentDataPath, fileName);
 
@@ -47,7 +51,7 @@ public class LevelDataController : MonoBehaviour
             // Kalau belum ada, buat baru
             PlayerPrefs.SetString("Version", "1.2");
         }
-        else 
+        else
         {
             Debug.Log("Version App Saat ini: " + PlayerPrefs.GetString("Version"));
         }
@@ -62,6 +66,33 @@ public class LevelDataController : MonoBehaviour
         {
             // Kalau sudah ada, biarin aja (gak diubah)
             Debug.Log("StatusPembaruan sudah ada: " + PlayerPrefs.GetString("StatusPembaruan_1.2"));
+        }
+
+        // Apakah Mood diaktifkan?
+        if (UseMood)
+        {
+            // Cek apakah mood sudah pernah digunakan
+            if (PlayerPrefs.GetInt("MoodUsed", 0) == 0) // default 0 = belum pernah dipakai
+            {
+                var player = db.player.Count > 0 ? db.player[0] : null;
+                if (player != null)
+                {
+                    player.jumlah_koin += 10000;
+                    Save();
+                    Debug.Log("Mood aktif: 10000 koin ditambahkan ke player.");
+                }
+
+                // Simpan bahwa mood sudah digunakan
+                PlayerPrefs.SetInt("MoodUsed", 1);
+                PlayerPrefs.Save();
+            }
+            else
+            {
+                Debug.Log("Mood sudah pernah digunakan, tidak bisa lagi.");
+            }
+
+            // Reset UseMood supaya tidak repeat di frame berikutnya
+            UseMood = false;
         }
     }
 

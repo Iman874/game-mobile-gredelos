@@ -91,6 +91,10 @@ public class DragObject : MonoBehaviour
                         controller?.GetComponent<ControllerPlayObjekLevel3>()?.OnProgress(nomorGameplay, nomorLevel);
                         this.gameObject.SetActive(false); // nonaktifkan objek drag setelah berhasil
                         break;
+                    case 2:
+                        controller = GameObject.FindAnyObjectByType<ControllerPlayObjekLevel2>()?.gameObject;
+                        controller?.GetComponent<ControllerPlayObjekLevel2>()?.OnSelesaiProgress(nomorGameplay, nomorLevel);
+                        break;
                     case 4:
                         controller = GameObject.FindAnyObjectByType<ControllerPlayObjekLevel4>()?.gameObject;
                         controller?.GetComponent<ControllerPlayObjekLevel4>()?.OnProgress(nomorGameplay, nomorLevel, NameDragOpsional);

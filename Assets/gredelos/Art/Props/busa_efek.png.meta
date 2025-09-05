@@ -1,49 +1,40 @@
 fileFormatVersion: 2
-guid: 9fcae46f78e2abb4f886b3a2f0cee70e
+guid: 11edc8d6d8451734bba87cbd116f8ea2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 434284217970502274
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_0
+      213: -8298909620266642740
+    second: busa_efek_0
   - first:
-      213: -5087796296266891010
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_1
+      213: 3615113486684899572
+    second: busa_efek_1
   - first:
-      213: -2823028773225130589
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_2
+      213: 4621763856776149360
+    second: busa_efek_2
   - first:
-      213: 5860591770081578824
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_3
+      213: -5175031597763591746
+    second: busa_efek_3
   - first:
-      213: 2178043651563973050
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_4
+      213: 2292835145537963612
+    second: busa_efek_4
   - first:
-      213: 3572240295426473508
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_5
+      213: -8901507083035551720
+    second: busa_efek_5
   - first:
-      213: -3527518285226971508
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_6
+      213: 6773223809336784028
+    second: busa_efek_6
   - first:
-      213: -8405965446427508536
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_7
+      213: 1237220572105693104
+    second: busa_efek_7
   - first:
-      213: -4336726856987585853
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_8
+      213: 7428613697126740351
+    second: busa_efek_8
   - first:
-      213: -3879906799207205971
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_9
+      213: 3084918984845689046
+    second: busa_efek_9
   - first:
-      213: 2590433112268714668
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_10
-  - first:
-      213: -7635624669183292158
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_11
-  - first:
-      213: -358291779066215989
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_12
-  - first:
-      213: -4336095322855532190
-    second: objek_kamar_mandi_ruang_mandi_02_shampo_13
+      213: 4772383313597626020
+    second: busa_efek_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -137,14 +128,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 47
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -152,13 +143,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_0
+      name: busa_efek_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 376
-        width: 115
-        height: 89
+        x: 160
+        y: 973
+        width: 518
+        height: 291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28aa0bff133e60600800000000000000
-      internalID: 434284217970502274
+      spriteID: cc25fec7ba954dc80800000000000000
+      internalID: -8298909620266642740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_1
+      name: busa_efek_1
       rect:
         serializedVersion: 2
-        x: 149
-        y: 376
-        width: 119
-        height: 75
+        x: 842
+        y: 986
+        width: 433
+        height: 309
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef0c67f89348469b0800000000000000
-      internalID: -5087796296266891010
+      spriteID: 4f8c39cff867b2230800000000000000
+      internalID: 3615113486684899572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_2
+      name: busa_efek_2
       rect:
         serializedVersion: 2
-        x: 293
-        y: 373
-        width: 125
-        height: 68
+        x: 1502
+        y: 1001
+        width: 378
+        height: 278
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a5953da94692d8d0800000000000000
-      internalID: -2823028773225130589
+      spriteID: 079b1e69dbdc32040800000000000000
+      internalID: 4621763856776149360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_3
+      name: busa_efek_3
       rect:
         serializedVersion: 2
-        x: 10
-        y: 282
-        width: 128
-        height: 71
+        x: 140
+        y: 554
+        width: 506
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84f4a450a21055150800000000000000
-      internalID: 5860591770081578824
+      spriteID: eb101e92e289e28b0800000000000000
+      internalID: -5175031597763591746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_4
+      name: busa_efek_4
       rect:
         serializedVersion: 2
-        x: 151
-        y: 284
-        width: 128
-        height: 68
+        x: 403
+        y: 801
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab9e3cc4927f93e10800000000000000
-      internalID: 2178043651563973050
+      spriteID: c56425aba69c1df10800000000000000
+      internalID: 2292835145537963612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_5
+      name: busa_efek_5
       rect:
         serializedVersion: 2
-        x: 294
-        y: 284
-        width: 129
-        height: 68
+        x: 512
+        y: 810
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42e3b354f95239130800000000000000
-      internalID: 3572240295426473508
+      spriteID: 818da0e587e777480800000000000000
+      internalID: -8901507083035551720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_6
+      name: busa_efek_6
       rect:
         serializedVersion: 2
-        x: 9
-        y: 166
-        width: 122
-        height: 88
+        x: 812
+        y: 557
+        width: 406
+        height: 321
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8ee9562fccbb0fc0800000000000000
-      internalID: -3527518285226971508
+      spriteID: c94bcb32b235ffd50800000000000000
+      internalID: 6773223809336784028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_7
+      name: busa_efek_7
       rect:
         serializedVersion: 2
-        x: 150
-        y: 151
-        width: 119
-        height: 107
+        x: 1526
+        y: 572
+        width: 290
+        height: 234
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +312,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c00b7396f2085b80800000000000000
-      internalID: -8405965446427508536
+      spriteID: 0b75a252e8d7b2110800000000000000
+      internalID: 1237220572105693104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_8
+      name: busa_efek_8
       rect:
         serializedVersion: 2
-        x: 283
-        y: 128
-        width: 124
-        height: 134
+        x: 92
+        y: 109
+        width: 768
+        height: 293
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c2db5986e9d0d3c0800000000000000
-      internalID: -4336726856987585853
+      spriteID: f7137de8cccb71760800000000000000
+      internalID: 7428613697126740351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_9
+      name: busa_efek_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 120
-        height: 129
+        x: 960
+        y: 90
+        width: 951
+        height: 396
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,20 +356,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da3b1af925dc72ac0800000000000000
-      internalID: -3879906799207205971
+      spriteID: 6d0069cd875dfca20800000000000000
+      internalID: 3084918984845689046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_10
+      name: busa_efek_10
       rect:
         serializedVersion: 2
-        x: 146
-        y: 2
-        width: 123
-        height: 130
+        x: 1372
+        y: 89
+        width: 38
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,74 +378,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca2bf2fd03113f320800000000000000
-      internalID: 2590433112268714668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_11
-      rect:
-        serializedVersion: 2
-        x: 285
-        y: 20
-        width: 121
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20dce1391dfc80690800000000000000
-      internalID: -7635624669183292158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_12
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 9
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc1c0d67687170bf0800000000000000
-      internalID: -358291779066215989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: objek_kamar_mandi_ruang_mandi_02_shampo_13
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 17
-        width: 10
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26996f8074813d3c0800000000000000
-      internalID: -4336095322855532190
+      spriteID: 4a6fcfaa659ea3240800000000000000
+      internalID: 4772383313597626020
       vertices: []
       indices: 
       edges: []
@@ -473,20 +398,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      objek_kamar_mandi_ruang_mandi_02_shampo_0: 434284217970502274
-      objek_kamar_mandi_ruang_mandi_02_shampo_1: -5087796296266891010
-      objek_kamar_mandi_ruang_mandi_02_shampo_10: 2590433112268714668
-      objek_kamar_mandi_ruang_mandi_02_shampo_11: -7635624669183292158
-      objek_kamar_mandi_ruang_mandi_02_shampo_12: -358291779066215989
-      objek_kamar_mandi_ruang_mandi_02_shampo_13: -4336095322855532190
-      objek_kamar_mandi_ruang_mandi_02_shampo_2: -2823028773225130589
-      objek_kamar_mandi_ruang_mandi_02_shampo_3: 5860591770081578824
-      objek_kamar_mandi_ruang_mandi_02_shampo_4: 2178043651563973050
-      objek_kamar_mandi_ruang_mandi_02_shampo_5: 3572240295426473508
-      objek_kamar_mandi_ruang_mandi_02_shampo_6: -3527518285226971508
-      objek_kamar_mandi_ruang_mandi_02_shampo_7: -8405965446427508536
-      objek_kamar_mandi_ruang_mandi_02_shampo_8: -4336726856987585853
-      objek_kamar_mandi_ruang_mandi_02_shampo_9: -3879906799207205971
+      busa_efek_0: -8298909620266642740
+      busa_efek_1: 3615113486684899572
+      busa_efek_10: 4772383313597626020
+      busa_efek_2: 4621763856776149360
+      busa_efek_3: -5175031597763591746
+      busa_efek_4: 2292835145537963612
+      busa_efek_5: -8901507083035551720
+      busa_efek_6: 6773223809336784028
+      busa_efek_7: 1237220572105693104
+      busa_efek_8: 7428613697126740351
+      busa_efek_9: 3084918984845689046
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

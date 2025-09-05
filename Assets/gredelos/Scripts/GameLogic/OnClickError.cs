@@ -96,6 +96,8 @@ public class OnClickError : MonoBehaviour
 
             if (nomorFungsi == 1)
                 CheckClick(pos);
+            else if (nomorFungsi == 2)
+                CheckClick2(pos);
             else if (nomorFungsi == 3)
                 CheckClick3(pos);
             else if (nomorFungsi == 4)
@@ -211,6 +213,98 @@ public class OnClickError : MonoBehaviour
 
             // Catat kesalahan klik
             levelData.AddErrorToDatabase(id_progress, "klik_salah_level_" + nomorLevel, 1);
+        }
+    }
+
+    void CheckClick2(Vector2 screenPos)
+    {
+        Vector2 worldPoint = Camera.main.ScreenToWorldPoint(screenPos);
+        RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero, Mathf.Infinity, gameplayLayer);
+
+        string id_progress = levelData.GetIdProgressIsMainByLevel(nomorLevel);
+        if (hit.collider == null) return;
+
+        GameObject clickedObj = hit.collider.gameObject;
+        string namaObjek = clickedObj.name.ToLower();
+        bool isAddError = false;
+
+        // ================= 1. Cek Whitelist UI =================
+        if (namaObjek.Contains("settings") || namaObjek.Contains("ui"))
+        {
+            Debug.Log("Klik UI whitelist → abaikan");
+            return;
+        }
+
+        // ================= 2. Cek Whitelist Dunia =================
+        bool isWhitelistWorld = false;
+        foreach (var obj in WhiteListObjects)
+        {
+            if (clickedObj == obj || clickedObj.transform.IsChildOf(obj.transform))
+            {
+                isWhitelistWorld = true;
+                break;
+            }
+        }
+
+        if (!isWhitelistWorld)
+        {
+            Debug.LogWarning("Klik objek tidak valid: " + clickedObj.name);
+            managerAudio?.PlayVAError2();
+            KurangiKoin(1);
+            levelData.AddErrorToDatabase(id_progress, "klik_salah_level_2", 1);
+            return;
+        }
+
+        // ================= 3. Cek progress aktif untuk objek =================
+        foreach (string namaProgress in namaProgressList)
+        {
+            bool progressAktif = levelData.GetProgressIsMainByLevelAndProgress(nomorLevel, namaProgress);
+
+            if (namaObjek.Contains("objek_01"))
+            {
+                if (progressAktif && levelData.GetIsMainByLevelAndProgress(nomorLevel, "level_2_01_sikat_gigi"))
+                {
+                    Debug.Log($"Progress {namaProgress} valid di level {nomorLevel}");
+                    return; // valid
+                }
+                else if (!isAddError)
+                {
+                    levelData.AddErrorToDatabase(id_progress, "salah_urutan_objek_01", 1);
+                    isAddError = true;
+                    Debug.LogWarning("Salah Urutan Objek_01, kurangi koin " + nomorLevel);
+                    managerAudio?.PlayVAError();
+                    KurangiKoin(2);
+                    return;
+                }
+            }
+
+            if (namaObjek.Contains("objek_02") || namaObjek.Contains("objek_03"))
+            {
+                if ((progressAktif && levelData.GetIsMainByLevelAndProgress(nomorLevel, "level_2_02_mandi"))
+                    || (progressAktif && levelData.GetIsMainByLevelAndProgress(nomorLevel, "level_2_03_mengeringkan_rambut")))
+                {
+                    Debug.Log($"Progress {namaProgress} valid di level {nomorLevel}");
+                    return; // valid
+                }
+                else if (!isAddError)
+                {
+                    levelData.AddErrorToDatabase(id_progress, "salah_urutan_" + clickedObj.name, 1);
+                    isAddError = true;
+                    Debug.LogWarning("Salah Urutan " + clickedObj.name + ", kurangi koin " + nomorLevel);
+                    managerAudio?.PlayVAError();
+                    KurangiKoin(2);
+                    return;
+                }
+            }
+        }
+
+        // ================= 4. Kalau whitelist tapi tidak ada progress aktif =================
+        if (!isAddError)
+        {
+            Debug.LogWarning($"[OnClickError] Tidak ada progress cocok di level {nomorLevel} untuk objek {namaObjek}");
+            levelData.AddErrorToDatabase(id_progress, "klik_salah_level_2", 1);
+            managerAudio?.PlayVAError2();
+            KurangiKoin(1);
         }
     }
 

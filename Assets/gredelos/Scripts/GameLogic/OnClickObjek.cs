@@ -52,6 +52,14 @@ public class OnClickObjek : MonoBehaviour, IPointerDownHandler, IPointerEnterHan
             if (controller != null)
                 controller.OnClickObjek(nomorGameplay, namaProgress);
         }
+        else if (nomorLevel == 2)
+        {
+            var controller = FindFirstObjectByType<ControllerPlayObjekLevel2>();
+            if (controller != null)
+            {
+                controller.OnClickObjek(nomorGameplay, namaProgress);
+            }
+        }
         else if (nomorLevel == 3)
         {
             var controller = FindFirstObjectByType<ControllerPlayObjekLevel3>();
@@ -65,9 +73,9 @@ public class OnClickObjek : MonoBehaviour, IPointerDownHandler, IPointerEnterHan
             var controller = FindFirstObjectByType<ControllerPlayObjekLevel4>();
             if (controller != null)
             {
-                controller.OnClickObjek(nomorGameplay,namaProgress);
+                controller.OnClickObjek(nomorGameplay, namaProgress);
             }
-        } 
+        }
         else if (nomorLevel == 4 && nomorGameplay == 101 && namaProgress == "lanjutan")
         {
             var controller = FindFirstObjectByType<ControllerPlayObjekLevel4>();

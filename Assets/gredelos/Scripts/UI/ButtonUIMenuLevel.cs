@@ -17,7 +17,7 @@ public class ButtonUIMenuLevel : MonoBehaviour
 
     private DbRoot levelDbOffline; // akses database offline
 
-    string FilePath => Path.Combine(Application.persistentDataPath, "game_data.json");
+    string FilePath => Path.Combine(Application.persistentDataPath, "game_data_mod.json");
 
     private int jumlah_koin = 0;
 

@@ -15,6 +15,8 @@ public class ButtonController : MonoBehaviour
         // cari otomatis controller sesuai level
         if (nomorLevel == 1)
             controller = FindFirstObjectByType<ControllerPlayObjekLevel1>();
+        else if (nomorLevel == 2)
+            controller = FindFirstObjectByType<ControllerPlayObjekLevel2>();
         else if (nomorLevel == 3)
             controller = FindFirstObjectByType<ControllerPlayObjekLevel3>();
         else if (nomorLevel == 4)
@@ -30,6 +32,8 @@ public class ButtonController : MonoBehaviour
     {
         if (controller is ControllerPlayObjekLevel1 c1)
             c1.NextProgress();
+        else if (controller is ControllerPlayObjekLevel2 c2)
+            c2.NextProgress();
         else if (controller is ControllerPlayObjekLevel3 c3)
             c3.NextProgress();
         else if (controller is ControllerPlayObjekLevel4 c4)
@@ -44,6 +48,8 @@ public class ButtonController : MonoBehaviour
     {
         if (controller is ControllerPlayObjekLevel1 c1)
             c1.UlangiLevel();
+        else if (controller is ControllerPlayObjekLevel2 c2)
+            c2.UlangiLevel();
         else if (controller is ControllerPlayObjekLevel3 c3)
             c3.UlangiLevel();
         else if (controller is ControllerPlayObjekLevel4 c4)
@@ -58,6 +64,8 @@ public class ButtonController : MonoBehaviour
     {
         if (controller is ControllerPlayObjekLevel1 c1)
             c1.NextLevel();
+        else if (controller is ControllerPlayObjekLevel2 c2)
+            c2.NextLevel();
         else if (controller is ControllerPlayObjekLevel3 c3)
             c3.NextLevel();
         else if (controller is ControllerPlayObjekLevel4 c4)

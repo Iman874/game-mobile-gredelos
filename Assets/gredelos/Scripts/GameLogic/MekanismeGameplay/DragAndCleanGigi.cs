@@ -2,15 +2,20 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
 
-public class DragAndClean : MonoBehaviour
+public class DragAndCleanGigi : MonoBehaviour
 {
     [Header("Level Info")]
-    public int level = 4;
-    public int nomorGameplay = 10;
+    public int level = 2;
+    public int nomorGameplay = 4;
 
     [Header("Drag and Clean Settings")]
     public List<GameObject> objectsToClean;  // daftar collider target
     public int jumlahClean = 100;              // berapa kali bersentuhan sampai opacity 0
+
+    [Header("Progress Info (opsional)")]
+    public GameObject CairanOdol; // Cairan odol
+
+    private int cleanedCount = 0; // berapa objek sudah hilang
 
     private bool isDragging = false;
     private Vector3 startPosition;
@@ -22,7 +27,7 @@ public class DragAndClean : MonoBehaviour
     private HashSet<GameObject> frameHits = new HashSet<GameObject>();
 
      // --- tambahkan controller sebagai field ---
-    private ControllerPlayObjekLevel4 controller;
+    private ControllerPlayObjekLevel2 controller;
 
     void Start()
     {
@@ -34,12 +39,11 @@ public class DragAndClean : MonoBehaviour
                 hitCounts[obj] = 0;
         }
 
-        // Cari Controller di scane berdasarkan level
-        if (level == 4)
+        if (level == 2)
         {
-            controller = FindAnyObjectByType<ControllerPlayObjekLevel4>();
+            controller = FindAnyObjectByType<ControllerPlayObjekLevel2>();
             if (controller == null)
-                Debug.LogError("ControllerPlayObjekLevel4 tidak ditemukan di scene.");
+                Debug.LogError("ControllerPlayObjekLevel2 tidak ditemukan di scene.");
         }
     }
 
@@ -117,7 +121,18 @@ public class DragAndClean : MonoBehaviour
 
                     // jika sudah bersih, nonaktifkan object
                     if (hitCounts[obj] >= jumlahClean)
+                    {
                         obj.SetActive(false);
+
+                        // Debug saat ada node yang hilang
+                        Debug.Log("Objek " + obj.name + " sudah dibersihkan!");
+
+                        // Tambah counter objek bersih
+                        cleanedCount++;
+
+                        // Update opacity CairanOdol
+                        UpdateOdolOpacity();
+                    }
                 }
             }
         }
@@ -134,26 +149,12 @@ public class DragAndClean : MonoBehaviour
 
         if (allCleaned)
         {
-            // Cari controller berdasarkan level
-            if (level == 4)
+            if (level == 2)
             {
                 if (controller != null)
                 {
                     // Lakukan sesuatu dengan controller
-                    controller.GetComponent<ControllerPlayObjekLevel4>()?.OnProgress(nomorGameplay, level, "");
-                }
-                else
-                {
-                    Debug.LogWarning("ControllerPlayObjekLevel4 tidak ditemukan di scene.");
-                }
-            }
-
-            else if (level == 2)
-            {
-                var controllerLevel2 = FindAnyObjectByType<ControllerPlayObjekLevel2>();
-                if (controllerLevel2 != null)
-                {
-                    controllerLevel2.GetComponent<ControllerPlayObjekLevel2>()?.OnSelesaiGameplay(nomorGameplay);
+                    controller.GetComponent<ControllerPlayObjekLevel2>()?.OnSelesaiProgress(nomorGameplay, level);
                 }
                 else
                 {
@@ -162,6 +163,25 @@ public class DragAndClean : MonoBehaviour
             }
         }
     }
+
+    private void UpdateOdolOpacity()
+    {
+        if (CairanOdol != null)
+        {
+            SpriteRenderer sr = CairanOdol.GetComponent<SpriteRenderer>();
+            if (sr != null)
+            {
+                // Hitung sisa opacity berdasarkan banyak node yang sudah hilang
+                float progress = (float)cleanedCount / objectsToClean.Count;
+                float alpha = Mathf.Clamp01(1f - progress);
+                sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, alpha);
+
+                // Debug buat lihat nilai alpha
+                Debug.Log($"Cairan Odol Opacity: {alpha}");
+            }
+        }
+    }
+
 
     public void EndDrag()
     {

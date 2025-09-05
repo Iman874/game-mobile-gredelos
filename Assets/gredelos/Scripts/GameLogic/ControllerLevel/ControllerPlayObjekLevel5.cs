@@ -70,7 +70,7 @@ public class ControllerPlayObjekLevel5 : MonoBehaviour
 
     // Data Progress
     private DbRoot db;
-    private string FilePath => Path.Combine(Application.persistentDataPath, "game_data.json");
+    private string FilePath => Path.Combine(Application.persistentDataPath, "game_data_mod.json");
 
     // Data Controller
     static LevelDataController levelData;
@@ -671,7 +671,7 @@ public class ControllerPlayObjekLevel5 : MonoBehaviour
         MainSession = levelData.GetMainSessionDataByLevel(Level);
     }
 
-     private IEnumerator PlayHandAnimationLoop2(int jedaAnimasi, int jedaFirst, GameObject handObject)
+    private IEnumerator PlayHandAnimationLoop2(int jedaAnimasi, int jedaFirst, GameObject handObject)
     {
         var anim = handObject.GetComponent<IHandAnim>();
         if (anim == null)

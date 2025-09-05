@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 562ee8c4a1956074da0b8c9ade0a9f36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2533444458830267407
+    second: air_splah_efek_0
+  - first:
+      213: 8379462628898694914
+    second: air_splah_efek_1
+  - first:
+      213: -4883846113497471133
+    second: air_splah_efek_2
+  - first:
+      213: -7314640293246934507
+    second: air_splah_efek_3
+  - first:
+      213: -6309414627633442710
+    second: air_splah_efek_4
+  - first:
+      213: 7803377693530668666
+    second: air_splah_efek_5
+  - first:
+      213: -2505058655336060624
+    second: air_splah_efek_6
+  - first:
+      213: -4503068619910733689
+    second: air_splah_efek_7
+  - first:
+      213: 3435760119125391277
+    second: air_splah_efek_8
+  - first:
+      213: -8503614451757728885
+    second: air_splah_efek_9
+  - first:
+      213: 1090204879033156019
+    second: air_splah_efek_10
+  - first:
+      213: 7980788977715472367
+    second: air_splah_efek_11
+  - first:
+      213: -1046961038793954403
+    second: air_splah_efek_12
+  - first:
+      213: 1854803777529181808
+    second: air_splah_efek_13
+  - first:
+      213: 2259534562876911100
+    second: air_splah_efek_14
+  - first:
+      213: -960761065697903695
+    second: air_splah_efek_15
+  - first:
+      213: 3882703157986461699
+    second: air_splah_efek_16
+  - first:
+      213: -4601972571127041435
+    second: air_splah_efek_17
+  - first:
+      213: -8417263721588170134
+    second: air_splah_efek_18
+  - first:
+      213: -6307370257394166605
+    second: air_splah_efek_19
+  - first:
+      213: 7925749513006855262
+    second: air_splah_efek_20
+  - first:
+      213: -3689355858549327219
+    second: air_splah_efek_21
+  - first:
+      213: -1234204474615719272
+    second: air_splah_efek_22
+  - first:
+      213: 4808985652096577858
+    second: air_splah_efek_23
+  - first:
+      213: 1787048832779429162
+    second: air_splah_efek_24
+  - first:
+      213: -3527257277669825770
+    second: air_splah_efek_25
+  - first:
+      213: 3576254244579041290
+    second: air_splah_efek_26
+  - first:
+      213: 8265994499335034141
+    second: air_splah_efek_27
+  - first:
+      213: 2425118533148947988
+    second: air_splah_efek_28
+  - first:
+      213: -6745245345950485729
+    second: air_splah_efek_29
+  - first:
+      213: -4166090121832432551
+    second: air_splah_efek_30
+  - first:
+      213: 4916236053686087935
+    second: air_splah_efek_31
+  - first:
+      213: 1582566967122540959
+    second: air_splah_efek_32
+  - first:
+      213: -6034456100184539299
+    second: air_splah_efek_33
+  - first:
+      213: -3672335824624402588
+    second: air_splah_efek_34
+  - first:
+      213: 1908233951055449153
+    second: air_splah_efek_35
+  - first:
+      213: -4072059155228921746
+    second: air_splah_efek_36
+  - first:
+      213: -4342193259756774642
+    second: air_splah_efek_37
+  - first:
+      213: -3530144934804739387
+    second: air_splah_efek_38
+  - first:
+      213: -1273065066365389405
+    second: air_splah_efek_39
+  - first:
+      213: -7715810835087434521
+    second: air_splah_efek_40
+  - first:
+      213: -8043719008622090270
+    second: air_splah_efek_41
+  - first:
+      213: 8677071068620003032
+    second: air_splah_efek_42
+  - first:
+      213: 8257556528160190706
+    second: air_splah_efek_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: air_splah_efek_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 561
+        width: 137
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0482c2005a982320800000000000000
+      internalID: 2533444458830267407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 562
+        width: 144
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207ea2c5dd4d94470800000000000000
+      internalID: 8379462628898694914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 661
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367af43e5d7193cb0800000000000000
+      internalID: -4883846113497471133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_3
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 399
+        width: 97
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512e14d686d2d7a90800000000000000
+      internalID: -7314640293246934507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_4
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 437
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60514b23d47078a0800000000000000
+      internalID: -6309414627633442710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_5
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 658
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e3a1f0baa2b4c60800000000000000
+      internalID: 7803377693530668666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_6
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 446
+        width: 95
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0392d23ec6e3c3dd0800000000000000
+      internalID: -2505058655336060624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_7
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 518
+        width: 95
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780230fc2f2e181c0800000000000000
+      internalID: -4503068619910733689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_8
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 583
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da73ce9ff954eaf20800000000000000
+      internalID: 3435760119125391277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_9
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 418
+        width: 152
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b3a10d5b71df980800000000000000
+      internalID: -8503614451757728885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_10
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 507
+        width: 109
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b14b23bf8f212f00800000000000000
+      internalID: 1090204879033156019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_11
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 412
+        width: 68
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7651c8a4571ce60800000000000000
+      internalID: 7980788977715472367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_12
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 409
+        width: 147
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b23057b727871f0800000000000000
+      internalID: -1046961038793954403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 405
+        width: 130
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076fdaf55369db910800000000000000
+      internalID: 1854803777529181808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 405
+        width: 131
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdeef1a6ba7b5f10800000000000000
+      internalID: 2259534562876911100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 358
+        width: 150
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbfc0da6e0baa2f0800000000000000
+      internalID: -960761065697903695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_16
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 404
+        width: 106
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308021463f122e530800000000000000
+      internalID: 3882703157986461699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 321
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562b1ef24528220c0800000000000000
+      internalID: -4601972571127041435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_18
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 324
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6264f5ed3fdf2b80800000000000000
+      internalID: -8417263721588170134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_19
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 316
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b418253b28b778a0800000000000000
+      internalID: -6307370257394166605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_20
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 83
+        width: 234
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54bf7d803bedfd60800000000000000
+      internalID: 7925749513006855262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_21
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 60
+        width: 227
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a3929c466ccccc0800000000000000
+      internalID: -3689355858549327219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_22
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 333
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a1556c1993fdee0800000000000000
+      internalID: -1234204474615719272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_23
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 314
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241ba23b8f2fcb240800000000000000
+      internalID: 4808985652096577858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_24
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 245
+        width: 202
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25281af17fdcc810800000000000000
+      internalID: 1787048832779429162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_25
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 52
+        width: 401
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6132415b13aac0fc0800000000000000
+      internalID: -3527257277669825770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_26
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 53
+        width: 416
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00ed92a94861a130800000000000000
+      internalID: 3576254244579041290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_27
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d159238b336b6b270800000000000000
+      internalID: 8265994499335034141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_28
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 252
+        width: 168
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4163f820570c7a120800000000000000
+      internalID: 2425118533148947988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_29
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 177
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13b3cf78131462a0800000000000000
+      internalID: -6745245345950485729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_30
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 93
+        width: 187
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cf9e96b131f26c0800000000000000
+      internalID: -4166090121832432551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_31
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 115
+        width: 86
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff07debb4aaf93440800000000000000
+      internalID: 4916236053686087935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_32
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 138
+        width: 232
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f993b94954866f510800000000000000
+      internalID: 1582566967122540959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_33
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 84
+        width: 124
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fbfc7162e414ca0800000000000000
+      internalID: -6034456100184539299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_34
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 197
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f325d360e390dc0800000000000000
+      internalID: -3672335824624402588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_35
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 141
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c00011ba86b7a10800000000000000
+      internalID: 1908233951055449153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_36
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 126
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60f334e5c32d77c0800000000000000
+      internalID: -4072059155228921746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_37
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b1a167c3e6db3c0800000000000000
+      internalID: -4342193259756774642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_38
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 44
+        width: 84
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5caa153a2e7620fc0800000000000000
+      internalID: -3530144934804739387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_39
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 92
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5f45f211a255ee0800000000000000
+      internalID: -1273065066365389405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_40
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 67
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecd084fceeebe490800000000000000
+      internalID: -7715810835087434521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_41
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 39
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7e50add28fe5090800000000000000
+      internalID: -8043719008622090270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_42
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 28
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d61aefe9262b6870800000000000000
+      internalID: 8677071068620003032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_splah_efek_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 27
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f032b579ebb89270800000000000000
+      internalID: 8257556528160190706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      air_splah_efek_0: 2533444458830267407
+      air_splah_efek_1: 8379462628898694914
+      air_splah_efek_10: 1090204879033156019
+      air_splah_efek_11: 7980788977715472367
+      air_splah_efek_12: -1046961038793954403
+      air_splah_efek_13: 1854803777529181808
+      air_splah_efek_14: 2259534562876911100
+      air_splah_efek_15: -960761065697903695
+      air_splah_efek_16: 3882703157986461699
+      air_splah_efek_17: -4601972571127041435
+      air_splah_efek_18: -8417263721588170134
+      air_splah_efek_19: -6307370257394166605
+      air_splah_efek_2: -4883846113497471133
+      air_splah_efek_20: 7925749513006855262
+      air_splah_efek_21: -3689355858549327219
+      air_splah_efek_22: -1234204474615719272
+      air_splah_efek_23: 4808985652096577858
+      air_splah_efek_24: 1787048832779429162
+      air_splah_efek_25: -3527257277669825770
+      air_splah_efek_26: 3576254244579041290
+      air_splah_efek_27: 8265994499335034141
+      air_splah_efek_28: 2425118533148947988
+      air_splah_efek_29: -6745245345950485729
+      air_splah_efek_3: -7314640293246934507
+      air_splah_efek_30: -4166090121832432551
+      air_splah_efek_31: 4916236053686087935
+      air_splah_efek_32: 1582566967122540959
+      air_splah_efek_33: -6034456100184539299
+      air_splah_efek_34: -3672335824624402588
+      air_splah_efek_35: 1908233951055449153
+      air_splah_efek_36: -4072059155228921746
+      air_splah_efek_37: -4342193259756774642
+      air_splah_efek_38: -3530144934804739387
+      air_splah_efek_39: -1273065066365389405
+      air_splah_efek_4: -6309414627633442710
+      air_splah_efek_40: -7715810835087434521
+      air_splah_efek_41: -8043719008622090270
+      air_splah_efek_42: 8677071068620003032
+      air_splah_efek_43: 8257556528160190706
+      air_splah_efek_5: 7803377693530668666
+      air_splah_efek_6: -2505058655336060624
+      air_splah_efek_7: -4503068619910733689
+      air_splah_efek_8: 3435760119125391277
+      air_splah_efek_9: -8503614451757728885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

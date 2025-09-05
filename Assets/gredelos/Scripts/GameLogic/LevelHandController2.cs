@@ -22,7 +22,7 @@ public class LevelHandController2 : MonoBehaviour
 
     // Database
     private DbRoot db;
-    private string FilePath => Path.Combine(Application.persistentDataPath, "game_data.json");
+    private string FilePath => Path.Combine(Application.persistentDataPath, "game_data_mod.json");
 
     void Awake()
     {

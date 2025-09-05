@@ -48,8 +48,11 @@ public class ManagerAudio : MonoBehaviour
     public GameObject VALevel1Progress3;
 
     [Header("Audio Objects (Voice Actor Level 2 Progress)")]
-    public GameObject VALevel2Progress1;
-    public GameObject VALevel2Progress2;
+    public GameObject VALevel2Progress1_1;
+    public GameObject VALevel2Progress1_2;
+    public GameObject VALevel2Progress2_1;
+    public GameObject VALevel2Progress2_2;
+    public GameObject VALevel2Progress2_3;
     public GameObject VALevel2Progress3;
 
     [Header("Audio Objects (Voice Actor Level 3 Progress)")]
@@ -223,8 +226,11 @@ public class ManagerAudio : MonoBehaviour
         StopAudio(VALevel1Progress2);
         StopAudio(VALevel1Progress3);
 
-        StopAudio(VALevel2Progress1);
-        StopAudio(VALevel2Progress2);
+        StopAudio(VALevel2Progress1_1);
+        StopAudio(VALevel2Progress1_2);
+        StopAudio(VALevel2Progress2_1);
+        StopAudio(VALevel2Progress2_2);
+        StopAudio(VALevel2Progress2_3);
         StopAudio(VALevel2Progress3);
 
         StopAudio(VALevel3Progress1_1);
@@ -375,6 +381,44 @@ public class ManagerAudio : MonoBehaviour
         // Stop semua VA lainnya
         StopAllVA();
         PlayAudio(VAAfirmasiNegatif2, false);
+    }
+
+    // Play Va Level 2
+    public void PlayVALevel2(int progressNumber, int nomorUrutan)
+    {
+        // Pastikan hanya satu VA yang sedang diputar
+        StopAllVA();
+
+        if (progressNumber == 1)
+        {
+            if (nomorUrutan == 1)
+            {
+                PlayAudio(VALevel2Progress1_1, false);
+            }
+            else if (nomorUrutan == 2)
+            {
+                PlayAudio(VALevel2Progress1_2, false);
+            }
+        }
+        else if (progressNumber == 2)
+        {
+            if (nomorUrutan == 1)
+            {
+                PlayAudio(VALevel2Progress2_1, false);
+            }
+            else if (nomorUrutan == 2)
+            {
+                PlayAudio(VALevel2Progress2_2, false);
+            }
+            else if (nomorUrutan == 3)
+            {
+                PlayAudio(VALevel2Progress2_3, false);
+            }
+        }
+        else if (progressNumber == 3)
+        {
+            PlayAudio(VALevel2Progress3, false);
+        }
     }
 
     // Play VA sesuai level dan progress
