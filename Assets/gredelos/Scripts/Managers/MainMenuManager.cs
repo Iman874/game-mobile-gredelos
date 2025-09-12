@@ -27,7 +27,7 @@ public class MainMenuController : MonoBehaviour
         // Mulai login
         LevelDataController.I.StartLogin(LevelDataController.I.GetPlayerName());
 
-        // Buat data level jika belum ada apapun di game_data_mod.json
+        // Buat data level jika belum ada apapun di game_data.json
         if (!LevelDataController.I.HasLevelData())
         {
             LevelDataController.I.LoadDataLevel();

@@ -59,7 +59,7 @@ public class ControllerPlayObjekLevel1 : MonoBehaviour
 
     // Data Progress
     private DbRoot db;
-    private string FilePath => Path.Combine(Application.persistentDataPath, "game_data_mod.json");
+    private string FilePath => Path.Combine(Application.persistentDataPath, "game_data.json");
 
     void Awake()
     {

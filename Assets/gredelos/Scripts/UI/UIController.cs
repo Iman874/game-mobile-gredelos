@@ -11,7 +11,7 @@ public class UIController : MonoBehaviour
     [Header("Database")]
     [Header("Database Info")]
     private DbRoot dbRead;
-    private string fileName = "game_data_mod.json";
+    private string fileName = "game_data.json";
     string FilePath => Path.Combine(Application.persistentDataPath, fileName);
 
     // UI controller untuk UI pengaturan dan coin Amount

@@ -11,7 +11,7 @@ public class ManagerPlayLevel : MonoBehaviour
     [Header("Database Info")]
     private DbRoot dbRead;
 
-    private string fileName = "game_data_mod.json";
+    private string fileName = "game_data.json";
 
     string FilePath => Path.Combine(Application.persistentDataPath, fileName);
 

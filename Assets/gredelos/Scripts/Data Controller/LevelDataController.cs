@@ -13,7 +13,7 @@ public class LevelDataController : MonoBehaviour
 
     public int dummy = 0;
 
-    private string fileName = "game_data_mod.json";
+    private string fileName = "game_data.json";
 
     public bool UseMood = false;
 
@@ -37,6 +37,16 @@ public class LevelDataController : MonoBehaviour
 
     // Gunakan DbRoot dari Data Model
     [SerializeField] public DbRoot db = new();
+
+   
+    void Start()
+    {
+        
+        // Load volume level dari player prefs
+        float savedVolume = PlayerPrefs.GetFloat("Volume", 0.75f);
+        ManagerAudio.instance.SetVolume(savedVolume);
+    }
+
 
     // ---------- LIFECYCLE ----------
     void Awake()
@@ -96,13 +106,7 @@ public class LevelDataController : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-        // Load volume level dari player prefs
-        float savedVolume = PlayerPrefs.GetFloat("Volume", 0.75f);
-        ManagerAudio.instance.SetVolume(savedVolume);
-    }
-
+   
     void OnApplicationQuit() => Save();
     void OnDestroy() { if (I == this) Save(); }
 

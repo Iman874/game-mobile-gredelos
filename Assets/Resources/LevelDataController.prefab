@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dummy: 0
-  UseMood: 1
+  UseMood: 0
   namaProgressList:
   - level_1_01_membuka_gorden
   - level_1_02_merapikan_bantal
@@ -60,13 +60,101 @@ MonoBehaviour:
   - level_5_01_makan_dan_minum
   - level_5_02_mencuci_piring
   db:
-    player: []
-    login: []
-    level: []
+    player:
+    - id_player: p_2025_12_12_53_55
+      nama_player: player_2025_12_12_53_55_494
+      fk_id_level: 
+      jenis_kelamin: laki-laki
+      jumlah_koin: 0
+    login:
+    - id_login: login_p_2025_12_12_53_55_00000
+      fk_nama_player: p_2025_12_12_53_55
+      tanggal_login: 2025-09-12-12.54.14
+    level:
+    - id_level: level_1_player_2025_12_12_53_55_494
+      nama_level: level_1
+      total_koin: 500
+      status_level: 1
+    - id_level: level_2_player_2025_12_12_53_55_494
+      nama_level: level_2
+      total_koin: 1000
+      status_level: 0
+    - id_level: level_3_player_2025_12_12_53_55_494
+      nama_level: level_3
+      total_koin: 1500
+      status_level: 0
+    - id_level: level_4_player_2025_12_12_53_55_494
+      nama_level: level_4
+      total_koin: 2000
+      status_level: 0
+    - id_level: level_5_player_2025_12_12_53_55_494
+      nama_level: level_5
+      total_koin: 2500
+      status_level: 0
     waktu_bermain: []
     pause: []
     kesalahan_play: []
-    progress: []
+    progress:
+    - id_progress: progress_p_2025_12_12_53_55_00000
+      fk_id_level: level_1_player_2025_12_12_53_55_494
+      nama_progress: level_1_01_membuka_gorden
+      jumlah_hadiah_koin: 10
+      is_main: 1
+    - id_progress: progress_p_2025_12_12_53_55_00001
+      fk_id_level: level_1_player_2025_12_12_53_55_494
+      nama_progress: level_1_02_merapikan_bantal
+      jumlah_hadiah_koin: 10
+      is_main: 0
+    - id_progress: progress_p_2025_12_12_53_55_00002
+      fk_id_level: level_1_player_2025_12_12_53_55_494
+      nama_progress: level_1_03_merapikan_selimut
+      jumlah_hadiah_koin: 10
+      is_main: 0
+    - id_progress: progress_p_2025_12_12_53_55_00003
+      fk_id_level: level_2_player_2025_12_12_53_55_494
+      nama_progress: level_2_01_sikat_gigi
+      jumlah_hadiah_koin: 10
+      is_main: 1
+    - id_progress: progress_p_2025_12_12_53_55_00004
+      fk_id_level: level_2_player_2025_12_12_53_55_494
+      nama_progress: level_2_02_mandi
+      jumlah_hadiah_koin: 10
+      is_main: 0
+    - id_progress: progress_p_2025_12_12_53_55_00005
+      fk_id_level: level_2_player_2025_12_12_53_55_494
+      nama_progress: level_2_03_mengeringkan_rambut
+      jumlah_hadiah_koin: 10
+      is_main: 0
+    - id_progress: progress_p_2025_12_12_53_55_00006
+      fk_id_level: level_3_player_2025_12_12_53_55_494
+      nama_progress: level_3_01_memakai_pakaian
+      jumlah_hadiah_koin: 10
+      is_main: 1
+    - id_progress: progress_p_2025_12_12_53_55_00007
+      fk_id_level: level_3_player_2025_12_12_53_55_494
+      nama_progress: level_3_02_menyisir_rambut
+      jumlah_hadiah_koin: 10
+      is_main: 0
+    - id_progress: progress_p_2025_12_12_53_55_00008
+      fk_id_level: level_4_player_2025_12_12_53_55_494
+      nama_progress: level_4_01_merapikan_mainan
+      jumlah_hadiah_koin: 10
+      is_main: 1
+    - id_progress: progress_p_2025_12_12_53_55_00009
+      fk_id_level: level_4_player_2025_12_12_53_55_494
+      nama_progress: level_4_02_membersihkan_ruangan
+      jumlah_hadiah_koin: 10
+      is_main: 0
+    - id_progress: progress_p_2025_12_12_53_55_00010
+      fk_id_level: level_5_player_2025_12_12_53_55_494
+      nama_progress: level_5_01_makan_dan_minum
+      jumlah_hadiah_koin: 10
+      is_main: 1
+    - id_progress: progress_p_2025_12_12_53_55_00011
+      fk_id_level: level_5_player_2025_12_12_53_55_494
+      nama_progress: level_5_02_mencuci_piring
+      jumlah_hadiah_koin: 10
+      is_main: 0
     complete_play: []
     player_history: []
     main_pause: []
