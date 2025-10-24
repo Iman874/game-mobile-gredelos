@@ -32,7 +32,7 @@ public static class GameBootstrap
                 Debug.LogError("Prefab ManagerAudio tidak ditemukan di Resources!");
             }
         }
-
+        
         if (UpToDatabase.instance == null)
         {
             var prefab = Resources.Load<UpToDatabase>("UpToDatabase");

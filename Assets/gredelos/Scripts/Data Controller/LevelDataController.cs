@@ -45,6 +45,7 @@ public class LevelDataController : MonoBehaviour
         // Load volume level dari player prefs
         float savedVolume = PlayerPrefs.GetFloat("Volume", 0.75f);
         ManagerAudio.instance.SetVolume(savedVolume);
+
     }
 
 
@@ -104,6 +105,11 @@ public class LevelDataController : MonoBehaviour
             // Reset UseMood supaya tidak repeat di frame berikutnya
             UseMood = false;
         }
+
+        // Selalu update database
+        
+        // Update database sesuai versi
+        UpdateDatabase("1.2"); // versi db saat ini 1.2 sesuai dengan versi aplikasi
     }
 
    
@@ -151,7 +157,8 @@ public class LevelDataController : MonoBehaviour
         // Load data progress
         LoadDataProgress();
 
-        if (PlayerPrefs.GetString("Version") == "1.2" && PlayerPrefs.GetString("StatusPembaruan_1.2") == "false") 
+        // Cek data playerprefs jika ada ataupun tidak ada
+        if ((PlayerPrefs.GetString("Version") == "1.2" && PlayerPrefs.GetString("StatusPembaruan_1.2") == "false") || !PlayerPrefs.HasKey("Version")) 
         {
             // Update database sesuai versi
             UpdateDatabase("1.2"); // versi db saat ini 1.2 sesuai dengan versi aplikasi
